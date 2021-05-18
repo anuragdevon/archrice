@@ -1,0 +1,4 @@
+[Added Associations]
+application/xml=visual-studio-code.desktop;
+text/plain=org.gnome.gedit.desktop;vim.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
