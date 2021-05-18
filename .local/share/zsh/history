@@ -2487,3 +2487,15 @@ exit
 : 1621336066:0;clear
 : 1621337076:0;git status
 : 1621337294:0;git add .
+: 1621337299:0;clear
+: 1621337359:0;git commit -m "Added configured files"
+: 1621337383:0;git remote add origin https://github.com/anuragdevon/archrice.git
+: 1621337395:0;git push -u origin main
+: 1621337438:0;clear
+: 1621337442:0;git status
+: 1621337740:0;cd .dotfiles
+: 1621337742:0;clear
+: 1621337745:0;git status
+: 1621337860:0;clear
+: 1621337862:0;git status
+: 1621337868:0;git add .
