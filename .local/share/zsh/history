@@ -2499,3 +2499,7 @@ exit
 : 1621337860:0;clear
 : 1621337862:0;git status
 : 1621337868:0;git add .
+: 1621337915:0;git commit -m "Added readme files"
+: 1621337923:0;git push -u origin main
+: 1621338087:0;git status
+: 1621338096:0;git add .
