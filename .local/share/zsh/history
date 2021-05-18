@@ -2503,3 +2503,12 @@ exit
 : 1621337923:0;git push -u origin main
 : 1621338087:0;git status
 : 1621338096:0;git add .
+: 1621338109:0;git commit -m "Updated Readme"
+: 1621338120:0;git push -u origin main
+: 1621338332:0;sudo mv /etc/i3status.conf ~/documents/code/.dotfiles/root/etc/
+: 1621338414:0;cd documents
+: 1621338415:0;ls
+: 1621338571:0;ln -sv ~/documents/code/.dotfiles/root/etc/i3status.conf /etc/i3status.conf
+: 1621338579:0;sudo ln -sv ~/documents/code/.dotfiles/root/etc/i3status.conf /etc/i3status.conf
+: 1621338588:0;git status
+: 1621338662:0;git add .

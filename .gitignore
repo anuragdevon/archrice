@@ -4,3 +4,4 @@
 .local/share/themes
 .local/bin/__pycache__
 .local/bin/python/
+.local/share/zsh/
