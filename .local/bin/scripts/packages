@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#!/bin/bash
+
+total=0
+progress="1"
+count=$(pacman -Q | wc -l)
+
+echo "Reading info of "$count" packages reported by 'pacman -Q'.
+This may take few minutes..."
+
+for pkg in $(pacman -Q | sed 's/\ .*//')
+do
+        printf "\rprocessing package "$(( progress++ ))" $pkg..."
+        s=$(pacman -Qi $pkg | sed -e '/Installed\ Size/!d; s/Installed\ Size\ *:\ *//')
+        if [ "$s" != "" ];  then
+		s1=$( echo $s | sed -e 's/\ B//; s/\ KiB//; s/\ MiB//; s/\ GiB//' )
+		s2=$( echo $s | sed -e "s/$s1//" )
+		s1=$( echo $s1 | sed -e 's/,/./' )
+		echo $s | sed -e '/\ B/q0; /\ KiB/q1; /\ MiB/q2; /\ GiB/q3'
+		factor=$( echo $? )
+                total=$(echo "$total + $s1 * 2 ^ ( 10 * $factor )" | bc)
+        fi
+done
+
+suffix='B'
+if [ $( echo "$total > 1024" | bc ) = 1 ]; then
+        total=$( echo "scale=2; $total / 1024" | bc )
+        suffix='KiB'
+        if [ $( echo "$total > 1024" | bc ) = 1 ]; then
+                total=$( echo "scale=2; $total / 1024" | bc )
+                suffix='MiB'
+		if [ $( echo "$total > 1024" | bc ) = 1 ]; then
+		        total=$( echo "scale=2; $total / 1024" | bc )
+		        suffix='GiB'
+		fi
+	fi
+fi
+
+echo
+echo "Total size of installed packages is $total $suffix"

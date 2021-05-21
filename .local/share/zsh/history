@@ -2512,3 +2512,333 @@ exit
 : 1621338579:0;sudo ln -sv ~/documents/code/.dotfiles/root/etc/i3status.conf /etc/i3status.conf
 : 1621338588:0;git status
 : 1621338662:0;git add .
+: 1621338675:0;git commit -m "Added statusbar"
+: 1621338680:0;git push -u origin main
+: 1621338726:0;cd documents
+: 1621338731:0;git status
+: 1621344172:0;wifi
+: 1621349963:0;source /home/anurag/documents/code/portdjango/portvn/bin/activate
+: 1621349967:0;clear
+: 1621352001:0;git clone https://github.com/anuragdevon/Django-Projects.git
+: 1621352008:0;clear
+: 1621353066:0;ls -la | wc -l
+: 1621353888:0;touch .gitignore
+: 1621353950:0;vim .gitignore
+: 1621354957:0;git status
+: 1621355111:0;clear
+: 1621355130:0;git status
+: 1621355133:0;git add .
+: 1621355157:0;git commit -m "Added new project"
+: 1621355166:0;git push -u origin main
+: 1621357018:0;pwd
+: 1621357025:0;clear
+: 1621358040:0;python3 manage.py makemigrations
+: 1621358046:0;python3 manage.py migrate
+: 1621358051:0;clear
+: 1621358061:0;python3 manage.py runserver
+: 1621358329:0;sudo thunar
+: 1621358490:0;sudo ln -sv ~/documents/code/.dotfiles/root/etc/X11/xorg.conf.d/90-touchpad.conf /etc/X11/xorg.conf.d/90-touchpad.conf
+: 1621359337:0;source /home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/activate
+: 1621359358:0;clear
+: 1621359365:0;source /home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/activate
+: 1621359393:0;clear
+: 1621359398:0;ls -la | wc -l
+: 1621359399:0;clear
+: 1621359407:0;ls -la | wc -l
+: 1621359410:0;clear
+: 1621359465:0;python3 manage.py makemigrations
+: 1621359478:0;python3 manage.py migrate
+: 1621359494:0;python3 manage.py runserver
+: 1621359618:0;source /home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/activate
+: 1621359621:0;clear
+: 1621359627:0;python3 manage.py shell
+: 1621360519:0;clear
+: 1621360523:0;python3 manage.py makemigrations
+: 1621360535:0;python3 manage.py migrate
+: 1621360542:0;python3 manage.py runserver
+: 1621363477:0;gedit .config/i3/config
+: 1621363505:0;neofetch
+: 1621363515:0;figlet Devon
+: 1621363523:0;thunar
+: 1621363594:0;top
+: 1621363600:0;figlet Devon
+: 1621363605:0;neofetch
+: 1621367419:0;figlet Devon
+: 1621367422:0;top
+: 1621368251:0;gedit .config/i3/config
+: 1621371338:0;clear
+: 1621371357:0;python3 manage.py startapp blog
+: 1621371360:0;clear
+: 1621399542:0;wifi
+: 1621399620:0;clear
+: 1621399625:0;gedit .config/i3/config
+: 1621399715:0;git status
+: 1621399721:0;git add .
+: 1621399732:0;git commit -m "Added new Programs"
+: 1621399736:0;git push -u origin main
+: 1621399744:0;clear
+: 1621399747:0;git status
+: 1621399821:0;git push -u origin main
+: 1621399891:0;clear
+: 1621400849:0;gedit .config/i3/config
+: 1621416118:0;wifi
+: 1621416832:0;cat documents/sysnote.txt
+: 1621418075:0;git clone https://github.com/vlang/doom.git
+: 1621418104:0;clear
+: 1621418208:0;make .
+: 1621418365:0;yay -S cmake
+: 1621418483:0;clear
+: 1621418491:0;cmake .
+: 1621418547:0;make .
+: 1621418562:0;wget https://raw.githubusercontent.com/vlang/doom/master/p_enemy.v
+: 1621418569:0;pacman -S wget
+: 1621418582:0;sudo pacman -S wget
+: 1621418631:0;wget https://raw.githubusercontent.com/vlang/doom/master/p_enemy.v
+: 1621418642:0;v -lib translated p_enemy.v
+: 1621418664:0;clear
+: 1621419276:0;htop
+: 1621419528:0;lf
+: 1621419529:0;clear
+: 1621419531:0;ranger
+: 1621419551:0;sudo pacman -S lf
+: 1621421861:0;git clone https://github.com/UtkarshVerma/dotfiles-i3.git
+: 1621447972:0;clear
+: 1621447997:0;gedit .config/i3/config
+: 1621448017:0;wifi
+: 1621453155:0;clear
+: 1621453158:0;git init
+: 1621453162:0;clear
+: 1621453171:0;git init
+: 1621453183:0;git master -n main
+: 1621453193:0;git "master" -n "main"
+: 1621453198:0;git --hrlp
+: 1621453202:0;git --help
+: 1621453213:0;clear
+: 1621453267:0;git branch -m main
+: 1621453273:0;clear
+: 1621453762:0;npm install --save crypto-js
+: 1621454952:0;node main.js
+: 1621455446:0;clear
+: 1621455447:0;node main.js
+: 1621455653:0;clear
+: 1621455654:0;node main.js
+: 1621455761:0;clear
+: 1621455767:0;git add . 
+: 1621455805:0;git commit -m "Added BlockChain Mechanism"
+: 1621455828:0;clear
+: 1621455830:0;git add .
+: 1621455833:0;git commit -m "Added BlockChain Mechanism"
+: 1621455838:0;git status
+: 1621484893:0;wifi
+: 1621485285:0;source /home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/activate
+: 1621485288:0;clear
+: 1621485604:0;git status
+: 1621485612:0;clear
+: 1621488089:0;python3 manage.py makemigrations blog
+: 1621488128:0;clear
+: 1621488130:0;python3 manage.py makemigrations blog
+: 1621488149:0;python3 manage.py migrate
+: 1621488154:0;clear
+: 1621488250:0;python3 manage.py createsuperuser
+: 1621488268:0;clear
+: 1621488284:0;python3 manage.py runserver
+: 1621497348:0;clear
+: 1621497351:0;wifi
+: 1621504678:0;free -h
+: 1621504681:0;clear
+: 1621504688:0;neofetch
+: 1621504769:0;cat /var/log/Xorg.0.log
+: 1621522017:0;node main.js
+: 1621522533:0;wifi
+: 1621525403:0;git clone https://github.com/anuragdevon/Deep-Learning-Models.git
+: 1621525421:0;git clone https://github.com/anuragdevon/ML-DNN-codes.git
+: 1621525454:0;cd ML-DNN-codes
+: 1621525456:0;clear
+: 1621525459:0;git status
+: 1621525465:0;git add .
+: 1621525486:0;git commit -m "Added pytorch files"
+: 1621525496:0;git push -u origin main
+: 1621525511:0;git push origin
+: 1621525519:0;git master -n main
+: 1621525810:0;cat /var/log/Xorg.0.log
+: 1621525812:0;clear
+: 1621525817:0;cat documents/sysnote.txt
+: 1621525908:0;clear
+: 1621525932:0;source /home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/activate
+: 1621525933:0;clear
+: 1621526301:0;python3 manage.py runserver
+: 1621529654:0;source /home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/activate
+: 1621529655:0;clear
+: 1621529736:0;wifi
+: 1621536762:0;node main.js
+: 1621542837:0;ls -h -la
+: 1621545174:0;cd ..
+: 1621545183:0;cd Django-Projects
+: 1621545186:0;git status
+: 1621545189:0;git add .
+: 1621545213:0;git commit -m "Added new apps"
+: 1621545217:0;git push origin
+: 1621545234:0;cd portdjango
+: 1621545235:0;clear
+: 1621545238:0;source /home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/activate
+: 1621545241:0;clear
+: 1621572703:0;wifi
+: 1621575221:0;source /home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/activate
+: 1621575221:0;/home/anurag/documents/code/Django-Projects/portdjango/portvn/bin/python
+: 1621575230:0;clear
+: 1621576518:0;python3 manage.py makemigrations 
+: 1621576524:0;python3 manage.py migrate
+: 1621576527:0;clear
+: 1621576530:0;python3 manage.py runserver
+: 1621576800:0;clear
+: 1621576806:0;cd ..
+: 1621576811:0;cd Django-Projects
+: 1621576812:0;clear
+: 1621576814:0;git status
+: 1621576817:0;git add .
+: 1621576825:0;git commit -m "Added new templates"
+: 1621576834:0;git push -u origin main
+: 1621576840:0;clear
+: 1621576895:0;python3 manage.py runserver
+: 1621576918:0;clear
+: 1621576928:0;python3 manage.py runserver
+: 1621577108:0;/usr/bin/python /home/anurag/documents/code/Django-Projects/mailing/manage.py
+: 1621577118:0;python3 manage.py runserver
+: 1621577416:0;git status
+: 1621577419:0;git add .
+: 1621577445:0;git commit -m "Cleaning-up"
+: 1621577448:0;git push -u origin main
+: 1621577457:0;ls -h -la
+: 1621583552:0;wifi
+: 1621583576:0;sudo ip link set wlan0 up
+: 1621583580:0;wifi
+: 1621583586:0;sudo ip link set wlan0 up
+: 1621584129:0;sudo pacman -S clang cmake ninja pkgconf gtk3
+: 1621584164:0;sudo pacman -S clang ninja
+: 1621584390:0;flutter channel
+: 1621584392:0;clear
+: 1621584495:0;yay -S flutter
+: 1621586534:0;flutter --version
+: 1621586549:0;flutter 
+: 1621586554:0;flutter config --enable-linux-desktop
+: 1621586565:0;sudo flutter config --enable-linux-desktop
+: 1621587286:0;flutter devices
+: 1621587301:0;sudo flutter devices
+: 1621587492:0;clear
+: 1621587508:0;cd documents
+: 1621587512:0;cd code
+: 1621587515:0;cd flutter
+: 1621587520:0;mkdir flutter
+: 1621587521:0;clear
+: 1621587523:0;cd flutter
+: 1621587525:0;clear
+: 1621587537:0;flutter create basic
+: 1621587553:0;sudo flutter create basic
+: 1621587581:0;flutter run
+: 1621587586:0;sudo flutter run
+: 1621588285:0;flutter run
+: 1621588293:0;sudo flutter run
+: 1621588340:0;sudo flutter devices
+: 1621588451:0;clear
+: 1621591863:0;wc -l
+: 1621591872:0;clear
+: 1621591882:0;ls -la | wc -l
+: 1621592154:0;sudo thunar
+: 1621592342:0;sudo code .
+: 1621592402:0;sudo code .;
+: 1621592406:0;sudo code .
+: 1621592476:0;sudo gedit pubspec.yaml
+: 1621592990:0;sudo thunar
+: 1621593102:0;cd /home/anurag/documents/code/flutter/basic/lib/
+: 1621593103:0;clear 
+: 1621593205:0;sudo gedit tf.dart
+: 1621593268:0;flutter run
+: 1621593277:0;sudo flutter run
+: 1621593871:0;clear
+: 1621593881:0;sudo flutter pub get
+: 1621594255:0;sudo flutter run
+: 1621594305:0;free -h
+: 1621594444:0;sudo flutter run
+: 1621594669:0;sudo flutter pub get
+: 1621595052:0;sudo flutter run
+: 1621595247:0;vim classifier.dart
+: 1621595346:0;gedit classifier.dart
+: 1621595374:0;cd /home/anurag/documents/code/flutter/basic/lib/
+: 1621595376:0;clear
+: 1621595378:0;vim classifier.dart
+: 1621595396:0;cd /home/anurag/documents/code/flutter/basic/lib/
+: 1621595411:0;sudo gedit classifier.dart
+: 1621595420:0;cd /home/anurag/documents/code/flutter/basic/lib/
+: 1621595448:0;sudo gedit text_classification_vocab.txt
+: 1621595461:0;clear
+: 1621596365:0;sudo flutter run
+: 1621596559:0;sudo git clone https://github.com/am15h/tflite_flutter_plugin.git
+: 1621596791:0;sudo flutter run
+: 1621596863:0;flutter create .
+: 1621596871:0;sudo 'flutter create .
+: 1621596876:0;sudo flutter create .
+: 1621596903:0;sudo flutter run
+: 1621608351:0;wifi
+: 1621610417:0;git status
+: 1621610418:0;clear
+: 1621610464:0;django-admin startproject advanced-auth
+: 1621610493:0;django-admin startproject userManagement
+: 1621610500:0;clear
+: 1621610510:0;cd userManagement
+: 1621610545:0;cd ..
+: 1621610574:0;python3 -m venv django
+: 1621610598:0;source django/bin/activate
+: 1621610608:0;cd userManagement
+: 1621610609:0;clear
+: 1621610614:0;cd ..
+: 1621610625:0;django-admin startproject userManagement
+: 1621610629:0;cd userManagement
+: 1621610630:0;clear
+: 1621610662:0;python3 manage.py startapp users
+: 1621610671:0;pip3 install django
+: 1621610971:0;clear
+: 1621610973:0;git status
+: 1621610982:0;cd ..
+: 1621610985:0;git status
+: 1621610992:0;cd userManagement
+: 1621610994:0;clear
+: 1621611450:0;python manage.py startapp users
+: 1621611640:0;pacman -Qq
+: 1621611690:0;gedit packages.txt
+: 1621611705:0;pacman -Qq | wc
+: 1621611709:0;pacman -Qq | wc -l
+: 1621611751:0;pacman -Q | wc -l
+: 1621611755:0;pacman -Qe | wc -l
+: 1621611841:0;pacman -Qet | wc -l
+: 1621612043:0;pacman -Qg | wc -l
+: 1621612050:0;pacman -Qgq | wc -l
+: 1621612063:0;pacman -Qg
+: 1621612098:0;pacman -Qe
+: 1621612145:0;pacman -Qt
+: 1621612165:0;pacman -Qet
+: 1621612174:0;clear
+: 1621612225:0;pacman -l
+: 1621612236:0;pacman -Ql
+: 1621612248:0;clear
+: 1621612267:0;pacman -Qx
+: 1621612271:0;pacman -Q -x
+: 1621612381:0;cd .local/bin/scripts
+: 1621612392:0;gedit packages
+: 1621612407:0;packages
+: 1621612414:0;sudo packages
+: 1621612434:0;chmod +x packages
+: 1621612437:0;packages
+: 1621612443:0;clear
+: 1621612450:0;sudo pacman -S bc
+: 1621612456:0;clear
+: 1621612463:0;packages
+: 1621612495:0;ls
+: 1621612500:0;gedit packages
+: 1621612555:0;expac -H M '%m' | awk '{sum += $1}END {print sum, $2}'
+: 1621612590:0;packages
+: 1621612753:0;clear
+: 1621612819:0;cd documents
+: 1621612828:0;cd code/.dotfiles
+: 1621612830:0;clear
+: 1621612832:0;git status
+: 1621612848:0;git add .
