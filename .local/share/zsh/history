@@ -2842,3 +2842,185 @@ exit
 : 1621612830:0;clear
 : 1621612832:0;git status
 : 1621612848:0;git add .
+: 1621612867:0;git commit -m "Added package script"
+: 1621612872:0;git push -u origin main
+: 1621613026:0;python manage.py makemigrations
+: 1621613037:0;python3 manage.py migrate
+: 1621613053:0;clear
+: 1621614510:0;flutter
+: 1621614527:0;cd /opt
+: 1621614530:0;c;earar
+: 1621614534:0;clear
+: 1621614537:0;cd flutter
+: 1621614549:0;cd bin
+: 1621614552:0;cd cache
+: 1621614557:0;ls -la
+: 1621614564:0;clear
+: 1621614569:0;ls -la | wc -l
+: 1621614583:0;clear
+: 1621614589:0;ls -lh
+: 1621614614:0;clear
+: 1621615899:0;python3 manage.py createsuperuser
+: 1621615914:0;clear
+: 1621615973:0;flutter
+: 1621616016:0;discord --location
+: 1621616037:0;clear
+: 1621616486:0;cd documents/code/.dotfiles/.config/zsh/
+: 1621616488:0;clear 
+: 1621616489:0;ls
+: 1621616492:0;ls -la
+: 1621616522:0;source .zshrc
+: 1621616658:0;code .
+: 1621616674:0;cd /opt
+: 1621616675:0;clear
+: 1621616676:0;ls
+: 1621616681:0;flutter
+: 1621616734:0;which flutter
+: 1621616747:0;which go
+: 1621617200:0;cat flutter
+: 1621617201:0;clear
+: 1621617206:0;flutter
+: 1621617226:0;which python
+: 1621620058:0;flutter doctor -v
+: 1621620161:0;clear
+: 1621620232:0;sudo chown -R $USER /opt/flutter
+: 1621620239:0;flutter 
+: 1621620396:0;flutter --version
+: 1621620404:0;clear
+: 1621621020:0;jdk --version
+: 1621621144:0;packages
+: 1621621252:0;clear
+: 1621621457:0;flutter run
+: 1621621470:0;sudo flutter run
+: 1621621517:0;clear
+: 1621622130:0;sudo mv /opt/flutter /home/anurag/.local/share/
+: 1621622147:0;flutter
+: 1621622150:0;clear
+: 1621622186:0;cd documents/code/.dotfiles/.config/zsh/
+: 1621622190:0;ls -la
+: 1621622198:0;clear
+: 1621622206:0;cd /etc/zsh
+: 1621622208:0;ls
+: 1621622210:0;ls -la
+: 1621622219:0;cd 
+: 1621622222:0;cd documents/code/.dotfiles/.config/zsh/
+: 1621622240:0;ls -la
+: 1621622246:0;cd ..
+: 1621622255:0;cd root/etc/zsh
+: 1621622257:0;ls
+: 1621622264:0;sudo vim zprofile
+: 1621622316:0;clear
+: 1621622320:0;flutter
+: 1621622322:0;clear
+: 1621622326:0;where flutter
+: 1621622327:0;clear
+: 1621623020:0;sudo ip link set wlan0 up
+: 1621623037:0;wifi
+: 1621623075:0;flutter
+: 1621623082:0;clear
+: 1621623318:0;flutter run
+: 1621623377:0;cd documents/code
+: 1621623378:0;clear
+: 1621623381:0;ls
+: 1621623398:0;rm -r tflite_flutter_plugin
+: 1621623404:0;ls
+: 1621623423:0;sudo rm -r tflite_flutter_plugin
+: 1621623425:0;ls
+: 1621623426:0;clear
+: 1621623435:0;sudo rm -r flutter
+: 1621623437:0;clear
+: 1621623438:0;ls
+: 1621623441:0;mkdir flutter
+: 1621623442:0;clear
+: 1621623443:0;ls 
+: 1621623445:0;cd flutter
+: 1621623447:0;ls
+: 1621623453:0;ls -la | wc -l
+: 1621623456:0;ls -lh
+: 1621623457:0;clear
+: 1621623478:0;cd documents/code/flutter
+: 1621623503:0;flutter create basic
+: 1621623532:0;sudo flutter create basic
+: 1621623595:0;cd /root/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-12.0.0/lib/
+: 1621623610:0;cd /.pub-cache
+: 1621623624:0;cd /root/.pub-cache
+: 1621623627:0;clear
+: 1621623640:0;sudo cd /root/.pub-cache
+: 1621623725:0;sudo mv /home/anurag/.local/share/flutter/  /opt/
+: 1621623754:0;yay -R flutter
+: 1621623832:0;sudo rm -r /opt/flutter
+: 1621623880:0;flutter
+: 1621623881:0;clear
+: 1621624096:0;pacman -Sc
+: 1621624102:0;sudo pacman -Sc
+: 1621624109:0;sudo pacman -Scc
+: 1621624114:0;clear
+: 1621624239:0;wifi
+: 1621624271:0;cd Downloads
+: 1621624273:0;ls -la
+: 1621624278:0;ls
+: 1621624297:0;tar -xf flutter_linux_2.2.0-stable.tar.xz
+: 1621624429:0;mv flutter ~/.local/share/
+: 1621624456:0;flutter
+: 1621624549:0;flutter precache
+: 1621624586:0;flutter doctor
+: 1621624641:0;where flutter
+: 1621624646:0;which flutter
+: 1621624656:0;flutter -v
+: 1621624670:0;flutter --version
+: 1621625159:0;chown
+: 1621625164:0;chown man
+: 1621625169:0;chown --help
+: 1621625230:0;sudo gedit /etc/sudoers
+: 1621625330:0;sudo pacman -S clang ninja
+: 1621625342:0;clear
+: 1621625360:0;flutter channel
+: 1621625397:0;cd documents/code/flutter
+: 1621625403:0;flutter create app
+: 1621625515:0;cd 
+: 1621625516:0;clear
+: 1621625532:0;flutter config --enable-linux-desktop
+: 1621625559:0;flutter devices
+: 1621625586:0;cd documents/code/flutter
+: 1621625587:0;ls
+: 1621625595:0;rm -r app basic
+: 1621625601:0;rm -r app 
+: 1621625607:0;rm -r basic
+: 1621625613:0;sudo rm -r basic
+: 1621625615:0;cd ..
+: 1621625619:0;rm -r flutter
+: 1621625623:0;mkdir flutter
+: 1621625624:0;clear
+: 1621625654:0;flutter create documents/code/flutter/basic
+: 1621625707:0;flutter run
+: 1621625828:0;clear
+: 1621626406:0;flutter doctor
+: 1621626699:0;where brave
+: 1621626737:0;sudo gedit documents/code/.dotfiles/root/etc/zsh/zprofile
+: 1621626813:0;flutter config --enable-web
+: 1621626828:0;flutter devices
+: 1621626835:0;flutter doctor
+: 1621627001:0;wifi
+: 1621628203:0;cd documents/code/flutter
+: 1621628204:0;ls
+: 1621630194:0;cd documents/code/flutter
+: 1621630237:0;pacman 
+: 1621630879:0;flutter create documents/code/flutter/text_classification_app
+: 1621630933:0;clear
+: 1621630940:0;touch install.sh
+: 1621630962:0;chmod +x install.sh
+: 1621630966:0;./install.sh
+: 1621630991:0;clear
+: 1621631493:0;ls -la | wc
+: 1621631496:0;ls -la | wc -l
+: 1621631497:0;clear
+: 1621631936:0;touch lib/classifier.dart
+: 1621632459:0;sudo mv /etc/xdg/picom.conf ~/documents/code/.dotfiles/root/etc/xdg/
+: 1621632526:0;ln -sv ~/documents/code/.dotfiles/root/etc/xdg/picom.conf /etc/xdg/picom.conf
+: 1621632534:0;sudo ln -sv ~/documents/code/.dotfiles/root/etc/xdg/picom.conf /etc/xdg/picom.conf
+: 1621632538:0;c;ear
+: 1621632539:0;clear
+: 1621632992:0;cd documents/code/.dotfiles
+: 1621632994:0;clear
+: 1621632997:0;git status
+: 1621632999:0;git add .

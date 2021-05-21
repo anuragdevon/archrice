@@ -118,3 +118,6 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION
+
+setopt promptsubst
+PROMPT='$(acpi | grep -o "[0-9]*%)% '

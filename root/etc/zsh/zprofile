@@ -8,9 +8,12 @@ emulate sh -c 'source /etc/profile'
 export PATH="$PATH:$HOME/.local/bin:$HOME/.local/bin/scripts"
 export PATH="$PATH:$HOME/.local/bin/python"
 export XCURSOR_PATH=${XCURSOR_PATH}:~/.local/share/icons
+export PATH="$PATH:$HOME/.local/share/flutter/bin"
 # default programs
 export TERMINAL="urxvt"
 export BROWSER="brave"
+export CHROME_EXECUTABLE=/usr/bin/brave
+
 
 # XDG base directory
 export XDG_CONFIG_HOME="$HOME/.config"
