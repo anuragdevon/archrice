@@ -3024,3 +3024,53 @@ exit
 : 1621632994:0;clear
 : 1621632997:0;git status
 : 1621632999:0;git add .
+: 1621633042:0;git commit -m "Modified picom.conf"
+: 1621633051:0;git push -u origin main
+: 1621633056:0;clear
+: 1621633063:0;git status
+: 1621657907:0;wifi
+: 1621667715:0;flutter run
+: 1621668336:0;clear
+: 1621668863:0;flutter run
+: 1621669182:0;clear
+: 1621669197:0;flutter run
+: 1621669240:0;clear
+: 1621669315:0;flutter run
+: 1621669870:0;clear
+: 1621676505:0;flutter run
+: 1621676748:0;clear
+: 1621687268:0;wifi
+: 1621687301:0;xset --help
+: 1621687481:0;xset led
+: 1621687487:0;xset led off
+: 1621687493:0;xset led 5
+: 1621687499:0;xset led 32
+: 1621687503:0;xset led 0
+: 1621687511:0;xset led on
+: 1621687516:0;clear
+: 1621687527:0;cd documents/code/.dotfiles
+: 1621687529:0;clear
+: 1621687535:0;cd .local/bin/scripts
+: 1621687536:0;clear
+: 1621687537:0;ls
+: 1621687589:0;gedit backlit
+: 1621687637:0;chmod +x backlit
+: 1621687639:0;ls
+: 1621687665:0;backlit
+: 1621687676:0;clear
+: 1621687741:0;backlit
+: 1621687766:0;xset q
+: 1621687800:0;xset q | grep "Scroll Lock: off"
+: 1621687811:0;xset q | grep "Scroll Lock: on"
+: 1621687818:0;xset q | grep "Scroll Lock: off"
+: 1621687830:0;xset q | grep "Scroll Lock: on"
+: 1621687855:0;xset q | grep "Num Lock: on"
+: 1621687860:0;xset q | grep "Num Lock: off"
+: 1621687874:0;xset q | grep "Scroll Lock: off"
+: 1621688081:0;cd ../../
+: 1621688091:0;cd ..
+: 1621688096:0;cd documents/code/.dotfiles
+: 1621688102:0;cd 
+: 1621688104:0;cd documents/code/.dotfiles
+: 1621688107:0;git status
+: 1621688110:0;git add .

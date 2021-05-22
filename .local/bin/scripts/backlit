@@ -1,0 +1,8 @@
+#!/bin/sh
+# for controlling keyboard backlit
+result=$(xset q | grep "Scroll Lock: off")
+if [ -z "$result" ]; then
+  xset led off
+else
+  xset led on
+fi

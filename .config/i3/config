@@ -276,8 +276,7 @@ bindsym $mod+shift+y exec brightness
 bindsym $mod+shift+u exec dimness
 
 # keyboard backlight
-bindsym $mod+shift+n exec backliton
-bindsym $mod+shift+m exec backlitoff
+bindsym Scroll_Lock exec backlit
 
 # Screenshot
 bindsym Print exec "scrot /home/anurag/pictures/ss/%Y-%m-%d-%H-%M-%S.png"
