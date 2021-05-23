@@ -1,4 +1,4 @@
-theme = "modern"
+theme = "plain"
 icons = "awesome5"
 
 [[block]]
@@ -25,13 +25,13 @@ format = "{ssid}"
 interval = 5
 [[block]]
 block = "time"
-format = "📅 %a-%d/%m 🕝 %R"
+format = "📅 %a-%d/%m | 🕝 %R"
 timezone = "Asia/Kolkata"
 interval = 60
 locale = "en_US"
-[[block]]
-block = "custom"
-command = "echo 💁‍♂️"
-on_click = "systemctl `echo -e 'suspend\npoweroff\nreboot' | dmenu`"
-interval = "once"
+#[[block]]
+#block = "custom"
+#command = "echo 💁‍♂️"
+#on_click = "systemctl `echo -e 'suspend\npoweroff\nreboot' | dmenu`"
+#interval = "once"
 

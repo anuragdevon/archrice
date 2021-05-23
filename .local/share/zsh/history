@@ -3253,3 +3253,46 @@ exit
 : 1621752498:0;cd documents/code/.dotfiles
 : 1621752502:0;git status
 : 1621752527:0;git add .
+: 1621752567:0;git commit -m "Added i3rust and aur-checker"
+: 1621752570:0;git push -u origin main
+: 1621756598:0;gedit .config/i3/config 
+: 1621756689:0;flutter create documents/code/flutter/learn1
+: 1621756772:0;flutter create documents/code/flutter-apps/learn1
+: 1621757064:0;top
+: 1621757081:0;clear
+: 1621759581:0;flutter run
+: 1621759776:0;clear
+: 1621767627:0;flutter run
+: 1621767803:0;htop
+: 1621768226:0;clear
+: 1621768927:0;gedit .config/i3status-rust/config.toml
+: 1621769930:0;flutter create ~/documents/code/flutter-apps/rwapps
+: 1621769953:0;clear
+: 1621770320:0;flutter run
+: 1621774381:0;clear
+: 1621787532:0;wifi
+: 1621790269:0;gedit .config/i3status-rust/config.toml
+: 1621794296:0;sudo vim/usr/share/zsh/scripts/newuser
+: 1621794300:0;sudo vim /usr/share/zsh/scripts/newuser
+: 1621794322:0;clear
+: 1621794357:0;gedit .config/i3status-rust/config.toml
+: 1621794378:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1621794455:0;where i3status-rs
+: 1621794513:0;sudo gedit /usr/bin/i3
+: 1621794544:0;sudo gedit /usr/bin/i3status-rs
+: 1621795064:0;gedit .config/i3/config
+: 1621795720:0;sudo pacman -S i3-radius
+: 1621796444:0;gedit .config/i3/config
+: 1621797247:0;gedit .config/i3/config 
+: 1621797371:0;gedit .config/i3status-rust/config.toml
+: 1621797431:0;sudo gedit i3status.conf
+: 1621797698:0;gedit .config/i3/config 
+: 1621797844:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1621797961:0;gedit .config/i3/config 
+: 1621798012:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1621798818:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
+: 1621804757:0;rofi -run
+: 1621804770:0;clear
+: 1621804779:0;cd documents/code/.dotfiles
+: 1621804783:0;git status
+: 1621804796:0;git add .
