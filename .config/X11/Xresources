@@ -5,6 +5,7 @@
 !*.background: [30]#141c21
 urxvt*depth: 32
 urxvt*background: rgba:0020/0028/0033/c800
+!! urxvt*background: rgb:0020/0028/0033
 *.cursorColor: #afbfbf
 
 ! black
@@ -61,3 +62,5 @@ URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 
 Xcursor.theme: LyraP-cursors
+
+rofi.font: Noto sans 11

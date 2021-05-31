@@ -28,7 +28,8 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -nb '#000000' -sb '#2f343f' -sf '#ffffff'
+#bindsym $mod+d exec dmenu_run -nb '#000000' -sb '#2f343f' -sf '#ffffff'
+bindsym $mod+d exec dmenu_run -b
 
 # change focus
 bindsym $mod+j focus left
@@ -151,8 +152,8 @@ bindsym $mod+Shift+r restart
 # Shutdown
 #bindsym $mod+shift+p exec --no-startup-id systemctl poweroff -i, mode "default"
 # i3-lock
-bindsym $mod+shift+z exec i3lock -i "/home/anurag/pictures/lock/lockscreen.png" -t
-#bindsym $mod+shift+x exec scripts/./lock.sh
+bindsym $mod+shift+z exec i3lock -i "/home/anurag/pictures/lock/lock.png" -t
+#bindsym $mod+shift+z exec lock
 #  exec --no-startup-id xss-lock -l [path of your script]
 
 # resize window (you can also use the mouse for that)
@@ -207,8 +208,8 @@ bar {
 	#font pango:Noto Sans Mono Bold, FontAwesome 9
 	#status_command i3status-rs /home/anurag/.config/i3status-rust/config.toml
 	colors {
-		# statusline #00A5FF #that neon blue
-		background $bg-color
+	#statusline #00A5FF #that neon blue
+	#	background $bg-color
 	    	separator #fffff0
 		#                  border             background         text
 		inactive_workspace  $bg-color          $bg-color          $text-color
@@ -221,7 +222,7 @@ bar {
 
 # Windows setup
 for_window [class="^.*"] border pixel 0
-gaps inner 25
+gaps inner 10
 gaps outer 25
 # gaps horizontal 5
 #smart_borders on
@@ -350,7 +351,7 @@ mode "$mode_gaps_left" {
 
 # Screen Related
 exec_always --no-startup-id compton -f
-exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall2.jpg
+exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall22.jpg
 #exec_always feh --randomize --bg-fill /home/anurag/Pictures/*
 
 # Applications Shorcuts
@@ -370,6 +371,6 @@ bindsym Scroll_Lock exec backlit
 
 # Screenshot
 bindsym Print exec "scrot /home/anurag/pictures/ss/%Y-%m-%d-%H-%M-%S.png"
-
+bindsym shift+Print exec sshot
 # Wifi-connections
 bindsym $mod+c exec ./wifi.sh

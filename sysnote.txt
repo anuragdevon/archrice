@@ -18,20 +18,21 @@ Task for system to be completed:
 15. setup portable vscode
 16. Clean up Home directory---------------------done
 17. Setup git credentials
-18. Solve the transparency issue
+18. Solve the transparency issue-----------------------done
 19. No startupId--------------------done
 20. Pulseaudio not starting earlier using autospawn
 21. Rectify dbus and daemon not staring
 22. Error showing in staring of os(before login)-------------done(check for better solution in dhcpcd client service)
 23. Error after closing of i3
 24. Kernel panic error solve it now
-25. Make trash Management System
+25. Make trash Management System----------------------------done
 26. Fix the youtube app class selection
 27. Rectify alsamixer not working-------------done
 28. urxvt navigation system
-29. setup neccessary pending symlinks
+29. setup neccessary pending symlinks--------------------------done
 30. setup battery script for zsh(python)
 31. Reason for Xauthrity not found when used in run dir(deleting and creating everytime)
 32. Backup VCS
 33. Error at termial emulator inside directories(SS, XFCE)------------------done(partially)
+34. CLean up and organize the work related to flutter in all directories
 -------------------------------------------------

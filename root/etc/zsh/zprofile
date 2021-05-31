@@ -13,7 +13,12 @@ export PATH="$PATH:$HOME/.local/share/flutter/bin"
 export TERMINAL="urxvt"
 export BROWSER="brave"
 export CHROME_EXECUTABLE=/usr/bin/brave
-
+#export JAVA_HOME="/home/anurag/.local/bin/java-se-8u41-ri/"
+#export PATH="$PATH:$HOME/.local/bin/java-se-8u41-ri/bin"
+#export ANDROID_HOME=/opt/android-sdk
+#export PATH=$PATH:$ANDROID_HOME/tools
+#export PATH=$PATH:$ANDROID_HOME/platform-tools
+#export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
 
 # XDG base directory
 export XDG_CONFIG_HOME="$HOME/.config"
