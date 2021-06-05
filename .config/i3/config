@@ -29,7 +29,8 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run -nb '#000000' -sb '#2f343f' -sf '#ffffff'
-bindsym $mod+d exec dmenu_run -b
+#bindsym $mod+d exec dmenu_run -b
+bindsym $mod+d exec rofi -show run
 
 # change focus
 bindsym $mod+j focus left
@@ -95,37 +96,46 @@ set $ws8 "8."
 set $ws9 "9."
 set $ws10 "10." 
 
+# !!latest version of i3 supports worspace number whereas older version not
 # switch to workspace
-bindsym $mod+1 workspace number $ws1
-bindsym $mod+2 workspace number $ws2
-bindsym $mod+3 workspace number $ws3
-bindsym $mod+4 workspace number $ws4
-bindsym $mod+5 workspace number $ws5
-bindsym $mod+6 workspace number $ws6
-bindsym $mod+7 workspace number $ws7
-bindsym $mod+8 workspace number $ws8
-bindsym $mod+9 workspace number $ws9
-bindsym $mod+0 workspace number $ws10
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+#bindsym $mod+0 workspace number $ws10
+bindsym $mod+0 workspace $ws10
 
+#bindsym $mod+1 workspace 1: 🚀
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1
-bindsym $mod+Shift+2 move container to workspace number $ws2
-bindsym $mod+Shift+3 move container to workspace number $ws3
-bindsym $mod+Shift+4 move container to workspace number $ws4
-bindsym $mod+Shift+5 move container to workspace number $ws5
-bindsym $mod+Shift+6 move container to workspace number $ws6
-bindsym $mod+Shift+7 move container to workspace number $ws7
-bindsym $mod+Shift+8 move container to workspace number $ws8
-bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+# bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # workspaces binding
 assign [class="discord"] $ws5
 assign [class="crx_agimnkijcaahngcdmfeangaknmldooml"] $ws4
 assign [class="Thunar"] $ws3
 assign [class="Code"] $ws2
-assign [class="firefox"] $ws1
+#assign [class="firefox"] $ws1
 assign [class="Brave-browser"] $ws1
+
+# floating setup
+#for_window [class="code"] floating enable
+
+#for_window [class="code"] [floating] resize set 200 200
 
 mode "exit: [l]ogout, [r]eboot, [s]hutdown" {
 
@@ -203,6 +213,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # i3-bar 
 bar {
+        #height 25
         status_command i3status
 	#i3bar_command i3bar --transparency
 	#font pango:Noto Sans Mono Bold, FontAwesome 9
@@ -210,11 +221,16 @@ bar {
 	colors {
 	#statusline #00A5FF #that neon blue
 	#	background $bg-color
-	    	separator #fffff0
+		background #000000
+	    	#separator #fffff0
+	    	separator #000000
 		#                  border             background         text
 		inactive_workspace  $bg-color          $bg-color          $text-color
 		focused_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+		#inactive_workspace	#ebf5f0		#ebf5f0		#020001
+		#focused_workspace	#ebf5f0		#e5e4e2		#020001
+		#urgent_workspace
 	}
 
         position top
@@ -222,10 +238,12 @@ bar {
 
 # Windows setup
 for_window [class="^.*"] border pixel 0
-gaps inner 10
-gaps outer 25
+gaps inner 10 # 8
+gaps outer 20 # 25
 # gaps horizontal 5
 #smart_borders on
+border_radius 2 
+#smart_gaps on
 
 
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft

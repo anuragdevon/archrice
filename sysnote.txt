@@ -35,4 +35,9 @@ Task for system to be completed:
 32. Backup VCS
 33. Error at termial emulator inside directories(SS, XFCE)------------------done(partially)
 34. CLean up and organize the work related to flutter in all directories
+35. Clean up extra loaded grub
+36. Delelte uneccessary stuffs cloging the system
+37. Rectify the "%" appear issue in multiple terminals or ./a.out execution
+38. See the workspace opening at 1. instead of 1.rocket in boot
+39. Check up administrator works pending here
 -------------------------------------------------

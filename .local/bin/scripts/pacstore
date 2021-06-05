@@ -1,0 +1,3 @@
+#!/bin/bash
+OUTPUT=~/documents/code/.dotfiles/Package.txt
+pacman -Qe >> $OUTPUT
