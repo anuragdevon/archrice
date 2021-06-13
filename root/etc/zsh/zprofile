@@ -36,12 +36,13 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npmrc"
 export NPM_CONFIG_PREFIX="$XDG_DATA_HOME/npm"
 export NPM_CONFIG_CACHE="$NPM_CONFIG_PREFIX"
 
+# Alias
+alias devon="sudo pacman -S"
+
 #export VIMINIT='source "$XDG_CONFIG_HOME"/vim/vimrc'
 export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 
-#if pacman -Qs libxft-bgra >/dev/null 2>&1; then
-	# Start graphical server on user's current tty if not already running.
-	[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC"
-#else
+# Start XINITRC after login
+[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC"
 #	echo "Devon's Windows manager not found, check for sourcing errors in X config files"
-#fi
+#

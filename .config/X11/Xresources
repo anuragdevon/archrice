@@ -115,9 +115,11 @@ rofi.font: Noto sans 11
 
 rofi.lines: 5
 rofi.eh: 2
-rofi.padding: 200
-rofi.fullscreen: true
+rofi.padding: 100
+!rofi.fullscreen: true
 rofi.bw: 0
+rofi.width: 50
+rofi.height:20
 rofi.separator-style: none
 rofi.hide-scrollbar: true
 

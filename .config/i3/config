@@ -2,7 +2,7 @@
 set $mod Mod4
 
 # title bar and status bar
-font pango: Noto Sans Bold 9
+#font pango: Noto Sans Bold 9
 
 #Sounds systems
 #exec scripts/./sound.sh
@@ -89,7 +89,7 @@ set $ws1 "1.🚀"
 set $ws2 "2.👨‍💻"
 set $ws3 "3.🗂"
 set $ws4 "4.🎧"
-set $ws5 "5.💬"
+set $ws5 "5."
 set $ws6 "6."
 set $ws7 "7."
 set $ws8 "8."
@@ -137,32 +137,33 @@ assign [class="Brave-browser"] $ws1
 
 #for_window [class="code"] [floating] resize set 200 200
 
-mode "exit: [l]ogout, [r]eboot, [s]hutdown" {
+mode ": , ﰇ, " {
 
-  bindsym l exec i3-msg exit
+  bindsym 1 exec i3-msg exit
 
-  bindsym r exec --no-startup-id systemctl reboot
+  bindsym 2 exec --no-startup-id systemctl reboot
 
-  bindsym s exec --no-startup-id systemctl poweroff
+  bindsym 3 exec --no-startup-id systemctl poweroff
 
   bindsym Escape mode "default"
 
   bindsym Return mode "default"
 
 }
-bindsym $mod+shift+p mode "exit: [l]ogout, [r]eboot, [s]hutdown"
+bindsym $mod+shift+p mode ": , ﰇ, "
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 # Reboot
 #bindsym $mod+shift+o exec --no-startup-id systemctl reboot, mode "default"
 # Shutdown
 #bindsym $mod+shift+p exec --no-startup-id systemctl poweroff -i, mode "default"
 # i3-lock
-bindsym $mod+shift+z exec i3lock -i "/home/anurag/pictures/lock/lock.png" -t
+bindsym $mod+shift+z exec i3lock -i "/home/anurag/pictures/lock/lock1.png" -t
 #bindsym $mod+shift+z exec lock
 #  exec --no-startup-id xss-lock -l [path of your script]
 
@@ -214,10 +215,12 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # i3-bar 
 bar {
         #height 25
-        status_command i3status
+        #status_command i3status
 	#i3bar_command i3bar --transparency
-	#font pango:Noto Sans Mono Bold, FontAwesome 9
-	#status_command i3status-rs /home/anurag/.config/i3status-rust/config.toml
+	font pango:Noto Sans Bold 9
+	#font pango: FontAwesome 5 Free Bold 8
+	#font pango: FiraCode Nerd Font Mono Bold 8
+	status_command i3status-rs /home/anurag/.config/i3status-rust/config.toml
 	colors {
 	#statusline #00A5FF #that neon blue
 	#	background $bg-color
@@ -238,11 +241,11 @@ bar {
 
 # Windows setup
 for_window [class="^.*"] border pixel 0
-gaps inner 10 # 8
-gaps outer 20 # 25
+gaps inner 0 # 8
+gaps outer 0 # 25
 # gaps horizontal 5
 #smart_borders on
-border_radius 2 
+border_radius 0 #2 
 #smart_gaps on
 
 
@@ -368,8 +371,8 @@ mode "$mode_gaps_left" {
 }
 
 # Screen Related
-exec_always --no-startup-id compton -f
-exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall22.jpg
+exec_always --no-startup-id picom -f
+exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall11.jpg
 #exec_always feh --randomize --bg-fill /home/anurag/Pictures/*
 
 # Applications Shorcuts

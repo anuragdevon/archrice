@@ -5,39 +5,39 @@ Task for system to be completed:
 2. Resize the saving/downlaoding floating menu  
 3. Setup the Gnome/Keyring for vscode authentication
 4. Rectify the vscode consuming all Ram in infinte loop(memory leak...)
-5. Setup the base directory prpoperly for xininit to start automatically----------done
+5. Setup the base directory prpoperly for xininit to start automatically-------------------done
 6. Make the font config file(in case of font awesome)
-7. Setup pendrive reading system 
-8. Setup Vim 
+7. Setup pendrive reading system -------------------------done
+8. Setup Vim --------------partially done
 9. Add path to required files left------------------done
-10. Differentiate .Xresources for urxvt and rofi
-11. Setup xclip for all purpose
+10. Differentiate .Xresources for urxvt and rofi-----------------done
+11. Setup xclip for all purpose-------------------done
 12. Setup of zooming in urxvt
-13. Setup Rust i3-status bar
+13. Setup Rust i3-status bar------------------------done
 14. setup proper spacing in icons in thunar folders
 15. setup portable vscode
 16. Clean up Home directory---------------------done
-17. Setup git credentials
+17. Setup git credentials--------------------done
 18. Solve the transparency issue-----------------------done
 19. No startupId--------------------done
 20. Pulseaudio not starting earlier using autospawn
 21. Rectify dbus and daemon not staring
 22. Error showing in staring of os(before login)-------------done(check for better solution in dhcpcd client service)
-23. Error after closing of i3
+23. Error after closing of i3--------------partially done
 24. Kernel panic error solve it now
 25. Make trash Management System----------------------------done
-26. Fix the youtube app class selection
+26. Fix the youtube app class selection--------------discard
 27. Rectify alsamixer not working-------------done
-28. urxvt navigation system
+28. urxvt navigation system------------------------done
 29. setup neccessary pending symlinks--------------------------done
-30. setup battery script for zsh(python)
-31. Reason for Xauthrity not found when used in run dir(deleting and creating everytime)
-32. Backup VCS
-33. Error at termial emulator inside directories(SS, XFCE)------------------done(partially)
+30. setup battery script for zsh(python)---------------------discard
+31. Reason for Xauthrity not found when used in run dir(deleting and creating everytime)--------------discard
+32. Backup VCS-------------------???
+33. Error at termial emulator inside directories(SS, XFCE)------------------done(partially)????
 34. CLean up and organize the work related to flutter in all directories
 35. Clean up extra loaded grub
-36. Delelte uneccessary stuffs cloging the system
+36. Delelte uneccessary stuffs cloging the system------------done
 37. Rectify the "%" appear issue in multiple terminals or ./a.out execution
-38. See the workspace opening at 1. instead of 1.rocket in boot
-39. Check up administrator works pending here
+38. See the workspace opening at 1. instead of 1.rocket in boot--------------done
+39. Check up administrator works pending here---------------done
 -------------------------------------------------
