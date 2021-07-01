@@ -19,10 +19,13 @@ net_wireless = "🌥"
 net_up = "⛅"
 net_down = "❎"
 #------------------------------------------------
+#[[block]]
+#block = "custom"
+#command = "echo `uname` `uname -r | tr - . | cut -d. -f1-2` & echo -n Arch"
+#interval = "once"
 [[block]]
 block = "custom"
-command = "echo `uname` `uname -r | tr - . | cut -d. -f1-2` & echo -n Arch"
-interval = "once"
+command = "echo "
 #------------------------------------------------
 # [[block]]
 # block = "focused_window"

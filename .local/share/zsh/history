@@ -1,2037 +1,3 @@
-: 1621612443:0;clear
-: 1621612450:0;sudo pacman -S bc
-: 1621612456:0;clear
-: 1621612463:0;packages
-: 1621612495:0;ls
-: 1621612500:0;gedit packages
-: 1621612555:0;expac -H M '%m' | awk '{sum += $1}END {print sum, $2}'
-: 1621612590:0;packages
-: 1621612753:0;clear
-: 1621612819:0;cd documents
-: 1621612828:0;cd code/.dotfiles
-: 1621612830:0;clear
-: 1621612832:0;git status
-: 1621612848:0;git add .
-: 1621612867:0;git commit -m "Added package script"
-: 1621612872:0;git push -u origin main
-: 1621613026:0;python manage.py makemigrations
-: 1621613037:0;python3 manage.py migrate
-: 1621613053:0;clear
-: 1621614510:0;flutter
-: 1621614527:0;cd /opt
-: 1621614530:0;c;earar
-: 1621614534:0;clear
-: 1621614537:0;cd flutter
-: 1621614549:0;cd bin
-: 1621614552:0;cd cache
-: 1621614557:0;ls -la
-: 1621614564:0;clear
-: 1621614569:0;ls -la | wc -l
-: 1621614583:0;clear
-: 1621614589:0;ls -lh
-: 1621614614:0;clear
-: 1621615899:0;python3 manage.py createsuperuser
-: 1621615914:0;clear
-: 1621615973:0;flutter
-: 1621616016:0;discord --location
-: 1621616037:0;clear
-: 1621616486:0;cd documents/code/.dotfiles/.config/zsh/
-: 1621616488:0;clear 
-: 1621616489:0;ls
-: 1621616492:0;ls -la
-: 1621616522:0;source .zshrc
-: 1621616658:0;code .
-: 1621616674:0;cd /opt
-: 1621616675:0;clear
-: 1621616676:0;ls
-: 1621616681:0;flutter
-: 1621616734:0;which flutter
-: 1621616747:0;which go
-: 1621617200:0;cat flutter
-: 1621617201:0;clear
-: 1621617206:0;flutter
-: 1621617226:0;which python
-: 1621620058:0;flutter doctor -v
-: 1621620161:0;clear
-: 1621620232:0;sudo chown -R $USER /opt/flutter
-: 1621620239:0;flutter 
-: 1621620396:0;flutter --version
-: 1621620404:0;clear
-: 1621621020:0;jdk --version
-: 1621621144:0;packages
-: 1621621252:0;clear
-: 1621621457:0;flutter run
-: 1621621470:0;sudo flutter run
-: 1621621517:0;clear
-: 1621622130:0;sudo mv /opt/flutter /home/anurag/.local/share/
-: 1621622147:0;flutter
-: 1621622150:0;clear
-: 1621622186:0;cd documents/code/.dotfiles/.config/zsh/
-: 1621622190:0;ls -la
-: 1621622198:0;clear
-: 1621622206:0;cd /etc/zsh
-: 1621622208:0;ls
-: 1621622210:0;ls -la
-: 1621622219:0;cd 
-: 1621622222:0;cd documents/code/.dotfiles/.config/zsh/
-: 1621622240:0;ls -la
-: 1621622246:0;cd ..
-: 1621622255:0;cd root/etc/zsh
-: 1621622257:0;ls
-: 1621622264:0;sudo vim zprofile
-: 1621622316:0;clear
-: 1621622320:0;flutter
-: 1621622322:0;clear
-: 1621622326:0;where flutter
-: 1621622327:0;clear
-: 1621623020:0;sudo ip link set wlan0 up
-: 1621623037:0;wifi
-: 1621623075:0;flutter
-: 1621623082:0;clear
-: 1621623318:0;flutter run
-: 1621623377:0;cd documents/code
-: 1621623378:0;clear
-: 1621623381:0;ls
-: 1621623398:0;rm -r tflite_flutter_plugin
-: 1621623404:0;ls
-: 1621623423:0;sudo rm -r tflite_flutter_plugin
-: 1621623425:0;ls
-: 1621623426:0;clear
-: 1621623435:0;sudo rm -r flutter
-: 1621623437:0;clear
-: 1621623438:0;ls
-: 1621623441:0;mkdir flutter
-: 1621623442:0;clear
-: 1621623443:0;ls 
-: 1621623445:0;cd flutter
-: 1621623447:0;ls
-: 1621623453:0;ls -la | wc -l
-: 1621623456:0;ls -lh
-: 1621623457:0;clear
-: 1621623478:0;cd documents/code/flutter
-: 1621623503:0;flutter create basic
-: 1621623532:0;sudo flutter create basic
-: 1621623595:0;cd /root/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-12.0.0/lib/
-: 1621623610:0;cd /.pub-cache
-: 1621623624:0;cd /root/.pub-cache
-: 1621623627:0;clear
-: 1621623640:0;sudo cd /root/.pub-cache
-: 1621623725:0;sudo mv /home/anurag/.local/share/flutter/  /opt/
-: 1621623754:0;yay -R flutter
-: 1621623832:0;sudo rm -r /opt/flutter
-: 1621623880:0;flutter
-: 1621623881:0;clear
-: 1621624096:0;pacman -Sc
-: 1621624102:0;sudo pacman -Sc
-: 1621624109:0;sudo pacman -Scc
-: 1621624114:0;clear
-: 1621624239:0;wifi
-: 1621624271:0;cd Downloads
-: 1621624273:0;ls -la
-: 1621624278:0;ls
-: 1621624297:0;tar -xf flutter_linux_2.2.0-stable.tar.xz
-: 1621624429:0;mv flutter ~/.local/share/
-: 1621624456:0;flutter
-: 1621624549:0;flutter precache
-: 1621624586:0;flutter doctor
-: 1621624641:0;where flutter
-: 1621624646:0;which flutter
-: 1621624656:0;flutter -v
-: 1621624670:0;flutter --version
-: 1621625159:0;chown
-: 1621625164:0;chown man
-: 1621625169:0;chown --help
-: 1621625230:0;sudo gedit /etc/sudoers
-: 1621625330:0;sudo pacman -S clang ninja
-: 1621625342:0;clear
-: 1621625360:0;flutter channel
-: 1621625397:0;cd documents/code/flutter
-: 1621625403:0;flutter create app
-: 1621625515:0;cd 
-: 1621625516:0;clear
-: 1621625532:0;flutter config --enable-linux-desktop
-: 1621625559:0;flutter devices
-: 1621625586:0;cd documents/code/flutter
-: 1621625587:0;ls
-: 1621625595:0;rm -r app basic
-: 1621625601:0;rm -r app 
-: 1621625607:0;rm -r basic
-: 1621625613:0;sudo rm -r basic
-: 1621625615:0;cd ..
-: 1621625619:0;rm -r flutter
-: 1621625623:0;mkdir flutter
-: 1621625624:0;clear
-: 1621625654:0;flutter create documents/code/flutter/basic
-: 1621625707:0;flutter run
-: 1621625828:0;clear
-: 1621626406:0;flutter doctor
-: 1621626699:0;where brave
-: 1621626737:0;sudo gedit documents/code/.dotfiles/root/etc/zsh/zprofile
-: 1621626813:0;flutter config --enable-web
-: 1621626828:0;flutter devices
-: 1621626835:0;flutter doctor
-: 1621627001:0;wifi
-: 1621628203:0;cd documents/code/flutter
-: 1621628204:0;ls
-: 1621630194:0;cd documents/code/flutter
-: 1621630237:0;pacman 
-: 1621630879:0;flutter create documents/code/flutter/text_classification_app
-: 1621630933:0;clear
-: 1621630940:0;touch install.sh
-: 1621630962:0;chmod +x install.sh
-: 1621630966:0;./install.sh
-: 1621630991:0;clear
-: 1621631493:0;ls -la | wc
-: 1621631496:0;ls -la | wc -l
-: 1621631497:0;clear
-: 1621631936:0;touch lib/classifier.dart
-: 1621632459:0;sudo mv /etc/xdg/picom.conf ~/documents/code/.dotfiles/root/etc/xdg/
-: 1621632526:0;ln -sv ~/documents/code/.dotfiles/root/etc/xdg/picom.conf /etc/xdg/picom.conf
-: 1621632534:0;sudo ln -sv ~/documents/code/.dotfiles/root/etc/xdg/picom.conf /etc/xdg/picom.conf
-: 1621632538:0;c;ear
-: 1621632539:0;clear
-: 1621632992:0;cd documents/code/.dotfiles
-: 1621632994:0;clear
-: 1621632997:0;git status
-: 1621632999:0;git add .
-: 1621633042:0;git commit -m "Modified picom.conf"
-: 1621633051:0;git push -u origin main
-: 1621633056:0;clear
-: 1621633063:0;git status
-: 1621657907:0;wifi
-: 1621667715:0;flutter run
-: 1621668336:0;clear
-: 1621668863:0;flutter run
-: 1621669182:0;clear
-: 1621669197:0;flutter run
-: 1621669240:0;clear
-: 1621669315:0;flutter run
-: 1621669870:0;clear
-: 1621676505:0;flutter run
-: 1621676748:0;clear
-: 1621687268:0;wifi
-: 1621687301:0;xset --help
-: 1621687481:0;xset led
-: 1621687487:0;xset led off
-: 1621687493:0;xset led 5
-: 1621687499:0;xset led 32
-: 1621687503:0;xset led 0
-: 1621687511:0;xset led on
-: 1621687516:0;clear
-: 1621687527:0;cd documents/code/.dotfiles
-: 1621687529:0;clear
-: 1621687535:0;cd .local/bin/scripts
-: 1621687536:0;clear
-: 1621687537:0;ls
-: 1621687589:0;gedit backlit
-: 1621687637:0;chmod +x backlit
-: 1621687639:0;ls
-: 1621687665:0;backlit
-: 1621687676:0;clear
-: 1621687741:0;backlit
-: 1621687766:0;xset q
-: 1621687800:0;xset q | grep "Scroll Lock: off"
-: 1621687811:0;xset q | grep "Scroll Lock: on"
-: 1621687818:0;xset q | grep "Scroll Lock: off"
-: 1621687830:0;xset q | grep "Scroll Lock: on"
-: 1621687855:0;xset q | grep "Num Lock: on"
-: 1621687860:0;xset q | grep "Num Lock: off"
-: 1621687874:0;xset q | grep "Scroll Lock: off"
-: 1621688081:0;cd ../../
-: 1621688091:0;cd ..
-: 1621688096:0;cd documents/code/.dotfiles
-: 1621688102:0;cd 
-: 1621688104:0;cd documents/code/.dotfiles
-: 1621688107:0;git status
-: 1621688110:0;git add .
-: 1621688129:0;git commit -m "Modified Backlit"
-: 1621688133:0;git push -u origin main
-: 1621688137:0;clear
-: 1621688279:0;if --help\
-
-: 1621688280:0;clear
-: 1621688292:0;if man
-: 1621688294:0;clear
-: 1621690823:0;wifi
-: 1621690839:0;sudo sensors-detect
-: 1621690851:0;sudo ip link set wlan0 up
-: 1621691803:0;gedit aurchecker
-: 1621692039:0;chmod +x aurchecker
-: 1621692041:0;ls
-: 1621692064:0;aurchecker
-: 1621695673:0;python3 manage.py makemigrations 
-: 1621695712:0;cd ..
-: 1621695716:0;ls
-: 1621695728:0;source django/bin/activate
-: 1621695748:0;source ../django/bin/activate
-: 1621695749:0;clear
-: 1621695752:0;python3 manage.py makemigrations 
-: 1621695757:0;python3 manage.py migrate
-: 1621695762:0;python3 manage.py runserver erver
-: 1621695766:0;python3 manage.py runserver 
-: 1621697920:0;gedit .config/i3/config
-: 1621699021:0;sudo pacman rust cargo
-: 1621699028:0;sudo pacman -S rust cargo
-: 1621699061:0;ping -c 1 www.google.com
-: 1621699494:0;rust version
-: 1621699500:0;cargo version
-: 1621699513:0;rustc version
-: 1621699525:0;rustc
-: 1621699548:0;ls -la | wc -l
-: 1621699549:0;clear
-: 1621699565:0;rustc --version
-: 1621699573:0;cargo --version
-: 1621699613:0;sudo pacman -S i3status-rust
-: 1621699852:0;i3status
-: 1621699886:0;i3status-rust
-: 1621699979:0;neofetch
-: 1621700113:0;i3status
-: 1621700140:0;clear
-: 1621700147:0;gedit .config/i3/config
-: 1621703186:0;i3status-rust
-: 1621703340:0;sudo pacman -S i3status-rust
-: 1621703366:0;i3status-rs
-: 1621703405:0;clear
-: 1621703419:0;i3status-rs
-: 1621703460:0;clear
-: 1621703469:0;touch config.toml
-: 1621703478:0;clear
-: 1621703482:0;i3status-rs
-: 1621703508:0;wifi
-: 1621703538:0;clear
-: 1621703588:0;i3status-rs
-: 1621704381:0;clear
-: 1621704913:0;i3status-rs
-: 1621704962:0;clear
-: 1621704972:0;gedit .config/i3/config
-: 1621706012:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1621707131:0;sudo thunar
-: 1621708564:0;gedit .config/i3/config
-: 1621710927:0;sudo thunar
-: 1621711056:0;gedit .config/i3/config
-: 1621714365:0;neofetch
-: 1621714454:0;sudo gedit .config/i3status-rust/config.toml
-: 1621714467:0;gedit .config/i3status-rust
-: 1621714473:0;gedit .config/i3status-rust/config.toml
-: 1621714756:0;sudo pacman -S alsa-utils
-: 1621714832:0;sudo mv NotoColorEmoji.ttf ~/
-: 1621714852:0;gedit .config/i3/config 
-: 1621714930:0;sudo mv fontawesome/ ~/.local/share/fonts
-: 1621715011:0;sudo mv ~/NotoColorEmoji.ttf ~/.local/share/fonts
-: 1621715051:0;sudo mv NotoColorEmoji.ttf ~/
-: 1621715087:0;sudo mv ~/NotoColorEmoji.ttf ~/.local/share/fonts
-: 1621715258:0;sudo mv ~/Downloads/MaterialIcons-Regular.ttf ~/.local/share/fonts
-: 1621715337:0;cd .local/share/fonts
-: 1621715338:0;ls
-: 1621715347:0;rm -r fontawesome
-: 1621715354:0;sudo rm -r fontawesome
-: 1621715355:0;ls
-: 1621715369:0;sudo mv NotoColorEmoji.ttf ~/
-: 1621715381:0;sudo mv ~/NotoColorEmoji.ttf ~/.local/share/fonts
-: 1621715382:0;ls
-: 1621716020:0;sudo mv ~/Downloads/fontawesome/ ~/.local/share/fonts
-: 1621716685:0;ps
-: 1621716694:0;ps_mem
-: 1621716698:0;smem
-: 1621716710:0;clear
-: 1621716713:0;glances
-: 1621716716:0;free
-: 1621716728:0;vmstat
-: 1621716758:0;gedit .config/i3status-rust/config.toml
-: 1621717555:0;echo U+1F300
-: 1621717565:0;echo \U+1F300
-: 1621717611:0;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
-: 1621717721:0;free --help
-: 1621717767:0;free --mega -s 2
-: 1621718023:0;gedit .config/i3/config 
-: 1621718796:0;sudo /etc/i3status.conf
-: 1621718805:0;sudo gedit /etc/i3status.conf
-: 1621718837:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1621718944:0;cat /sys/class/power_supply/BAT1
-: 1621718954:0;echo /sys/class/power_supply/BAT1
-: 1621718960:0;/sys/class/power_supply/BAT1
-: 1621718984:0;cat /sys/class/power_supply/BAT1/capacity
-: 1621719010:0;echo /sys/class/power_supply/BAT1/capacity
-: 1621719017:0;echo "/sys/class/power_supply/BAT1/capacity"
-: 1621743887:0;wifi
-: 1621743922:0;clear
-: 1621743948:0;gedit .config/i3status-rust/config.toml
-: 1621743963:0;free
-: 1621743970:0;free --mega -s 2
-: 1621743979:0;free --mega 
-: 1621743987:0;free --giga
-: 1621744020:0;free --mega
-: 1621744066:0;free --mega | grep mem
-: 1621744071:0;free --mega | grep Mem
-: 1621744084:0;free --mega | grep Used
-: 1621744088:0;free --mega | grep used
-: 1621744124:0;free --mega | grep Mem & used
-: 1621744248:0;clear
-: 1621744252:0;free --mega | grep Mem
-: 1621744354:0;free --mega | grep Mem | cut -c 2
-: 1621744360:0;free --mega | grep Mem | cut -c 5
-: 1621744369:0;free --mega | grep Mem | cut -c 
-: 1621744374:0;free --mega | grep Mem | cut -c 15
-: 1621744377:0;free --mega | grep Mem | cut -c 16
-: 1621744379:0;free --mega | grep Mem | cut -c 17
-: 1621744386:0;free --mega | grep Mem | cut -c 25
-: 1621744390:0;free --mega | grep Mem | cut -c 21
-: 1621744393:0;free --mega | grep Mem | cut -c 23
-: 1621744395:0;free --mega | grep Mem | cut -c 28
-: 1621744398:0;free --mega | grep Mem | cut -c 29
-: 1621744401:0;free --mega | grep Mem | cut -c 35
-: 1621744403:0;free --mega | grep Mem | cut -c 31
-: 1621744416:0;free --mega | grep Mem
-: 1621744423:0;free --mega | grep Mem | cut -c 30
-: 1621744513:0;echo "hello" & free -h
-: 1621744569:0;free --mega | grep Mem | cut -c 29 & free --mega | grep Mem | cut -c 30 & free --mega | grep Mem | cut -c 31 & free --mega | grep Mem | cut -c 32
-: 1621744585:0;free --mega | grep Mem | cut -c 30
-: 1621745402:0;free --mega | grep Mem 
-: 1621745455:0;free --mega | grep Mem | print $2
-: 1621745458:0;free --mega | grep Mem | print $3
-: 1621745461:0;free --mega | grep Mem | print $4
-: 1621745462:0;free --mega | grep Mem | print $1
-: 1621745499:0;free --mega | grep Mem | awk '{print $2}'
-: 1621745503:0;free --mega | grep Mem | awk '{print $3}'
-: 1621745520:0;free --mega
-: 1621745800:0;gedit memusage
-: 1621745976:0;free --mega -s 2 | grep Mem | awk '{print $3}'
-: 1621745997:0;free --mega| grep Mem | awk '{print $3}'
-: 1621746009:0;free --mega| grep Mem | awk '{print $3}' -s 2
-: 1621746020:0;free --mega -s 2| grep Mem | awk '{print $3}'
-: 1621746031:0;clear
-: 1621746087:0;chmod +x memusage
-: 1621746090:0;./memusage
-: 1621746873:0;free --mega -s 2| grep Mem | awk '{print $3}'
-: 1621746892:0;./memusage
-: 1621747048:0;free --mega| grep Mem | awk '{print $3}'
-: 1621750360:0;sed  '/\[option\]/a Hello World' input
-: 1621750365:0;sed  '/\[option\]/a Hello World' 
-: 1621750375:0;sed  '/\[option\]/a Hello World' input
-: 1621750382:0;sed  '/\[option\]/a Hello World' 'haaa'
-: 1621750387:0;sed  '/\[option\]/a Hello World'
-: 1621750393:0;clear
-: 1621750572:0;du -sh /home/anurag/
-: 1621750592:0;df
-: 1621750649:0;df | grep /dev/sda2
-: 1621750658:0;df | grep /dev/sda6
-: 1621750690:0;df | grep /dev/sda6 | awk '{print $3}'
-: 1621750698:0;df | grep /dev/sda6 | awk '{print $4}'
-: 1621750705:0;df | grep /dev/sda6 | awk '{print $5}'
-: 1621752398:0;clear
-: 1621752451:0;ln -sv ~/documents/code/.dotfiles/.config/i3status-rust ~/.config/i3status-rust
-: 1621752498:0;cd documents/code/.dotfiles
-: 1621752502:0;git status
-: 1621752527:0;git add .
-: 1621752567:0;git commit -m "Added i3rust and aur-checker"
-: 1621752570:0;git push -u origin main
-: 1621756598:0;gedit .config/i3/config 
-: 1621756689:0;flutter create documents/code/flutter/learn1
-: 1621756772:0;flutter create documents/code/flutter-apps/learn1
-: 1621757064:0;top
-: 1621757081:0;clear
-: 1621759581:0;flutter run
-: 1621759776:0;clear
-: 1621767627:0;flutter run
-: 1621767803:0;htop
-: 1621768226:0;clear
-: 1621768927:0;gedit .config/i3status-rust/config.toml
-: 1621769930:0;flutter create ~/documents/code/flutter-apps/rwapps
-: 1621769953:0;clear
-: 1621770320:0;flutter run
-: 1621774381:0;clear
-: 1621787532:0;wifi
-: 1621790269:0;gedit .config/i3status-rust/config.toml
-: 1621794296:0;sudo vim/usr/share/zsh/scripts/newuser
-: 1621794300:0;sudo vim /usr/share/zsh/scripts/newuser
-: 1621794322:0;clear
-: 1621794357:0;gedit .config/i3status-rust/config.toml
-: 1621794378:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1621794455:0;where i3status-rs
-: 1621794513:0;sudo gedit /usr/bin/i3
-: 1621794544:0;sudo gedit /usr/bin/i3status-rs
-: 1621795064:0;gedit .config/i3/config
-: 1621795720:0;sudo pacman -S i3-radius
-: 1621796444:0;gedit .config/i3/config
-: 1621797247:0;gedit .config/i3/config 
-: 1621797371:0;gedit .config/i3status-rust/config.toml
-: 1621797431:0;sudo gedit i3status.conf
-: 1621797698:0;gedit .config/i3/config 
-: 1621797844:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1621797961:0;gedit .config/i3/config 
-: 1621798012:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1621798818:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1621804757:0;rofi -run
-: 1621804770:0;clear
-: 1621804779:0;cd documents/code/.dotfiles
-: 1621804783:0;git status
-: 1621804796:0;git add .
-: 1622436292:0;cd documents/code/.dotfiles/.config/zsh
-: 1622436303:0;ls -la | wc -l
-: 1622436309:0;ls
-: 1622436313:0;ls -la
-: 1622436327:0;cd ..
-: 1622436347:0;cd 
-: 1622436371:0;cd documents/code/.dotfiles/root/etc/zsh
-: 1622436374:0;ls -la
-: 1622436377:0;cd ..
-: 1622436384:0;cd X11
-: 1622436386:0;ls -l
-: 1622436390:0;ls -la
-: 1622436393:0;cd ..
-: 1622436395:0;ls -la
-: 1622436403:0;cd 
-: 1622436421:0;cd documents/code/.dotfiles/.config/X11/
-: 1622436422:0;ls -la
-: 1622436430:0;sudo gedit Xresources
-: 1622436454:0;xrdb .config/X11/Xresources
-: 1622436494:0;git status
-: 1622436511:0;git add .
-: 1622436519:0;git commit -m "Added new files"
-: 1622436524:0;git push -u origin main
-: 1622436533:0;clear
-: 1622436561:0;django-admin startproject locationApp
-: 1622436654:0;source ../django/bin/activate
-: 1622436657:0;clear
-: 1622437339:0;i3status
-: 1622437386:0;i3status-rs
-: 1622437392:0;clear
-: 1622437394:0;i3status
-: 1623313516:0;clear
-: 1622438838:0;i3status
-: 1622438840:0;clear
-: 1622441454:0;sudo pacman -S install gdal-bin libgdal-dev
-: 1622441463:0;sudo pacman -S gdal-bin libgdal-dev
-: 1622441468:0;sudo pacman -S gdal-bin 
-: 1622441500:0;clear
-: 1622441512:0;sudo pacman -S python-gdal
-: 1622442929:0;pacman -Qqo '/usr/lib/perl5/5.34'
-: 1622442963:0;sudo pacman -S binutils libproj-dev
-: 1622442969:0;sudo pacman -S binutils 
-: 1622443347:0;top
-: 1622443555:0;sudo pacman -S docker
-: 1622443800:0;clear
-: 1622443805:0;docker --verison
-: 1622443815:0;which docker
-: 1622444104:0;sudo pacman -S postgresql
-: 1622444565:0;clear
-: 1622444641:0;docker run --name=postgis -d -e POSTGRES_USER=user001 -e POSTGRES_PASS=123456789 -e POSTGRES_DBNAME=gis -p 5432:5432 kartoza/postgis:9.6-2.4\
-
-: 1622444652:0;docker run --help
-: 1622445098:0;clear
-: 1622445106:0;systemctl start docker
-: 1622445115:0;clear
-: 1622445119:0;docker run --name=postgis -d -e POSTGRES_USER=user001 -e POSTGRES_PASS=123456789 -e POSTGRES_DBNAME=gis -p 5432:5432 kartoza/postgis:9.6-2.4\
-
-: 1622445135:0;sudo docker run --name=postgis -d -e POSTGRES_USER=user001 -e POSTGRES_PASS=123456789 -e POSTGRES_DBNAME=gis -p 5432:5432 kartoza/postgis:9.6-2.4\
-
-: 1622445687:0;clear
-: 1622445998:0;django-admin startproject djangoRest
-: 1622446014:0;source ../django/bin/activate
-: 1622446017:0;clear
-: 1622446073:0;django-admin startapp pets
-: 1622446076:0;clear
-: 1622446272:0;i3status
-: 1622446277:0;clear
-: 1622446346:0;python3 manage.py startapp pets
-: 1622446370:0;clear
-: 1622446371:0;python3 manage.py startapp pets
-: 1622446380:0;clear
-: 1622446418:0;pip3 install djangorestframework
-: 1622446445:0;python3 -m pip install --upgrade pip
-: 1622446453:0;clear
-: 1622446628:0;rofi -run
-: 1622446635:0;rofi -show run
-: 1622446664:0;clear
-: 1622446676:0;i3status
-: 1622446685:0;clear
-: 1622446919:0;psql
-: 1622446954:0;ps -ef | grep postgres
-: 1622447041:0;netstat -nlp | grep 5432
-: 1622447053:0;sudo pacman -S netstat
-: 1622447099:0;sudo postgres start
-: 1622447114:0;sudo psql
-: 1622447119:0;sudo postgres start
-: 1622447131:0;postgres start
-: 1622447136:0;postgres --help
-: 1622447167:0;postgres -h
-: 1622447182:0;postgres -p
-: 1622447188:0;postgres -p 8000
-: 1622447192:0;clear
-: 1622451425:0;i3status
-: 1622451437:0;clear
-: 1622451441:0;i3status
-: 1622451445:0;clear
-: 1622451510:0;where postgres
-: 1622451530:0;sudo service postgresql restar
-: 1622451538:0;sudo postgresql restart
-: 1622451540:0;clear
-: 1622451585:0;psql
-: 1622451597:0;/run/postgresql/.s.PGSQL.5432
-: 1622451609:0;/run/
-: 1622451612:0;ls -la
-: 1622451800:0;fdisk
-: 1622451803:0;fdisk -l
-: 1622451809:0;sudo fdisk -l
-: 1622451835:0;clear
-: 1622451839:0;free --mega| grep Mem | awk '{print $3}'
-: 1622451841:0;clear
-: 1622451851:0;pacman -S xf86-video-intel
-: 1622451859:0;sudo pacman -S xf86-video-intel
-: 1622451963:0;vim /boot/refind_linux.conf
-: 1622451982:0;vim /boot/vmlinuz-linux
-: 1622452027:0;clear
-: 1622452106:0;os-prober
-: 1622452111:0;sudo os-prober
-: 1622452134:0;grub-mkconfig -o /boot/grub/grub.cfg
-: 1622452153:0;sudo grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB
-: 1622452182:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1622452206:0;clear
-: 1622452608:0;cat /sys/class/power_supply/BAT1/capacity
-: 1622452610:0;clear
-: 1622452648:0;cat documents/code/.dotfiles/.local/bin/scripts/wifi
-: 1622452658:0;iw dev wlan0 link
-: 1622452664:0;ping -c 1 www.google.com
-: 1622452668:0;clear
-: 1622452692:0;gedit .config/i3/config 
-: 1622452842:0;clear
-: 1622452843:0;gedit .config/i3/config 
-: 1622452853:0;clear
-: 1622452997:0;source ../django/bin/activate
-: 1622452998:0;clear
-: 1622453005:0;pip3 install django
-: 1622453017:0;clear
-: 1622453030:0;pip3 install psycopg
-: 1622453036:0;pip3 install psycopg2
-: 1622453061:0;clear
-: 1622453062:0;psql
-: 1622453070:0;sudo psql
-: 1622453101:0;gedit .config/i3/config 
-: 1622453232:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622453435:0;clear
-: 1622453439:0;gedit .config/i3/config 
-: 1622453464:0;clear
-: 1622453503:0;gedit .config/i3/config 
-: 1622453538:0;clear
-: 1622453614:0;gedit .config/i3/config 
-: 1622453681:0;gedit .config/i3status-rust/config.toml
-: 1622453966:0;gedit .config/i3/config
-: 1622454075:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1622454216:0;sudo systemctl start postgresql
-: 1622454226:0;sudo systemctl enable postgresql
-: 1622454229:0;sudo systemctl start postgresql
-: 1622454239:0;psql
-: 1622454272:0;sudo systemctl start postgresql
-: 1622456134:0;git status
-: 1622456227:0;git push -u origin main
-: 1622456367:0;git clone https://github.com/anuragdevon/competative-programming.git
-: 1622464838:0;wifi
-: 1622464848:0;clear
-: 1622464977:0;wifi
-: 1622464988:0;clear
-: 1622467540:0;cat /sys/class/power_supply/BAT1/capacity
-: 1622468538:0;sudo pacman -S neovim
-: 1622468584:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622468689:0;clear
-: 1622468753:0;neovim
-: 1622468756:0;vim
-: 1622468947:0;sudo pacman -S micro
-: 1622468963:0;clear
-: 1622468975:0;micro text
-: 1622469055:0;cd downloads
-: 1622469058:0;cd Downloads
-: 1622469059:0;clear
-: 1622471031:0;cd KickStart
-: 1622471032:0;clear
-: 1622471035:0;ls
-: 1622471036:0;clear
-: 1622471040:0;g++ k-goodstring.cpp
-: 1622471046:0;clear
-: 1622471051:0;./a.out
-: 1622471084:0;clear
-: 1622471095:0;g++ k-goodstring.cpp
-: 1622471100:0;./a.out
-: 1622471119:0;clear
-: 1622471219:0;g++ k-goodstring.cpp
-: 1622471223:0;./a.out
-: 1622471250:0;clear
-: 1622471257:0;g++ k-goodstring.cpp
-: 1622471265:0;clear
-: 1622471267:0;g++ k-goodstring.cpp
-: 1622471274:0;./a.out
-: 1622471319:0;clear
-: 1622471321:0;g++ k-goodstring.cpp
-: 1622471325:0;./a.out
-: 1622471343:0;clear
-: 1622471353:0;g++ k-goodstring.cpp
-: 1622471357:0;./a.out
-: 1622471396:0;clear
-: 1622471400:0;g++ k-goodstring.cpp
-: 1622471403:0;./a.out
-: 1622471859:0;cd ..
-: 1622471860:0;clear
-: 1622471862:0;git status
-: 1622471874:0;git add .
-: 1622471878:0;git commit -m "Added new files"
-: 1622471887:0;git push -u origin main
-: 1622471913:0;clear
-: 1622472072:0;git status
-: 1622472075:0;git add .
-: 1622472078:0;git commit -m "Added new files"
-: 1622472081:0;git push -u origin main
-: 1622472724:0;cd KickStart
-: 1622472726:0;clear
-: 1622474102:0;cd ..
-: 1622474107:0;git status
-: 1622474119:0;git add .
-: 1622474131:0;git commit -m "Lots of fixes"
-: 1622474137:0;git push -u origin main
-: 1622474142:0;clear
-: 1622474215:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622474227:0;gedit .config/i3/config
-: 1622474294:0;grub-mkconfig -o /boot/grub/grub.cfg
-: 1622474299:0;clear
-: 1622474301:0;gedit .config/i3/config
-: 1622474359:0;clear
-: 1622474504:0;pacman -Qe
-: 1622474560:0;touch .local/bin/scripts/package
-: 1622474601:0;touch .local/bin/scripts/pacstore
-: 1622474622:0;vim .local/bin/scripts/pacstore
-: 1622475176:0;git clone https://github.com/anuragdevon/Best-README-Template.git
-: 1622475477:0;pacman -Qe
-: 1622475497:0;pacstore
-: 1622475502:0;sudo pacstore
-: 1622475510:0;clear
-: 1622475516:0;pacstore
-: 1622475535:0;cd .local/bin/scripts
-: 1622475540:0;ls -la
-: 1622475553:0;chmod +x pacstore
-: 1622475558:0;pacstore
-: 1622475591:0;vim pacstore
-: 1622475624:0;clear
-: 1622475631:0;pacstore
-: 1622475638:0;clear
-: 1622475639:0;cd 
-: 1622475646:0;cd documents/code/.dotfiles
-: 1622475650:0;vim package
-: 1622475655:0;ls -la
-: 1622475662:0;vim packages.txt
-: 1622475823:0;source ../django/bin/activate
-: 1622475825:0;clear
-: 1622475826:0;pip install psycopg2
-: 1622475832:0;pip3 install psycopg2
-: 1622475835:0;clear
-: 1622475837:0;psql
-: 1622476925:0;sudo pacman -S virtualbox-host-modules-arch
-: 1622476954:0;clear
-: 1622478775:0;sudo pacman -S netstat
-: 1622478808:0;sudo pacman -S netstat-nat
-: 1622478839:0;sudo netstat-nat -nlp | grep 5432
-: 1622478855:0;netstat --help
-: 1622478861:0;netstat-nat --help
-: 1622478880:0;netstat-nat -p | grep 5432
-: 1622478889:0;netstat-nat -p
-: 1622478914:0;netstat-nat --p | grep 5432
-: 1622478916:0;clear
-: 1622478928:0;ps -ef | grep postgres
-: 1622478950:0;clear
-: 1622478953:0;ps -ef | grep postgres
-: 1622478968:0;ps -ef | grep 5432
-: 1622478985:0;sudo find /tmp/ -name .s.PGSQL.5432
-: 1622479004:0;psql -h /tmp/ dbname
-: 1622479013:0;/tmp/.s.PGSQL.5432
-: 1622479027:0;cd /tmp//.s.PGSQL.5432
-: 1622479035:0;sudo find /tmp// -name .s.PGSQL.5432
-: 1622479054:0;sudo find /tmp//.s.PGSQL.5432
-: 1622479063:0;clear
-: 1622479078:0;sudo /etc/init.d/postgresql restart
-: 1622479090:0;sudo su - postgres
-: 1622479119:0;sudo systemctl start postgresql
-: 1622479126:0;sudo systemctl status postgresql
-: 1622479160:0;clear
-: 1622479166:0;psql
-: 1622479701:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1622479868:0;sudo -u postgres -i
-: 1622479925:0;sudo -u postgres createuser anurag
-: 1622479959:0;sudo su - postgres
-: 1622480075:0;vim .psql_history
-: 1622480096:0;sudo vim .psql_history
-: 1622480162:0;psql
-: 1622480594:0;psql postgres
-: 1622480646:0;clear
-: 1622480649:0;psql
-: 1622482002:0;clear
-: 1622482369:0;source ../django/bin/activate
-: 1622482401:0;psql
-: 1622483254:0;psql -h localhost -U postgres\
-
-: 1622483370:0;clear
-: 1622483376:0;psql -h localhost -U postgres\
-
-: 1622483405:0;clear
-: 1622483595:0;python3 manage.py makemigrations 
-: 1622484073:0;psql
-: 1622484081:0;psql -h localhost -U postgres\
-
-: 1622484177:0;clear
-: 1622484209:0;python3 manage.py migrate
-: 1622484265:0;pip3 install djangorestframework
-: 1622486577:0;clear
-: 1622486579:0;python3 manage.py migrate
-: 1622486587:0;source ../django/bin/activate
-: 1622486589:0;clear
-: 1622486598:0;source ../django/bin/activate
-: 1622486614:0;clear
-: 1622486618:0;python3 manage.py migrate
-: 1622486627:0;psql -h localhost -U postgres\
-
-: 1622486655:0;python3 manage.py migrate
-: 1622486666:0;python3 manage.py makemigrations 
-: 1622486670:0;python3 manage.py migrate
-: 1622486673:0;clear
-: 1622490098:0;python3 manage.py makemigrations 
-: 1622490170:0;clear
-: 1622490195:0;python3 manage.py migrate
-: 1622490205:0;clear
-: 1622490211:0;psql -h localhost -U postgres\
-
-: 1622494045:0;python3 manage.py test
-: 1622494049:0;clear
-: 1622494052:0;source ../django/bin/activate
-: 1622494053:0;clear
-: 1622494055:0;python3 manage.py test
-: 1622494072:0;sudo python3 manage.py test
-: 1622494079:0;clear
-: 1622494081:0;python3 manage.py test
-: 1622494155:0;clear
-: 1622494188:0;python3 manage.py test
-: 1622494190:0;clear
-: 1622494217:0;python3 manage.py test
-: 1622495702:0;pacman -Ss
-: 1622495708:0;sudo pacman -Ss
-: 1622495732:0;sudo pacman -Scc
-: 1622495740:0;sudo pacman -Sc
-: 1622495747:0;clear
-: 1622495761:0;ls -la | wc -l
-: 1622495868:0;top 
-: 1622495872:0;cleR
-: 1622495879:0;clear
-: 1622521817:0;wifi
-: 1622521862:0;vim documents/code/.dotfiles/sysnote.txt
-: 1622521935:0;clear
-: 1622522340:0;git diff
-: 1622522367:0;clear
-: 1622522496:0;git status
-: 1622522502:0;clear
-: 1622526051:0;git status
-: 1622526053:0;clear
-: 1622526206:0;git remote set-url --add --push origin https://github.com/anuragdevon/readme-sample.git
-: 1622526227:0;git push -u origin main
-: 1622526250:0;clear
-: 1622526276:0;git add .
-: 1622526288:0;git commit -m "Initial Commit"
-: 1622526294:0;git remote set-url --add --push origin https://github.com/anuragdevon/readme-sample.git
-: 1622526296:0;git push -u origin main
-: 1622526745:0;clear
-: 1622526761:0;git remote rename origin UPSTREAM
-: 1622526777:0;git remote add origin https://github.com/anuragdevon/readme-sample.git
-: 1622526787:0;git push origin main
-: 1622526794:0;git push origin master
-: 1622526801:0;clear
-: 1622527457:0;code . Downloads/kickstart/stevenkplus-000000000069bd4e.txt
-: 1622528121:0;hugo server
-: 1622528664:0;ping -c 1 www.youtube.com
-: 1622528673:0;clear
-: 1622534751:0;git clone https://github.com/anuragdevon/automations.git
-: 1622534760:0;clear
-: 1622534832:0;git clone https://github.com/anuragdevon/python-scripts.git
-: 1622534948:0;touch .gitignore
-: 1622534967:0;clear
-: 1622534971:0;git status
-: 1622534976:0;clear
-: 1622534988:0;git add .
-: 1622534999:0;git commit -m "Merged files"
-: 1622535012:0;git push -u origin master
-: 1622535017:0;clear
-: 1622539911:0;python3 -m venv scripts
-: 1622539943:0;source scripts/bin/activate
-: 1622541046:0;pip3 install tkinter
-: 1622541386:0;clear
-: 1622541408:0;pip3 install matplotlib
-: 1622541471:0;pip3 install covid
-: 1622542080:0;wifi
-: 1622542098:0;sudo ip link set wlan0 up
-: 1622543585:0;clear
-: 1622543596:0;python3 CovidTracker.py
-: 1622543657:0;clear
-: 1622543659:0;python3 CovidTracker.py
-: 1622543688:0;clear
-: 1622543689:0;python3 CovidTracker.py
-: 1622543895:0;clea
-: 1622543896:0;clear
-: 1622543907:0;source /home/anurag/documents/code/python-scripts/scripts/bin/activate
-: 1622544026:0;pip3 install tk
-: 1622544101:0;clear
-: 1622544105:0;python3 CovidTracker.py
-: 1622544150:0;clear
-: 1622544151:0;python3 CovidTracker.py
-: 1622544170:0;clear
-: 1622544171:0;python3 CovidTracker.py
-: 1622544199:0;python3 pip3 install tkinter
-: 1622544206:0;python3 install tkinter
-: 1622544213:0;python3 tkinter
-: 1622544239:0;sudo pacman -S tk
-: 1622544287:0;clear
-: 1622544289:0;python3 tkinter
-: 1622544296:0;python3 CovidTracker.py
-: 1622544318:0;clear
-: 1622544320:0;python3 CovidTracker.py
-: 1622544517:0;clear
-: 1622544704:0;git status
-: 1622544707:0;git add .
-: 1622544730:0;git commit -m "Added Covid Tracker"
-: 1622544735:0;git push -u origin master
-: 1622544773:0;git push -u origin main
-: 1622544780:0;git push origin
-: 1622544799:0;git push origin --force
-: 1622550506:0;clear
-: 1622550519:0;ping -c 1 www.youtube.com
-: 1622550523:0;clear
-: 1622554254:0;python3 manage.py makemigrations 
-: 1622554262:0;source ../django/bin/activate
-: 1622554263:0;clear
-: 1622554270:0;python3 manage.py makemigrations 
-: 1622562970:0;clear
-: 1622562973:0;python3 manage.py makemigrations 
-: 1622562987:0;clear
-: 1622562988:0;python3 manage.py makemigrations 
-: 1622562995:0;python3 manage.py migrate
-: 1622562998:0;clear
-: 1622563182:0;sudo ip link set wlan0 up
-: 1622563195:0;wifi
-: 1622563279:0;python3 manage.py runserver
-: 1622563303:0;wifi
-: 1622563323:0;sudo ip link set wlan0 up
-: 1622564911:0;python3 manage.py runserver
-: 1622569912:0;clear
-: 1622570446:0;django-admin startproject documents/code/Django-Projects/restrictions
-: 1622570462:0;cd documents/code/Django-Projects/
-: 1622570468:0;django-admin startproject restrictions
-: 1622571057:0;source ../django/bin/activate
-: 1622571073:0;pip3 install django
-: 1622572179:0;clear
-: 1622572261:0;python3 manage.py startapp core
-: 1622572282:0;mkdir templates
-: 1622572286:0;clear
-: 1622572298:0;manage.py migrate
-: 1622572302:0;./manage.py migrate
-: 1622572309:0;clear
-: 1622572316:0;./manage.py makemigrations
-: 1622572350:0;./manage.py createsuperuser
-: 1622572364:0;clear
-: 1622572921:0;touch templates/base.html
-: 1622572923:0;clear
-: 1622572957:0;type nul > templates\base.html
-: 1622574907:0;type nul > templates/base.html
-: 1622574921:0;clear
-: 1622575408:0;touch templates/view_blog.html
-: 1622575410:0;clear
-: 1622575899:0;./manage.py makemigrations
-: 1622575903:0;./manage.py migrate
-: 1622575910:0;./manage.py runserver
-: 1622576115:0;clear
-: 1622576129:0;./manage.py loaddata core.json
-: 1622576604:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622576624:0;gedit .config/i3/config
-: 1622576650:0;clear
-: 1622576657:0;cd documents/code/Django-Projects/
-: 1622576658:0;clear
-: 1622576829:0;django-admin startproject school
-: 1622576886:0;./manage.py startapp core
-: 1622576888:0;clear
-: 1622576894:0;./manage.py migrate
-: 1622576915:0;clear
-: 1622576917:0;./manage.py migrate
-: 1622576923:0;./manage.py makemigrations
-: 1622576924:0;./manage.py migrate
-: 1622576934:0;./manage.py createsuperuser
-: 1622576944:0;clear
-: 1622582026:0;./manage.py makemigrations
-: 1622582088:0;./manage.py migrate
-: 1622582095:0;./manage.py runserver
-: 1622582648:0;clear
-: 1622582650:0;./manage.py makemigrations
-: 1622582654:0;./manage.py migrate
-: 1622582659:0;./manage.py runserver
-: 1622583127:0;clear
-: 1622583139:0;./manage.py loaddata school
-: 1622583144:0;clear
-: 1622583149:0;./manage.py runserver
-: 1622583299:0;clear
-: 1622583301:0;cd ..
-: 1622583307:0;cd documents/code/Django-Projects/
-: 1622583311:0;git status
-: 1622583313:0;git add .
-: 1622583323:0;git commit -m "Added new projects"
-: 1622583330:0;git push -u origin main
-: 1622583335:0;clear
-: 1622583339:0;cd ..
-: 1622583342:0;ls -la
-: 1622583346:0;cd competative-programming
-: 1622583348:0;cd ..
-: 1622583356:0;cd flutter-apps
-: 1622583362:0;git status
-: 1622583402:0;free -h
-: 1622583414:0;top
-: 1622583440:0;logout
-: 1622609898:0;gedit .config/i3/config
-: 1622609956:0;wifi
-: 1622610039:0;gedit .config/i3/config
-: 1622610249:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622610393:0;vim .gitignore
-: 1622610414:0;ls -la
-: 1622610428:0;git status
-: 1622610831:0;clear
-: 1622610834:0;cd cpp-practice
-: 1622610835:0;clear
-: 1622610839:0;g++ stack.cpp
-: 1622610845:0;./a.out
-: 1622610851:0;clear
-: 1622610868:0;g++ stack.cpp
-: 1622610877:0;./a.out
-: 1622610882:0;g++ stack.cpp
-: 1622610886:0;./a.out
-: 1622612085:0;cd documents/code/
-: 1622612086:0;ls -la
-: 1622612088:0;git clone https://github.com/terroo/i3-radius
-: 1622612104:0;cd i3-radius
-: 1622612105:0;clear
-: 1622612120:0;sh build.sh
-: 1622612150:0;gedit .config/i3/config
-: 1622612175:0;clear
-: 1622612201:0;gedit .config/i3/config
-: 1622612226:0;ls -la
-: 1622612265:0;cd ..
-: 1622612276:0;rm -r i3-radius/
-: 1622612291:0;sudo rm -r i3-radius
-: 1622612292:0;clear
-: 1622613124:0;touch queue.cpp
-: 1622613262:0;clear
-: 1622613710:0;g++ q
-: 1622613712:0;clear
-: 1622613717:0;g++ queue.cpp
-: 1622613720:0;clear
-: 1622613722:0;./a.out
-: 1622613790:0;clear
-: 1622613793:0;g++ queue.cpp
-: 1622613797:0;./a.out
-: 1622613856:0;clear
-: 1622613863:0;touch linkedlist.cpp
-: 1622615254:0;clear
-: 1622615260:0;g++ linkedlist.cpp
-: 1622615264:0;./a.out
-: 1622615326:0;clear
-: 1622615333:0;vim documents/code/.dotfiles/sysnote.txt
-: 1622615397:0;clear
-: 1622615407:0;g++ linkedlist.cpp
-: 1622615412:0;./a.out
-: 1622617584:0;sudo pacman -S i3-gaps-rounded-git
-: 1622617607:0;yay -S i3-gaps-rounded-git
-: 1622618009:0;gedit .config/i3/config
-: 1622618070:0;clear
-: 1622618073:0;gedit .config/i3/config
-: 1622622877:0;htop
-: 1622622889:0;clear
-: 1622622891:0;top
-: 1622622910:0;top | grep brave
-: 1622622927:0;top | grep brave-bin
-: 1622622937:0;clear
-: 1622622938:0;top | grep brave-bin
-: 1622622940:0;clear
-: 1622622943:0;top
-: 1622622982:0;rofi -show run
-: 1622623009:0;clear
-: 1622623013:0;top
-: 1622634841:0;gedit .config/i3/config
-: 1622635941:0;vim documents/code/.dotfiles/sysnote.txt
-: 1622636080:0;clear
-: 1622637452:0;gedit .config/i3/config
-: 1622637497:0;clear
-: 1622637602:0;git clone https://github.com/anuragdevon/py-go.git
-: 1622637609:0;clear
-: 1622637735:0;go build Armstrong.go
-: 1622637743:0;go run
-: 1622637746:0;clear
-: 1622637754:0;go Armstrong.go
-: 1622637761:0;go run Armstrong.go
-: 1622637780:0;clear
-: 1622637791:0;go run Armstrong.go
-: 1622637803:0;clear
-: 1622639047:0;npm main.js
-: 1622639050:0;clear
-: 1622639180:0;touch blockchain.rs
-: 1622639268:0;clear
-: 1622639282:0;rustc blockchain.rs
-: 1622639543:0;clear
-: 1622639565:0;rustc blockchain.rs
-: 1622639629:0;clear
-: 1622639634:0;rustc blockchain.rs
-: 1622639690:0;clear
-: 1622639697:0;rustc blockchain.rs
-: 1622639714:0;clear
-: 1622639724:0;./blockchain
-: 1622639810:0;clear
-: 1622639814:0;rustc blockchain.rs
-: 1622639835:0;clear
-: 1622639837:0;rustc blockchain.rs
-: 1622639840:0;./blockchain
-: 1622639851:0;clear
-: 1622639864:0;rustc blockchain.rs
-: 1622639888:0;rustc blockchain.rs && ./blockchain
-: 1622640501:0;source scripts/bin/activate
-: 1622640503:0;clear
-: 1622642579:0;touch ss.py
-: 1622642623:0;pip3 install pyautogui
-: 1622642653:0;clear
-: 1622642903:0;./ss.py
-: 1622642906:0;clear
-: 1622642916:0;python3 ss.py
-: 1622643022:0;gedit .config/i3/config
-: 1622643151:0;source ../django/bin/activate
-: 1622645785:0;./manage.py runserver
-: 1622652320:0;clear
-: 1622652325:0;./manage.py runserver
-: 1622655548:0;mkdir -p templates/registration
-: 1622655771:0;clear
-: 1622655773:0;./manage.py runserver
-: 1622655829:0;clear
-: 1622655832:0;cd  ..
-: 1622655836:0;git status
-: 1622655839:0;git add .
-: 1622655844:0;git commit -m "Added new projects"
-: 1622655847:0;git push -u origin main
-: 1622655852:0;clear
-: 1622655923:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622658380:0;vim tutor
-: 1622658385:0;clear
-: 1622661746:0;vim documents/code/.dotfiles/sysnote.txt
-: 1622661783:0;cat /sys/class/power_supply/BAT1/capacity
-: 1622661797:0;cat documents/code/.dotfiles/sysnote.txt
-: 1622661802:0;clear
-: 1622661862:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622662100:0;gedit .config/i3/config
-: 1622664173:0;cd /etc/X11/xorg.conf.d
-: 1622664175:0;ls -la
-: 1622664194:0;vim 20-intel.conf
-: 1622664215:0;sudo vim 20-intel.conf
-: 1622664226:0;clear
-: 1622694816:0;wifi
-: 1622695498:0;clear
-: 1622695685:0;touch cpp-practice/stackLink.cpp
-: 1622697969:0;gedit .config/i3/config
-: 1622699097:0;clear
-: 1622704504:0;cd cpp-practice
-: 1622704505:0;clear
-: 1622704516:0;g++ stackLink.cpp
-: 1622704525:0;./a.out
-: 1622704588:0;g++ stackLink.cpp
-: 1622704592:0;clear
-: 1622704601:0;g++ stackLink.cpp && ./a.out
-: 1622704940:0;clear
-: 1622704942:0;g++ stackLink.cpp && ./a.out
-: 1622704987:0;clear
-: 1622704989:0;g++ stackLink.cpp && ./a.out
-: 1622708342:0;clear
-: 1622708346:0;g++ stackLink.cpp && ./a.out
-: 1622708432:0;clear
-: 1622708434:0;g++ stackLink.cpp && ./a.out
-: 1622709334:0;clear
-: 1622709348:0;g++ stackLink.cpp && ./a.out
-: 1622713441:0;touch exceptions.py
-: 1622713503:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622733434:0;neovim
-: 1622733478:0;yay -S neovim
-: 1622733500:0;clear
-: 1622733677:0;gedit .config/i3/config
-: 1622733770:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622735188:0;gedit .config/i3/config
-: 1622737271:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1622737344:0;gedit .config/i3/config
-: 1622746438:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622746610:0;gedit .config/i3/config
-: 1622747045:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622747123:0;clear
-: 1622747774:0;gedit .config/i3/config
-: 1622747789:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622748180:0;clear
-: 1622748206:0;code . .config/i3/config
-: 1622748912:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622749182:0;xprop
-: 1622749563:0;django-admin startproject bootapp
-: 1622749678:0;./manage.py startapp game
-: 1622749681:0;clear
-: 1622749733:0;./manage.py makemigrations
-: 1622749737:0;./manage.py migrate
-: 1622751906:0;django-admin concepts
-: 1622751915:0;django-admin startproject concepts
-: 1622751941:0;clear
-: 1622751943:0;cd ..
-: 1622751946:0;cd Django-Projects
-: 1622751947:0;clear
-: 1622751956:0;django-admin startproject concept'
-: 1622751958:0;django-admin startproject concept
-: 1622751960:0;clear
-: 1622752371:0;gedit .config/i3/config
-: 1622752384:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1622752842:0;gedit .config/i3/config
-: 1622754200:0;tree
-: 1622754207:0;pactree
-: 1622754260:0;pacman -S tree
-: 1622754265:0;sudo pacman -S tree
-: 1622754285:0;clear
-: 1622754287:0;tree
-: 1622754296:0;clear
-: 1622754306:0;tree
-: 1622754392:0;clear
-: 1622755141:0;mkdir flask
-: 1622755142:0;clear
-: 1622755854:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1622781458:0;wifi
-: 1622782758:0;touch queueLink.cpp\
-
-: 1622783867:0;gedit .config/i3/config
-: 1622783972:0;vim .config/i3/config
-: 1622784022:0;code . .config/i3/config
-: 1622786564:0;clear
-: 1622791124:0;/usr/bin/python /home/anurag/documents/code/py-go/python/exceptions.py
-: 1622791130:0;clear
-: 1622791139:0;python3 exceptions.py
-: 1622793624:0;gedit .config/i3/config
-: 1622793632:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1622794025:0;/usr/bin/python /home/anurag/documents/code/py-go/python/exceptions.py
-: 1622796293:0;./exceptions.py
-: 1622796306:0;exceptions.py
-: 1622796317:0;python3 exceptions.py
-: 1622796437:0;clear
-: 1622796757:0;python3 exceptions.py
-: 1622796892:0;sudo gedit documents/code/.dotfiles/.config/X11/Xresources
-: 1622796917:0;code documents/code/.dotfiles/.config/X11/Xresources
-: 1622796937:0;sudo vim documents/code/.dotfiles/.config/X11/Xresources
-: 1622797249:0;vimtutor
-: 1622797469:0;xrdb .config/X11/Xresources
-: 1622797497:0;sudo vim documents/code/.dotfiles/.config/X11/Xresources
-: 1622797534:0;xrdb .config/X11/Xresources
-: 1622797635:0;sudo gedit documents/code/.dotfiles/.config/X11/Xresources
-: 1622797643:0;xrdb .config/X11/Xresources
-: 1622797702:0;rofi -show run
-: 1622797720:0;xrdb .config/X11/Xresources
-: 1622797722:0;rofi -show run
-: 1622797755:0;xrdb .config/X11/Xresources
-: 1622797758:0;rofi -show run
-: 1622797801:0;xrdb .config/X11/Xresources
-: 1622797805:0;rofi -show run
-: 1622797815:0;gedit .config/i3/config
-: 1622797881:0;xrdb .config/X11/Xresources
-: 1622805437:0;sudo gedit documents/code/.dotfiles/.config/X11/Xresources
-: 1622805585:0;xrdb .config/X11/Xresources
-: 1622805700:0;clear
-: 1622805742:0;xrdb .config/X11/Xresources
-: 1622807085:0;source ../django/bin/activate
-: 1622807166:0;./manage.py makemigrations
-: 1622807188:0;./manage.py migrate
-: 1622807203:0;./manage.py runserver
-: 1622807244:0;tree
-: 1622807298:0;./manage.py runserver
-: 1622807383:0;python3 concept/settings.py
-: 1622808059:0;./manage.py makemigrations
-: 1622808063:0;./manage.py migrate
-: 1622808121:0;./manage.py makemigrations
-: 1622808123:0;./manage.py migrate
-: 1622808150:0;./manage.py makemigrations
-: 1622808153:0;./manage.py migrate
-: 1622808192:0;python3 concept/settings.py
-: 1622808462:0;python3 concept/wsgi.py
-: 1622808582:0;cd ..
-: 1622808599:0;cd django/lib
-: 1622808601:0;ls -la
-: 1622808606:0;ls
-: 1622808615:0;cd python3.9
-: 1622808623:0;cd site-packages/
-: 1622808625:0;ls -la
-: 1622808628:0;ls 
-: 1622808865:0;./manage.py createsuperuser
-: 1622808877:0;clear
-: 1622808918:0;./manage.py makemigrations
-: 1622808926:0;./manage.py migrate
-: 1622808958:0;./manage.py createsuperuser
-: 1622808965:0;clear
-: 1622809909:0;./manage.py startapp games
-: 1622809931:0;./manage.py startapp game
-: 1622810067:0;./manage.py makemigrations game
-: 1622810142:0;./manage.py migrate game
-: 1622810147:0;clear
-: 1622810159:0;./manage.py makemigrations game
-: 1622810196:0;./manage.py migrate game
-: 1622810308:0;./manage.py makemigrations game
-: 1622810426:0;./manage.py makemigrations 
-: 1622810429:0;./manage.py migrate 
-: 1622810471:0;./manage.py makemigrations 
-: 1622810474:0;./manage.py migrate 
-: 1622810660:0;./manage.py makemigrations 
-: 1622810663:0;./manage.py migrate 
-: 1622810710:0;./manage.py makemigrations 
-: 1622810713:0;./manage.py migrate 
-: 1622810817:0;clear
-: 1622810956:0;./manage.py shell
-: 1622811210:0;clear
-: 1622811212:0;./manage.py shell
-: 1622812669:0;free -h
-: 1622812700:0;gedit .config/i3status-rust/config.toml
-: 1622812721:0;free --mega| grep Mem | awk '{print ($3)}' & echo -n ðƒ¿ƒ³ƒª
-: 1622812734:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622812985:0;./manage.py runserver
-: 1622818879:0;./manage.py makemigrations 
-: 1622818885:0;./manage.py migrate 
-: 1622818907:0;clear
-: 1622818911:0;./manage.py runserver
-: 1622818931:0;./manage.py createsuperuser
-: 1622818952:0;./manage.py makemigrations 
-: 1622818955:0;./manage.py migrate 
-: 1622818958:0;clear
-: 1622819030:0;./manage.py makemigrations game
-: 1622819042:0;./manage.py migrate game
-: 1622819051:0;./manage.py runserver
-: 1622819121:0;./manage.py shell
-: 1622819331:0;./manage.py makemigrations game
-: 1622819370:0;./manage.py migrate game
-: 1622819698:0;./manage.py shell
-: 1622819934:0;clear
-: 1622821379:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622822459:0;./manage.py runserver
-: 1622827089:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622827620:0;./manage.py shell
-: 1622829207:0;./manage.py runserver
-: 1622834633:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622835524:0;clear
-: 1622835527:0;./manage.py runserver
-: 1622835861:0;clear
-: 1622835868:0;./manage.py runserver
-: 1622836981:0;clear
-: 1622836982:0;./manage.py runserver
-: 1622837009:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622838972:0;f0
-: 1622838977:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622839598:0;cd documents/code/Django-Projects
-: 1622839602:0;git status
-: 1622839608:0;git add .
-: 1622839614:0;git commit -m "Added new projects"
-: 1622839618:0;git push -u origin main
-: 1622839630:0;cd documents/code/Django-Projects
-: 1622839632:0;cd ..
-: 1622839636:0;ls 
-: 1622839639:0;cd blockchain
-: 1622839643:0;cd ..
-: 1622839646:0;cd competative-programming
-: 1622839651:0;git status
-: 1622839662:0;git add .
-: 1622839670:0;git commit -m "Added new files"
-: 1622839673:0;git push -u origin main
-: 1622839679:0;cd ..
-: 1622839682:0;ls
-: 1622839692:0;cd portfolio
-: 1622839696:0;git status
-: 1622839705:0;ls -la
-: 1622839709:0;cd devon
-: 1622839712:0;git status
-: 1622839716:0;git add .
-: 1622839724:0;git commit -m "Added new files"
-: 1622839727:0;git push -u origin main
-: 1622839736:0;cd ../../
-: 1622839739:0;ls -la
-: 1622839747:0;cd py-go
-: 1622839753:0;cd ..
-: 1622839755:0;cd python-scripts
-: 1622839762:0;git status
-: 1622839765:0;cd ..
-: 1622839772:0;cd rust
-: 1622839774:0;clear
-: 1622839779:0;fes
-: 1622839799:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622869140:0;wifi
-: 1622871526:0;./manage.py runserver
-: 1622873667:0;/usr/bin/python
-: 1622879734:0;./manage.py makemigrations game
-: 1622879740:0;./manage.py migrate game
-: 1622881571:0;./manage.py makemigrations game
-: 1622881574:0;./manage.py migrate game
-: 1622881580:0;./manage.py runserver
-: 1622885447:0;source ../django/bin/activate
-: 1622885469:0;./manage.py runserver
-: 1622888026:0;source ../django/bin/activate
-: 1622888107:0;./manage.py runserver
-: 1622888319:0;source ../django/bin/activate
-: 1622888342:0;./manage.py startapp sold
-: 1622888626:0;./manage.py migrate sold
-: 1622888657:0;source ../django/bin/activate
-: 1622888668:0;./manage.py migrate sold
-: 1622888700:0;./manage.py makemigrations sold
-: 1622888705:0;./manage.py migrate sold
-: 1622888747:0;./manage.py shell
-: 1622889055:0;./manage.py makemigrations sold
-: 1622889059:0;./manage.py migrate sold
-: 1622896264:0;wifi
-: 1622896426:0;code . documents/code/Django-Projects/concept
-: 1622896545:0;source ../django/bin/activate
-: 1622896551:0;./manage.py runserver
-: 1622896561:0;source ../django/bin/activate
-: 1622897443:0;/usr/bin/python
-: 1622900005:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622900012:0;free -h
-: 1622901462:0;git status
-: 1622901644:0;neofetch
-: 1622910057:0;cd ..
-: 1622910060:0;ls
-: 1622910062:0;clear
-: 1622910065:0;git status
-: 1622910071:0;git add .
-: 1622910075:0;git commit -m "Added new files"
-: 1622910081:0;git push -u origin main
-: 1622910117:0;free -h
-: 1622910132:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622914921:0;wifi
-: 1622920648:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622926971:0;gedit .config/i3/config
-: 1622927763:0;sudo pacman -Ss
-: 1622927770:0;sudo pacman -Sc
-: 1622927774:0;sudo pacman -Scc
-: 1622927790:0;fdisk
-: 1622927793:0;fdisk -l
-: 1622927797:0;sudo fdisk -l
-: 1622927822:0;cd documents/code/
-: 1622927823:0;ls
-: 1622927828:0;cd .dotfiles
-: 1622927837:0;git status
-: 1622927847:0;git commit -m "Added new files"
-: 1622927855:0;git add .
-: 1622927856:0;git commit -m "Added new files"
-: 1622927867:0;git push -u origin main
-: 1622954157:0;wifi
-: 1622954279:0;netctl
-: 1622954309:0;sudo pacman -R netctl
-: 1622954474:0;wifi
-: 1622954495:0;wifi-menu
-: 1622954607:0;ping -c 1 www.youtube.com
-: 1622954611:0;clear
-: 1622954707:0;sudo pacman -S wifi-menu
-: 1622954714:0;sudo pacman -S netctl
-: 1622954777:0;wifi
-: 1622959806:0;http www.google.com
-: 1622959816:0;sudo pacman -S http
-: 1622959837:0;http www.google.com
-: 1622959839:0;clear
-: 1622960930:0;g++ bubblesort.cpp
-: 1622961032:0;g++ bubblesort.cpp && ./a.out
-: 1622965513:0;vim .config/i3/config
-: 1622965524:0;vimtutor
-: 1622965927:0;g++ bubblesort.cpp && ./a.out
-: 1622967762:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1622970533:0;wifi
-: 1622970625:0;wifi-menu -h
-: 1622971027:0;g++ bubblesort.cpp && ./a.out
-: 1622979436:0;wifi
-: 1622980013:0;django-admin django-restapi
-: 1622980024:0;django-admin startproject django-restapi
-: 1622980366:0;pip3 freeze
-: 1622980461:0;django-admin startproject djangorestapi
-: 1622980486:0;source ../django/bin/activate
-: 1622980506:0;pip3 freeze
-: 1622981385:0;pip3 install djangorestframework
-: 1622982000:0;./manage.py makemigrations 
-: 1622982008:0;./manage.py migrate
-: 1622982055:0;./manage.py runserver
-: 1622982066:0;source ../django/bin/activate
-: 1622982099:0;./manage.py startapp games
-: 1622982913:0;./manage.py runserver
-: 1622982934:0;source ../django/bin/activate
-: 1622983126:0;./manage.py runserver
-: 1622983154:0;./manage.py migrate games
-: 1622983163:0;./manage.py makemigrations games
-: 1622983165:0;./manage.py migrate games
-: 1622983236:0;./manage.py craeatesuperuser
-: 1622983250:0;./manage.py createsuperuser
-: 1622987803:0;vim documents/code/.dotfiles/sysnote.txt
-: 1622990924:0;./manage.py makemigrations games
-: 1622990928:0;./manage.py migrate games
-: 1622994053:0;gedit .config/i3/config
-: 1622994065:0;vim .config/i3/config
-: 1622994181:0;gedit .config/i3/config
-: 1622994298:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622994383:0;gedit .config/i3/config
-: 1622994584:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1622994629:0;alsamixer -c 1
-: 1622994643:0;alsamixer -c 
-: 1622994647:0;alsamixer
-: 1622994654:0;alsamixer -c 1
-: 1622994774:0;sudo gedit documents/code/.dotfiles/.config/X11/Xresources
-: 1622994806:0;xrdb .config/X11/Xresources
-: 1622994929:0;sudo gedit documents/code/.dotfiles/root/etc/i3status.conf
-: 1622994935:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1622995051:0;gedit .config/i3/config
-: 1622995995:0;./manage.py migrate games
-: 1622996041:0;./manage.py runserver
-: 1622996077:0;source ../django/bin/activate
-: 1622996095:0;./manage.py runserver
-: 1622998506:0;gedit .config/i3/config
-: 1622999378:0;source ../django/bin/activate
-: 1622999386:0;./manage.py shell
-: 1623002037:0;gedit .config/i3/config
-: 1623010205:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1623013464:0;gedit .config/i3/config
-: 1623041452:0;wifi
-: 1623046213:0;g++ sort.cpp&& ./a.out
-: 1623046236:0;g++ sort.cpp && ./a.out
-: 1623046747:0;gedit .config/i3/config
-: 1623047890:0;grub-mkconfig -o /boot/grub/grub.cfg
-: 1623047894:0;gedit .config/i3/config
-: 1623052036:0;cat names.log | sort | uniq | wc -l
-: 1623053189:0;python3
-: 1623053194:0;python
-: 1623053291:0;which python
-: 1623053298:0;which python3
-: 1623053304:0;where python3
-: 1623053340:0;source scripts/bin/activate
-: 1623053496:0;source /home/anurag/documents/code/python-scripts/scripts/bin/activate
-: 1623053496:0;/home/anurag/documents/code/python-scripts/scripts/bin/python
-: 1623053660:0;python3 NamesCount.py
-: 1623053720:0;cat names.log
-: 1623053738:0;cat names
-: 1623053740:0;cat name
-: 1623059462:0;cat local_host
-: 1623059598:0;systemctl
-: 1623059665:0;vim documents/code/.dotfiles/.config/X11/xinitrc
-: 1623059691:0;micro documents/code/.dotfiles/.config/X11/xinitrc
-: 1623059739:0;wifi-menu
-: 1623059745:0;wifi-menu --help
-: 1623059761:0;netctl
-: 1623059771:0;netctl list
-: 1623059809:0;netctl stop-all
-: 1623059844:0;sudo thunar
-: 1623060027:0;netctl list
-: 1623060048:0;sudo netctl start wlan0-devonM
-: 1623060077:0;iw dev wlan0 link
-: 1623060172:0;systemctl status "netctl@wlan0\\x2ddevonM.service"" and "journalctl -xeu "netctl@wlan0\\x2ddevonM.service"
-: 1623060186:0;systemctl status "netctl@wlan0\\x2ddevonM.service""\
-
-: 1623060191:0;systemctl status "netctl@wlan0\\x2ddevonM.service"\
-
-: 1623060225:0;rfkill
-: 1623060240:0;rfkill -h
-: 1623060264:0;rfkill unblock wlan
-: 1623060269:0;sudo rfkill unblock wlan
-: 1623060279:0;systemctl status "netctl@wlan0\\x2ddevonM.service"\
-
-: 1623060300:0;iw dev wlan0 link
-: 1623060305:0;rfkill
-: 1623060320:0;sudo netctl start wlan0-devonM
-: 1623065306:0;ping -c 1 www.youtube.com
-: 1623066526:0;cat /var/log/Xorg.0.log
-: 1623070841:0;wifi
-: 1623072428:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1623072909:0;django-admin startproject userlogin
-: 1623073038:0;source ../django/bin/activate
-: 1623073063:0;./manage.py makemigrations 
-: 1623073069:0;./manage.py migrate
-: 1623073084:0;source ../django/bin/activate
-: 1623073096:0;./manage.py runserver
-: 1623074465:0;./manage.py startapp users
-: 1623074559:0;./manage.py makemigrations 
-: 1623074563:0;./manage.py migrate
-: 1623074580:0;./manage.py createsuperuser
-: 1623074678:0;./manage.py startapp gamers
-: 1623074976:0;./manage.py makemigrations gamers
-: 1623074987:0;./manage.py migrate gamers
-: 1623078201:0;./manage.py shell
-: 1623078451:0;./manage.py createsuperuser --username=andrew
-: 1623078475:0;./manage.py createsuperuser --username=andrew --email='' --password=bubun
-: 1623078502:0;./manage.py createsuperuser --username=andrew --password=bubun
-: 1623078515:0;./manage.py createsuperuser --username=andrew --email=''
-: 1623078547:0;./manage.py shell
-: 1623078806:0;sudo gedit documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623079663:0;xprop
-: 1623080678:0;./manage.py runserver
-: 1623080747:0;./manage.py makemigrations gamers
-: 1623080903:0;./manage.py runserver
-: 1623101060:0;source ../django/bin/activate
-: 1623128461:0;wifi
-: 1623128528:0;rfkill 
-: 1623128541:0;sudo ip link set wlan0 up
-: 1623128552:0;wifi
-: 1623128560:0;sudo ip link set wlan0 down
-: 1623128562:0;wifi
-: 1623129646:0;source ../django/bin/activate
-: 1623129669:0;./manage.py runserver
-: 1623135042:0;python3 -m smtpd -n -c DebuggingServer localhost:1025
-: 1623135110:0;source ../django/bin/activate
-: 1623137880:0;python3 -m smtpd -n -c DebuggingServer localhost:1025
-: 1623140293:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1623142354:0;ping -c 1 www.marsroversociety.com
-: 1623142364:0;ping -c 1 www.youtube.com
-: 1623143202:0;cd documents/code/
-: 1623143204:0;la -la
-: 1623143209:0;cd blockchain
-: 1623143411:0;cd /var/log
-: 1623143413:0;ls -la
-: 1623143469:0;rm -r journal
-: 1623143474:0;sudo rm -r journal
-: 1623143477:0;ls -la
-: 1623143481:0;cd old
-: 1623143484:0;ls -la
-: 1623143487:0;cd ..
-: 1623143491:0;ls -la
-: 1623143514:0;cat wtmp
-: 1623143547:0;ls -la
-: 1623143555:0;cat Xorg.0.log
-: 1623143564:0;ls -la
-: 1623143571:0;cat lastlog
-: 1623143579:0;cat btmp
-: 1623143585:0;cat atop
-: 1623143588:0;cd atop
-: 1623143590:0;ls -la
-: 1623143596:0;cat  atop_20210510
-: 1623144576:0;gedit .config/i3/config
-: 1623151589:0;wifi
-: 1623151618:0;netctl list
-: 1623152095:0;free --mega| grep Mem | awk '{print ($3)}'
-: 1623152118:0;free
-: 1623152124:0;free -h
-: 1623152138:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623152156:0;free
-: 1623152281:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623153595:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623153932:0;source ../django/bin/activate
-: 1623154157:0;./manage.py runserver
-: 1623154609:0;python3 -m smtpd -n -c DebuggingServer localhost:1025
-: 1623155317:0;/usr/bin/python
-: 1623156351:0;vim pldoc
-: 1623166379:0;source ../django/bin/activate
-: 1623166411:0;pip3 install social-auth-app-django
-: 1623166433:0;sudo pacman -S ngrok
-: 1623167254:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623170839:0;source ../django/bin/activate
-: 1623171569:0;./manage.py migrate 
-: 1623171578:0;./manage.py makemigrations 
-: 1623171583:0;./manage.py migrate 
-: 1623172547:0;./manage.py runserver
-: 1623172621:0;pip3 install social-auth-app-django
-: 1623172627:0;./manage.py runserver
-: 1623173005:0;django-admin startproject customAdmin
-: 1623173030:0;source ../django/bin/activate
-: 1623173046:0;./manage.py runserver
-: 1623173058:0;./manage.py makemigrations 
-: 1623173062:0;source ../django/bin/activate
-: 1623173067:0;./manage.py makemigrations 
-: 1623173071:0;./manage.py migrate 
-: 1623173082:0;./manage.py runserver
-: 1623173147:0;./manage.py createsuperuser --username=anurag --email=anurag@email.com
-: 1623173206:0;./manage.py startapp gamers
-: 1623181158:0;./manage.py makemigrations gamers
-: 1623181197:0;./manage.py migrate gamers
-: 1623182200:0;./manage.py shell
-: 1623182493:0;./manage.py makemigrations gamers
-: 1623182516:0;./manage.py migrate gamers
-: 1623185331:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623185395:0;./manage.py migrate gamers
-: 1623185397:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623186165:0;ps
-: 1623186176:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623186178:0;ps
-: 1623186446:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623215860:0;wifi
-: 1623217871:0;source ../django/bin/activate
-: 1623217878:0;./manage.py runserver
-: 1623217884:0;source ../django/bin/activate
-: 1623222750:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623230456:0;./manage.py makemigrations gamers
-: 1623230463:0;./manage.py migrate gamers
-: 1623230483:0;./manage.py makemigrations gamers
-: 1623230487:0;./manage.py migrate gamers
-: 1623230533:0;./manage.py makemigrations gamers
-: 1623230535:0;./manage.py migrate gamers
-: 1623230914:0;./manage.py makemigrations gamers
-: 1623230916:0;./manage.py migrate gamers
-: 1623230942:0;./manage.py makemigrations gamers
-: 1623230944:0;./manage.py migrate gamers
-: 1623231886:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623231900:0;gedit .config/i3/config
-: 1623231958:0;gedit .config/i3status-rust/config.toml
-: 1623239749:0;iw dev wlan0 link
-: 1623239758:0;wifi
-: 1623240030:0;gedit .config/i3status-rust/config.toml
-: 1623240107:0;gedit .config/i3/config
-: 1623240122:0;vim .config/i3status-rust/config.toml
-: 1623240138:0;gedit .config/i3/config
-: 1623240335:0;vim .config/i3status-rust/config.toml
-: 1623240349:0;gedit .config/i3status-rust/config.toml
-: 1623240397:0;micro .config/i3/config
-: 1623240427:0;pacman -R gedit
-: 1623240431:0;sudo pacman -R gedit
-: 1623240613:0;gedit .config/i3status-rust/config.toml
-: 1623240624:0;micro .config/i3status-rust/config.toml
-: 1623240709:0;micro .config/i3/config
-: 1623241552:0;source ../django/bin/activate
-: 1623241559:0;./manage.py runserver
-: 1623241758:0;cat /sys/class/power_supply/BAT1/capacity
-: 1623247824:0;source ../django/bin/activate
-: 1623247833:0;./manage.py shell
-: 1623264475:0;code . Downloads/placementcell/Order\ of\ Content.txt
-: 1623266150:0;micro danger
-: 1623266653:0;cat Downloads/placementcell/Order\ of\ Content.txt
-: 1623301483:0;wifi
-: 1623302778:0;source ../django/bin/activate
-: 1623302783:0;./manage.py runserver
-: 1623303095:0;/usr/bin/python
-: 1623313050:0;micro .config/i3status-rust/config.toml
-: 1623313066:0;micro .config/i3/config
-: 1623313410:0;sudo micro documents/code/.dotfiles/root/etc/zsh/zprofile
-: 1623313490:0;ls -la
-: 1623313504:0;startx XINITRC
-: 1623313516:0;exit i3
-: 1623313519:0;exit
-: 1623313534:0;micro .config/i3/config
-: 1623313700:0;iw dev wlan0 link
-: 1623314054:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623315388:0;err
-: 1623315391:0;startx XINITRC
-: 1623315408:0;exit
-: 1623315416:0;startx XINITRC
-: 1623315467:0;micro .config/i3/config
-: 1623315502:0;iw dev wlan0 link
-: 1623324081:0;startx XINITRC
-: 1623324233:0;iw dev wlan0 link
-: 1623324248:0;wifi
-: 1623324683:0;django-admin startproject socketsdjango
-: 1623324705:0;source ../django/bin/activate
-: 1623324739:0;./manage.py makemigrations 
-: 1623324747:0;./manage.py migrate 
-: 1623324758:0;./manage.py runserver
-: 1623325077:0;./manage.py startapp gamer
-: 1623325198:0;source ../django/bin/activate
-: 1623325211:0;pip3 install channels
-: 1623325248:0;pip3 install asgi_redis
-: 1623325372:0;pip3 install asgi_redis==3.3.4
-: 1623325400:0;pip3 install asgiref==3.3.4
-: 1623325451:0;pip3 --help
-: 1623325479:0;pip3 uninstall asgi_redis
-: 1623326472:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623326573:0;micro .config/i3/config
-: 1623327200:0;sudo pacman -S python-redis
-: 1623327411:0;sudo pacman -R python-redis
-: 1623327449:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623328378:0;sudo pacman -R python-redis
-: 1623328589:0;cat /sys/class/power_supply/BAT1/capacity
-: 1623328716:0;sudo pacman -S redis
-: 1623328841:0;micro .config/i3status-rust/config.toml
-: 1623330850:0;sudo pacman -S lxappearance
-: 1623331394:0;cd .local/bin/scripts
-: 1623331403:0;touch i3exit
-: 1623331411:0;micro i3exit
-: 1623331430:0;chmod +x i3exit
-: 1623331454:0;ls -la
-: 1623331475:0;i3exit
-: 1623331492:0;rm -r i3exit
-: 1623331494:0;ls -la
-: 1623331507:0;cat dmenuEmoji
-: 1623332551:0;micro .config/i3/config
-: 1623332730:0;fc-match
-: 1623332925:0;fc
-: 1623333650:0;sudo pacman -S lxappearance
-: 1623333660:0;lxappearance
-: 1623334395:0;sudo pacman -R lxappearance
-: 1623334733:0;./manage.py runserver
-: 1623334769:0;redis
-: 1623334783:0;sudo pacman -S redis
-: 1623334803:0;redis-cli
-: 1623334824:0;ranger
-: 1623334862:0;cd .config/ranger
-: 1623334864:0;ls -la
-: 1623334918:0;ranger
-: 1623335083:0;ls -la | wc -l
-: 1623335150:0;micro rc.conf
-: 1623335158:0;ranger
-: 1623335255:0;micro redis.conf
-: 1623335481:0;source ../django/bin/activate
-: 1623335484:0;redis-cli
-: 1623335543:0;micro .config/i3status-rust/config.toml
-: 1623335725:0;micro .config/i3/config
-: 1623335853:0;micro .config/i3status-rust/config.toml
-: 1623337263:0;micro .config/i3/config
-: 1623337362:0;htop
-: 1623337369:0;top
-: 1623337407:0;redis-server
-: 1623337444:0;redis-cli
-: 1623338315:0;./manage.py runserver
-: 1623338719:0;pip3 freeze
-: 1623338748:0;pip3 install asgi_redis
-: 1623338758:0;./manage.py runserver
-: 1623338791:0;pip3 install django==1.10.5
-: 1623338823:0;./manage.py runserver
-: 1623338848:0;pip3 install django
-: 1623338883:0;cd ..
-: 1623338885:0;ls -la
-: 1623338902:0;python3 -m venv django
-: 1623338911:0;cd socketsdjango
-: 1623338914:0;source ../django/bin/activate
-: 1623338919:0;pip3 freeze
-: 1623338924:0;pip3 install django
-: 1623338966:0;python3 -m pip install --upgrade pip
-: 1623338991:0;pip3 install channels
-: 1623339026:0;pip3 install asgi_redis
-: 1623339046:0;pip3 install asgi_redis==3.3.4
-: 1623339079:0;pip3 install asgiref==3.3.4
-: 1623339168:0;./manage.py runserver
-: 1623346284:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623346291:0;exit
-: 1623346301:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623346306:0;reboot
-: 1623346357:0;free -h --mega| grep Mem | awk '{print ($3)}'
-: 1623346361:0;startx XINITRC
-: 1623346742:0;micro .config/i3/config
-: 1623348253:0;cat Downloads/placementcell/Order\ of\ Content.txt
-: 1623350944:0;ranger
-: 1623353376:0;touch pl
-: 1623353379:0;micro pl
-: 1623353416:0;wc -l pl
-: 1623353424:0;wc -w pl
-: 1623356822:0;cd documents/code/
-: 1623356828:0;git clone https://github.com/vlang/v.git
-: 1623356938:0;ls -la
-: 1623356940:0;cd v
-: 1623356943:0;make
-: 1623389862:0;reboot
-: 1623390326:0;startx XINITRC
-: 1623390916:0;dmesg tail
-: 1623390921:0;dmesg | tail
-: 1623390927:0;sudo dmesg | tail
-: 1623391090:0;sudo pacman -S cheese
-: 1623391115:0;micro .config/i3status-rust/config.toml
-: 1623391186:0;sudo pacman -S cheese
-: 1623391197:0;ping -c 1 www.youtube.com
-: 1623392205:0;uname -r
-: 1623392939:0;backlit
-: 1623393144:0;cat /sys/class/power_supply/BAT1/capacity & echo -n ïƒµ¿
-: 1623393162:0;cat /sys/class/power_supply/BAT1/capacity & echo ïƒµ¿
-: 1623393170:0;cat /sys/class/power_supply/BAT1/capacity | echo ïƒµ¿
-: 1623393177:0;cat /sys/class/power_supply/BAT1/capacity | echo -n ïƒµ¿
-: 1623393210:0;cat /sys/class/power_supply/BAT1/capacity | print('ïƒµ¿')
-: 1623393227:0;cat /sys/class/power_supply/BAT1/capacity | print ïƒµ¿
-: 1623393233:0;cat /sys/class/power_supply/BAT1/capacity ^ print ïƒµ¿
-: 1623393241:0;cat /sys/class/power_supply/BAT1/capacity & print ïƒµ¿
-: 1623393383:0;print /sys/class/power_supply/BAT1/capacity
-: 1623393391:0;echo /sys/class/power_supply/BAT1/capacity
-: 1623393396:0;cat /sys/class/power_supply/BAT1/capacity
-: 1623393583:0;django-admin startproject pgbasic
-: 1623394352:0;pip3 install psycopg2
-: 1623394395:0;pip3 uninstall psycopg2
-: 1623394405:0;source ../django/bin/activate
-: 1623394409:0;pip3 uninstall psycopg2
-: 1623394420:0;pip3 install psycopg2
-: 1623394449:0;source ../django/bin/activate
-: 1623394454:0;psql 
-: 1623394464:0;psql -h localhost -U postgres\
-
-: 1623394729:0;vim .config/i3status-rust/config.toml
-: 1623394867:0;vim .config/i3/config
-: 1623395005:0;ranger
-: 1623396293:0;sudo pacman -S w3mimgdisplay
-: 1623396302:0;sudo pacman -S w3m-img
-: 1623396491:0;sudo pacman -S w3m
-: 1623396506:0;which w3m
-: 1623396636:0;ranger
-: 1623397159:0;pacman -Qi ranger
-: 1623397211:0;code .
-: 1623397881:0;ranger
-: 1623397930:0;exit
-: 1623397951:0;ranger
-: 1623397967:0;startx XINITRC
-: 1623397978:0;ranger
-: 1623399934:0;micro documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623399964:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623400173:0;vim .config/i3/config
-: 1623400467:0;ranger
-: 1623400537:0;ranger ~/pictures
-: 1623401065:0;ranger
-: 1623401196:0;vim .config/i3/config
-: 1623401249:0;vim documents/code/blockchain/main.js
-: 1623401283:0;ranger
-: 1623401468:0;vim documents/code/blockchain/main.js
-: 1623401803:0;micro vimrc 
-: 1623401847:0;vim .config/i3/config
-: 1623402688:0;sudo systemctl disable netctl-auto@wlan0.service
-: 1623409756:0;startx XINITRC
-: 1623409955:0;vim .config/i3status-rust/config.toml
-: 1623410038:0;wifi
-: 1623410349:0;source ../django/bin/activate
-: 1623410514:0;sudo -u postgres psql
-: 1623410549:0;postgres psql
-: 1623410569:0;sudo -u postgres psql
-: 1623412998:0;sudo -u postgres -i
-: 1623413110:0;sudo -u postgres psql
-: 1623413192:0;touch .psql_history
-: 1623413218:0;cd /var/lib/postgres
-: 1623413219:0;ls -la
-: 1623413227:0;cat .psql_history
-: 1623413233:0;sudo -u postgres psql
-: 1623413492:0;sudo intel_gpu top -l
-: 1623413534:0;vim .config/i3status-rust/config.toml
-: 1623414722:0;sudo -u postgres psql
-: 1623414744:0;sudo -u postgres psql anurag
-: 1623414761:0;ranger
-: 1623414809:0;micro .local/share/zsh/history
-: 1623414876:0;vim .config/i3/config
-: 1623415007:0;vim .config/i3status-rust/config.toml
-: 1623415251:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623415669:0;micro .local/share/zsh/history
-: 1623415726:0;psql -h localhost -U postgres\
-
-: 1623416209:0;source ../django/bin/activate
-: 1623416215:0;./manage.py makemigrations 
-: 1623416287:0;psql --help
-: 1623416309:0;psql -h
-: 1623416334:0;psql -h [pbase[hello]]
-: 1623416376:0;psql --host=local socket
-: 1623416387:0;psql --host=127.0.0.1:5432
-: 1623417499:0;psql --host=local
-: 1623417506:0;psql --host
-: 1623417516:0;psql --h
-: 1623417522:0;psql -h
-: 1623417554:0;sudo -u postgres psql hello
-: 1623417562:0;sudo -u postgres psql pbase
-: 1623417571:0;./manage.py makemigrations 
-: 1623417602:0;./manage.py migrate
-: 1623417690:0;./manage.py makemigrations 
-: 1623417692:0;./manage.py migrate
-: 1623417702:0;./manage.py runserver
-: 1623417750:0;source ../django/bin/activate
-: 1623417762:0;./manage.py createsuperuser --username=anurag 
-: 1623418418:0;./manage.py startapp gamer
-: 1623418452:0;./manage.py makemigrations gamer
-: 1623418479:0;./manage.py migrate gamer
-: 1623419180:0;./manage.py runserver
-: 1623419327:0;pip3 freeze > requirements.txt
-: 1623422960:0;django-admin startproject socketsdjango
-: 1623422985:0;ranger
-: 1623423045:0;vim documents/code/py-go/python/binarySearch.py
-: 1623423073:0;ranger
-: 1623423166:0;cd documents/code/
-: 1623423168:0;ls -la
-: 1623423186:0;cd vlang
-: 1623423228:0;cd python-scripts
-: 1623423231:0;cd ..
-: 1623423233:0;cd python-scripts
-: 1623423238:0;git add .
-: 1623423241:0;git commit -m "Added new files"
-: 1623423282:0;git push -u origin main
-: 1623423303:0;git push origin
-: 1623423361:0;cd documents/code/python-scripts
-: 1623423365:0;git status
-: 1623423371:0;git push
-: 1623423503:0;vim .config/i3/config
-: 1623423537:0;iw dev wlan0 link
-: 1623423553:0;sudo ip link set wlan0 down
-: 1623423634:0;startx XINITRC
-: 1623423737:0;iw dev wlan0 link
-: 1623423765:0;vim .local/bin/scripts/wifi
-: 1623423798:0;wifi
-: 1623423815:0;cd documents/code/python-scripts
-: 1623423820:0;git push origin
-: 1623423855:0;iw dev wlan0 link
-: 1623423974:0;sudo vim documents/code/.dotfiles/root/etc/zsh/zprofile
-: 1623424076:0;exit
-: 1623426557:0;ranger
-: 1623427023:0;cd ..
-: 1623427036:0;cd flask-apps
-: 1623427040:0;git init
-: 1623427061:0;git branch -m main
-: 1623427092:0;python3 -m pip install --upgrade pip
-: 1623427112:0;python3 -m venv flask
-: 1623427132:0;source ../flask/bin/activate
-: 1623427144:0;cd flask-apps
-: 1623427250:0;cd todolist
-: 1623427261:0;mkdir todolist && cd todolist
-: 1623427275:0;source ../flask/bin/activate
-: 1623427294:0;pip3 freeze 
-: 1623427302:0;pip3 install flask
-: 1623427354:0;pip3 install flasksqlalchemy
-: 1623427373:0;pip3 install Flask-SQLAlchemy
-: 1623427435:0;touch app.py
-: 1623429946:0;vim .config/i3status-rust/config.toml
-: 1623430074:0;pip3 freeze 
-: 1623430141:0;pip3 show flask
-: 1623430232:0;pip3 install Flask
-: 1623430239:0;cd ..
-: 1623430244:0;pip3 install Flask
-: 1623430249:0;pip3 install flask
-: 1623430259:0;cd todolist
-: 1623430513:0;source ../flask deactivte
-: 1623430521:0;source deactivate
-: 1623430563:0;ranger
-: 1623430643:0;python3 -m venv env
-: 1623430683:0;pip3 install flask, flasksqlalchemy
-: 1623430701:0;source env/bin/activate
-: 1623430710:0;pip3 install flask flasksqlalchemy
-: 1623430729:0;pip3 install flask Flask-SQLAlchemy
-: 1623430747:0;pip3 freeze 
-: 1623430898:0;python3 -m pip install --upgrade pip
-: 1623430905:0;python3 -m venv env
-: 1623430914:0;python3 -m pip install --upgrade pip
-: 1623430928:0;pip3 install flask Flask-SQLAlchemy
-: 1623430946:0;pip3 freeze 
-: 1623430971:0;pip show flask
-: 1623430989:0;pip3 show flask
-: 1623431007:0;pip install flask Flask-SQLAlchemy
-: 1623431034:0;pip3 uninstall flask Flask-SQLAlchemy
-: 1623431048:0;pip install flask Flask-SQLAlchemy
-: 1623431093:0;source env/bin/activate
-: 1623431352:0;python3 app.py
-: 1623432103:0;dmesg
-: 1623432110:0;sensors
-: 1623433927:0;source env/bin/activate
-: 1623433935:0;python3 app.py
-: 1623433941:0;source /home/anurag/documents/code/flask-apps/todolist/env/bin/activate
-: 1623439955:0;vim .config/i3/config
-: 1623440083:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623440152:0;vim .config/i3/config
-: 1623440212:0;ranger
-: 1623441428:0;source env/bin/activate
-: 1623441463:0;source /home/anurag/documents/code/flask-apps/todolist/env/bin/activate
-: 1623441463:0;/home/anurag/documents/code/flask-apps/todolist/env/bin/python
-: 1623441621:0;python3
-: 1623442262:0;python3 app.py
-: 1623443146:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
-: 1623443820:0;source /home/anurag/documents/code/flask-apps/todolist/env/bin/activate
-: 1623443825:0;python3 app.py
-: 1623473904:0;wifi
-: 1623473952:0;vim .config/i3status-rust/config.toml
-: 1623474795:0;python3 app.py
-: 1623474808:0;source /home/anurag/documents/code/flask-apps/todolist/env/bin/activate
-: 1623474815:0;python3 app.py
-: 1623480246:0;cd ..
-: 1623480253:0;cd flask-apps
-: 1623480259:0;touch .gitignore
-: 1623480261:0;ls -la
-: 1623480270:0;vim .gitignore
-: 1623480284:0;source /home/anurag/documents/code/flask-apps/todolist/env/bin/activate
-: 1623480307:0;cd todolist
-: 1623480309:0;cd __pycache__
-: 1623480311:0;pwd
-: 1623480438:0;git status
-: 1623480481:0;git add .
-: 1623480485:0;git commit -m "Added new files"
-: 1623480526:0;git remote add origin https://github.com/anuragdevon/flask-apps.git
-: 1623480545:0;git branch -M main
-: 1623480554:0;git push -u origin main
-: 1623482664:0;python3 - m SimpleHTTPServer
-: 1623486949:0;alias
 : 1623486967:0;ll
 : 1623486976:0;ls -h
 : 1623486981:0;ls -lh
@@ -2094,203 +60,1143 @@
 : 1623506670:0;cat /sys/class/power_supply/BAT1/capacity
 : 1623506754:0;sudo -u postgres psql
 : 1623506775:0;micro .local/share/zsh/history
-: 1623506896:0;pip3 install psycopg2
-: 1623511830:0;devon neovim
-: 1623511945:0;cmatrix
-: 1623512146:0;git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/vim/bundle/Vundle.vim
-: 1623512339:0;vim .config/i3/config
-: 1623512390:0;ranger
-: 1623512589:0;vim .config/i3/config
-: 1623512652:0;ranger
-: 1623513070:0;source ../django/bin/activate
-: 1623513142:0;postgres psql
-: 1623513145:0;postgres 
-: 1623513158:0;sudo -u postgres psql
-: 1623513257:0;sudo su - postgres
-: 1623513663:0;./manage.py makemigrations 
-: 1623513671:0;./manage.py migrate
-: 1623515136:0;./manage.py makemigrations 
-: 1623515138:0;./manage.py migrate
-: 1623515146:0;source ../django/bin/activate
-: 1623515149:0;postgres 
-: 1623515155:0;postgres psql
-: 1623515160:0;sudo su - postgres
-: 1623515790:0;./manage.py runserver
-: 1623515845:0;./manage.py createsuperuser --username=anurag 
-: 1623515871:0;source ../django/bin/activate
-: 1623515873:0;./manage.py createsuperuser --username=anurag 
-: 1623515894:0;sudo -u postgres psql
-: 1623517601:0;ranger
-: 1623528731:0;source ../django/bin/activate
-: 1623528775:0;devon postgresql
-: 1623528787:0;devon postgresql-contrib
-: 1623528803:0;devon libpq-dev
-: 1623528810:0;devon python3-dv
-: 1623528814:0;devon python3-dev
-: 1623528836:0;sudo -u postgres psql
-: 1623528945:0;sudo pacman -R postgresql postgresql-libs
-: 1623529068:0;./manage.py migrate
-: 1623529106:0;psql -h
-: 1623529108:0;psql
-: 1623529114:0;psql myuser
-: 1623529122:0;psql mydb
-: 1623529196:0;./manage.py runserver
-: 1623529208:0;source ../django/bin/activate
-: 1623529212:0;./manage.py runserver
-: 1623529242:0;source ../django/bin/activate
-: 1623529252:0;./manage.py createsuperuser --username=anurag 
-: 1623529283:0;code . poll/admin.py
-: 1623529444:0;pg_config
-: 1623530059:0;source ../django/bin/activate
-: 1623530062:0;psql mydb
-: 1623530502:0;./manage.py makemigrations 
-: 1623530556:0;./manage.py migrate
-: 1623531324:0;psql mydb
-: 1623531393:0;systemctl start postgresql\
+: 1623583301:0;hugo server
+: 1623583691:0;vim .config/i3/config
+: 1623584907:0;sudo vim documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1623585053:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1623585257:0;vim .config/i3/config
+: 1623585295:0;ranger
+: 1623585319:0;free -h --mega| grep Mem | awk '{print ($3)}'
+: 1623585481:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1623585490:0;sudo vim documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1623585754:0;vim .local/bin/scripts/wifi
+: 1623585791:0;sudo ip link set wlan0 down
+: 1623585914:0;vim .config/i3/config
+: 1623585952:0;top
+: 1623585978:0;ps
+: 1623585985:0;ps man
+: 1623592964:0;wifi
+: 1623592985:0;hugo server
+: 1623594672:0;vim .config/i3/config
+: 1623597300:0;ranger
+: 1623598185:0;vim .config/i3/config
+: 1623600720:0;npm i bootstrap-icons
+: 1623600752:0;npm install -g npm@7.17.0
+: 1623601575:0;vim .config/i3/config
+: 1623611886:0;hugo server
+: 1623615386:0;vim .config/i3/config
+: 1623616839:0;hugo server
+: 1623619983:0;ranger
+: 1623620797:0;cd documents/code/
+: 1623620805:0;cd js-samples
+: 1623620837:0;touch index.html
+: 1623620941:0;vim index.html
+: 1623647442:0;wifi
+: 1623647648:0;vim documents/code/portfolio/devon/assets/js/site.js
+: 1623655415:0;devon ngrok
+: 1623655421:0;yay -S ngrok
+: 1623655537:0;ngrok --help
+: 1623655625:0;ngrok http
+: 1623655691:0;ngrok http 5500
+: 1623657622:0;vim documents/code/portfolio/devon/assets/js/site.js
+: 1623677197:0;/bin/bash
+: 1624103506:0;exit
+: 1623677216:0;/bin/sh
+: 1624103506:0;exit
+: 1623677222:0;/bin/sh/
+: 1623693627:0;ranger
+: 1623700554:0;ngrok http 5500
+: 1623700724:0;vim documents/code/portfolio/devon/assets/js/site.js
+: 1623702697:0;code ../../js-samples/site.js
+: 1623702758:0;hugo server
+: 1623702803:0;vim documents/code/js-samples/index.html
+: 1623735486:0;wifi
+: 1623735670:0;hugo server
+: 1623737230:0;vim .config/i3/config
+: 1623739423:0;ranger
+: 1623763352:0;wifi-menu
+: 1623763357:0;sudo wifi-menu
+: 1623763570:0;cd documents/code/
+: 1623763577:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1623763999:0;cd documents/code/
+: 1623764039:0;mkdir mars
+: 1623764056:0;cd mars
+: 1623764073:0;git clone https://github.com/WebOpsIIITDMK/mars-hugo-theme.git
+: 1623764084:0;cd mars-hugo-theme
+: 1623764117:0;ranger
+: 1623764221:0;cd mars-hugo-theme
+: 1623764225:0;npm install 
+: 1623764239:0;npm i
+: 1623764244:0;hugo server
+: 1623764265:0;hugo mod get -u
+: 1623764685:0;hugo mod
+: 1623764691:0;hugo mod -u
+: 1623765486:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1623766178:0;hugo mod get -u
+: 1623766459:0;git clone https://github.com/WebOpsIIITDMK/mars-hugo-theme.git
+: 1623766683:0;hugo mod add https://github.com/UtkarshVerma/hugo-modules/tree/main/bootstrap-v5
+: 1623766737:0;hugo mod --help
+: 1623766825:0;hugo init https://github.com/WebOpsIIITDMK/mars-hugo-theme
+: 1623766833:0;hugo mod init https://github.com/WebOpsIIITDMK/mars-hugo-theme
+: 1623766916:0;hugo mod init github.com/WebOpsIIITDMK/mars-hugo-theme
+: 1623766975:0;hugo mod --help
+: 1623767021:0;hugo mod get https://github.com/UtkarshVerma/hugo-modules/tree/main/bootstrap-v5
+: 1623767090:0;hugo mod get github.com/UtkarshVerma/hugo-modules/tree/main/bootstrap-v5
+: 1623767106:0;hugo mod get github.com/UtkarshVerma/hugo-modules/bootstrap-v5
+: 1623767205:0;hugo mod get github.com/UtkarshVerma/hugo-modules/svg-icon-system
+: 1623767590:0;hugo mod get -u
+: 1623767601:0;git diff
+: 1623767672:0;git add .
+: 1623767685:0;git commit -m "Update hugo modules"
+: 1623767690:0;git push origin
+: 1623767834:0;hugo mod get -u
+: 1623767904:0;hugo mod tidy
+: 1623767961:0;hugo mod get -u
+: 1623768031:0;hugo server
+: 1623768040:0;npm i
+: 1623768063:0;hugo server
+: 1623768146:0;git add .
+: 1623768158:0;git commit -m "UT"
+: 1623768166:0;git push origin
+: 1623768277:0;hugo mod tidy
+: 1623771775:0;hugo server
+: 1623771780:0;npm i
+: 1623771784:0;hugo server
+: 1623771793:0;npm install
+: 1623771798:0;npm -i
+: 1623771802:0;hugo server
+: 1623771812:0;npm install postcss-cli
+: 1623771909:0;hugo server
+: 1623772994:0;cd documents/code/
+: 1623773271:0;cd mars-website
+: 1623773276:0;cd ..
+: 1623773285:0;cd mars-hugo-theme
+: 1623773289:0;git status
+: 1623775828:0;cd documents/code/
+: 1623775832:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1623775857:0;git clone https://github.com/WebOpsIIITDMK/mars-hugo-theme.git
+: 1623775903:0;hugo mod get -u
+: 1623775909:0;npm i
+: 1623775919:0;hugo server
+: 1623776267:0;npm i
+: 1623776272:0;hugo server
+: 1623776289:0;npm install postcss-cli
+: 1623776307:0;hugo server
+: 1623776328:0;hugo mod get -u
+: 1623776334:0;hugo server
+: 1623776455:0;ranger
+: 1623776475:0;hugo mod add mars-hugo-theme
+: 1623776523:0;hugo mod get mars-hugo-theme
+: 1623776550:0;hugo mod get ../mars-hugo-theme
+: 1623776649:0;hugo server
+: 1623777371:0;cd documents/code/
+: 1623777381:0;git clone https://github.com/WebOpsIIITDMK/mars-hugo-theme.git
+: 1623777398:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1623777551:0;ranger
+: 1623777581:0;hugo mod get -u
+: 1623777831:0;cd ..
+: 1623777837:0;tree
+: 1623777909:0;hugo mod get -u
+: 1623777920:0;hugo server
+: 1623777991:0;hugo mod get -u
+: 1623777993:0;hugo server
+: 1623777998:0;npm install 
+: 1623778008:0;hugo server
+: 1623778246:0;ls
+: 1623778258:0;cd mars-website
+: 1623778260:0;ls
+: 1623778262:0;hugo 
+: 1623778293:0;hugo mod npm pack
+: 1623778296:0;npm i
+: 1623778309:0;hugo server
+: 1623778994:0;git diff
+: 1623779020:0;git status
+: 1623779025:0;git add .
+: 1623779077:0;git commit -m "Fix navbar link color"
+: 1623779082:0;git push origin
+: 1623779928:0;ranger
+: 1623786730:0;hugo server
+: 1623793922:0;yay -S polybar
+: 1623794698:0;polybar
+: 1623794705:0;polybar -c
+: 1623794732:0;cd .config
+: 1623794736:0;mkdir polybar
+: 1623794745:0;touch config
+: 1623794759:0;polybar -c=~/.config/polybar/config
+: 1623794771:0;vim .config/i3/config
+: 1623821836:0;wifi
+: 1623824314:0;touch config
+: 1623824473:0;polybar -c=~/.config/polybar/config
+: 1623824479:0;polybar
+: 1623824514:0;polybar --config=/home/anurag/.config/polybar/config
+: 1623824826:0;polybar example
+: 1623828893:0;micro .config/polybar/config
+: 1623828910:0;polybar example
+: 1623828918:0;polybar config
+: 1623828944:0;polybar global
+: 1623828946:0;polybar global/wm
+: 1623828958:0;polybar bar
+: 1623828963:0;polybar mainbar
+: 1623829230:0;cd .config/polybar
+: 1623829237:0;make userconfig
+: 1623829255:0;polybar example
+: 1623829285:0;polybar la
+: 1623829334:0;polybar mainbar-i3
+: 1623829678:0;polybar example
+: 1623829687:0;polybar mainbar-i3
+: 1623829692:0;micro .config/polybar/config
+: 1623829709:0;polybar devon
+: 1623829753:0;hugo server
+: 1623832485:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1623832515:0;hugo mod get -u
+: 1623832552:0;git add .
+: 1623832565:0;git commit -m "update theme"
+: 1623832574:0;git diff
+: 1623832593:0;git push origin
+: 1623835389:0;git diff
+: 1623835408:0;hugo server
+: 1623836997:0;devon rofi-calc
+: 1623837912:0;vim .config/i3/config
+: 1623838190:0;ranger
+: 1623838287:0;vim .config/i3/config
+: 1623838380:0;polybar devon
+: 1623838640:0;top
+: 1623838670:0;kill -9 99468
+: 1623843024:0;ranger
+: 1623846193:0;vim .config/i3/config
+: 1623846688:0;top
+: 1623846730:0;top | grep polybar
+: 1623846746:0;kill -9 99621
+: 1623847991:0;vim .config/i3/config
+: 1623855031:0;ranger
+: 1623855210:0;micro .config/i3/config
+: 1623858243:0;vim .config/i3/config
+: 1623858880:0;hugo server
+: 1623859737:0;clear
+: 1623859904:0;hugo server
+: 1623861113:0;polybar devon
+: 1623861822:0;vim .config/i3/config
+: 1623863412:0;ranger
+: 1623872230:0;vim .config/i3/config
+: 1623908340:0;hugo server
+: 1623909731:0;vim .config/i3/config
+: 1623909902:0;ranger
+: 1623911465:0;hugo server
+: 1623915276:0;ranger
+: 1623926474:0;vim .config/i3/config
+: 1623934851:0;hugo server
+: 1623952606:0;vim .config/i3/config
+: 1623952752:0;hugo server
+: 1623954385:0;ngrok http 5500
+: 1623957789:0;hugo server
+: 1623960930:0;vim .config/i3/config
+: 1623960935:0;ranger
+: 1623962788:0;vim
+: 1623962814:0;vim .config/i3/config
+: 1623992567:0;wifi
+: 1623995592:0;hugo server
+: 1624009215:0;cd documents/code/
+: 1624009232:0;mkdir mars
+: 1624009236:0;cd mars
+: 1624009241:0;polybar devon
+: 1624009292:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1624009316:0;cd documents/code/mars
+: 1624009322:0;git clone https://github.com/WebOpsIIITDMK/mars-hugo-theme.git
+: 1624009336:0;code . mars-hugo-theme
+: 1624009366:0;code . mars-hugo-theme/
+: 1624009561:0;cd mars-website/
+: 1624009564:0;hugo server
+: 1624009626:0;hugo npm pack
+: 1624009630:0;hugo install npm pack
+: 1624009634:0;hugo install npm 
+: 1624009640:0;npm i
+: 1624009672:0;npm audit
+: 1624009680:0;npm audit fix
+: 1624009699:0;hugo server
+: 1624012170:0;cd mars-website/
+: 1624012173:0;cd ..
+: 1624012177:0;cd mars-hugo-theme
+: 1624012181:0;git diff
+: 1624015272:0;cd documents/code/portfolio/devon/
+: 1624015274:0;code .
+: 1624015293:0;hugo server
+: 1624016203:0;ngrok http 1313
+: 1624024007:0;micro .config/polybar/config
+: 1624024041:0;polybar bar
+: 1624024080:0;vim .config/i3/config
+: 1624024126:0;polybar bar
+: 1624024360:0;polybar base
+: 1624024424:0;polybar bar
+: 1624024812:0;vim .config/i3/config
+: 1624027095:0;ranger
+: 1624031080:0;ngrok http 1313
+: 1624031483:0;vim .config/i3status-rust/config.toml
+: 1624035835:0;sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+: 1624035844:0;sudo chmod a+rx /usr/local/bin/youtube-dl
+: 1624035850:0;youtube
+: 1624035891:0;youtube-dl
+: 1624035900:0;youtube-dl --help
+: 1624042078:0;hugo server
+: 1624043844:0;vim check
+: 1624044458:0;cd documents/code/mars
+: 1624044460:0;code .
+: 1624044471:0;hugo server
+: 1624044479:0;cd mars-website
+: 1624044485:0;hugo server
+: 1624045817:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1624045840:0;vim .config/i3status-rust/config.toml
+: 1624049019:0;cd mars-website
+: 1624049022:0;git diff
+: 1624049040:0;cd ..
+: 1624049045:0;cd mars-hugo-theme
+: 1624049047:0;git diff
+: 1624049637:0;git add .
+: 1624049655:0;git commit -m "fix navbar link color"
+: 1624049661:0;git push origin
+: 1624051007:0;git diff
+: 1624051888:0;clear
+: 1624052808:0;git status
+: 1624085102:0;cat /sys/class/power_supply/BAT1/capacity
+: 1624085430:0;cd mars-website
+: 1624085446:0;hugo server
+: 1624085947:0;npm i
+: 1624085966:0;npm audit fix
+: 1624085975:0;hugo server
+: 1624086035:0;ngrok http 1313
+: 1624086298:0;clear
+: 1624087103:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1624087205:0;cd mars-website
+: 1624087224:0;cd mars-hugo-theme
+: 1624087227:0;git diff
+: 1624087281:0;git clone https://github.com/WebOpsIIITDMK/mars-hugo-theme.git
+: 1624087465:0;cd mars-website
+: 1624087477:0;hugo server
+: 1624087487:0;npm install postcss-cli
+: 1624087500:0;npm audit fix
+: 1624087507:0;hugo server
+: 1624087557:0;cd mars-hugo-theme
+: 1624087756:0;clear
+: 1624091209:0;git diff
+: 1624092231:0;git status
+: 1624092234:0;git diff
+: 1624092240:0;clear
+: 1624092244:0;git add .
+: 1624092272:0;git commit -m "fix button color"
+: 1624092278:0;git push origin
+: 1624092333:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1624092649:0;git status
+: 1624092656:0;git branch
+: 1624092660:0;git log
+: 1624092929:0;git log --oneline
+: 1624093359:0;git rebase -i HEAD~2
+: 1624093376:0;devon vi
+: 1624093397:0;git rebase -i HEAD~2
+: 1624093755:0;git config --global core.editor "vim"\
 
-: 1623531407:0;systemctl status postgresql
-: 1623531469:0;su - postgres
-: 1623531490:0;sudo -u postgres psql
-: 1623531501:0;sudo -u postgres 
-: 1623531516:0;postgres 
-: 1623531521:0;sudo postgres 
-: 1623531531:0;postgres psql
-: 1623531537:0;postgres --help
-: 1623531554:0;postgres -k
-: 1623562657:0;wifi
-: 1623571772:0;ranger
-: 1623571846:0;devon lf
-: 1623571910:0;devon lfm
-: 1623571952:0;yay -S lfm
-: 1623571987:0;ping -c 1 www.youtube.com
-: 1623572363:0;ln -sv ~/documents/code/.dotfiles/.config/mimeapps.list ~/.config/mimeapps.list
-: 1623572492:0;ln -sv ~/documents/code/.dotfiles/.config/xarchiver ~/.config/xarchiver
-: 1623572587:0;ln -sv ~/documents/code/.dotfiles/.config/Thunar ~/.config/Thunar
-: 1623572622:0;ln -sv ~/documents/code/.dotfiles/.config/ranger ~/.config/ranger
-: 1623577472:0;cd documents/code
-: 1623577477:0;ls -lh
-: 1623577481:0;ls -la
-: 1623577492:0;ll
-: 1623577505:0;ls
-: 1623577508:0;ls -la
-: 1623577523:0;cd blockchain
-: 1623577551:0;git status
-: 1623577555:0;git add .
-: 1623577557:0;ls -la
-: 1623577566:0;vim .gitignore
-: 1623577578:0;git commit -m "Added new files"
-: 1623577615:0;git remote add origin https://github.com/anuragdevon/blockchain.git
-: 1623577628:0;git branch -M main
-: 1623577636:0;git push -u origin main
-: 1623577660:0;cd ..
-: 1623577666:0;ls -la
-: 1623577670:0;ls -lh
-: 1623577676:0;da
-: 1623577680:0;df
-: 1623577708:0;ls -la
-: 1623577711:0;cd competative-programming
-: 1623577720:0;git status
-: 1623577739:0;git add .
-: 1623577743:0;git commit -m "Added new files"
-: 1623577747:0;git push -u origin main
-: 1623577758:0;cd ..
-: 1623577763:0;cd Django-Projects
-: 1623577776:0;git status
-: 1623577782:0;git add .
-: 1623577788:0;git commit -m "Added new files"
-: 1623577800:0;ls -la
-: 1623577806:0;vim .gitignore
-: 1623577832:0;git status
-: 1623577838:0;git push -u origin main
-: 1623577876:0;ls -la
-: 1623577919:0;cd ..
-: 1623577922:0;ls -la
-: 1623577926:0;cd flask-apps
-: 1623577928:0;git status
-: 1623577931:0;cd ..
-: 1623577942:0;cd flutter-apps
-: 1623577945:0;git status
-: 1623577966:0;ls -la
-: 1623577976:0;ls -lh
-: 1623577985:0;git status
-: 1623577993:0;git add .
-: 1623578020:0;git status
-: 1623578030:0;ls -la
-: 1623578050:0;vim .gitignore
-: 1623578061:0;git status
-: 1623578065:0;git add .
-: 1623578075:0;git commit -m "Added new files"
-: 1623578080:0;git push -u origin main
-: 1623578098:0;cd ..
-: 1623578101:0;ls -la
-: 1623578113:0;cd js-samples
-: 1623578117:0;ls -la
-: 1623578126:0;cd py-go
-: 1623578132:0;cd ..
-: 1623578134:0;cd py-go
-: 1623578138:0;git status
-: 1623578141:0;git add .
-: 1623578144:0;git commit -m "Added new files"
-: 1623578149:0;git push -u origin main
-: 1623578157:0;cd ..
-: 1623578161:0;ls -la
-: 1623578175:0;cd vlang-samples
-: 1623578178:0;ls -la
-: 1623578181:0;cd ..
-: 1623578185:0;cd python-scripts
-: 1623578207:0;git branch -M main
-: 1623578217:0;git branch -m main
-: 1623578226:0;git status
-: 1623578244:0;git branch -m master
-: 1623578252:0;ls 0la
-: 1623578254:0;ls -la
-: 1623578258:0;git status
-: 1623578261:0;git commit -m "Added new files"
-: 1623578269:0;git add .
-: 1623578271:0;git commit -m "Added new files"
-: 1623578278:0;git push -u origin main
-: 1623578283:0;git push 
-: 1623578289:0;git push origin
-: 1623578296:0;cd ..
-: 1623578298:0;ls -la
-: 1623578352:0;cd readme-samples
-: 1623578355:0;cd ..
-: 1623578359:0;rm -r readme-samples
-: 1623578368:0;sudo rm -r readme-samples
-: 1623578370:0;ls -la
-: 1623578392:0;cd portfolio
-: 1623578399:0;ls -la
-: 1623578404:0;cd devon
-: 1623578407:0;git status
-: 1623578410:0;git add .
-: 1623578415:0;git commit -m "Added new files"
-: 1623578417:0;git push origin
-: 1623578423:0;cd ../../
-: 1623578426:0;ls -la
-: 1623578536:0;battery
-: 1623578621:0;pacstore
-: 1623578640:0;pacman -Qe
-: 1623578679:0;yay 
-: 1623578692:0;yay --help
-: 1623578720:0;yay -c
-: 1623578744:0;yay --help
-: 1623578790:0;yay -F
-: 1623578792:0;yay -D
-: 1623578804:0;yay -P
-: 1623578910:0;yay -Ps
-: 1623578945:0;pacman -Qe
-: 1623579006:0;cd documents/code/.dotfiles
-: 1623579010:0;ls -la
-: 1623579093:0;vim documents/code/.dotfiles/sysnote.txt
-: 1623579317:0;git status
-: 1623579332:0;git add .
-: 1623579363:0;git commit -m "Added new files"
-: 1623579373:0;git push origin -f
-: 1623579473:0;neofetch
-: 1623579498:0;figlet ArchLinux
-: 1623579501:0;top
-: 1623579521:0;yay -ps
-: 1623579527:0;yay -c
-: 1623579535:0;pacman -Qe
-: 1623579744:0;git status
-: 1623579746:0;git add .
+: 1624093758:0;git rebase -i HEAD~2
+: 1624094394:0;git push origin -force
+: 1624094404:0;git push origin --force
+: 1624094443:0;hugo mod get -u
+: 1624094454:0;git push origin
+: 1624094461:0;git add .
+: 1624094469:0;git commit -m "update theme"
+: 1624094472:0;git push origin
+: 1624096248:0;cd mars-website
+: 1624096455:0;git diff
+: 1624096483:0;hugo server
+: 1624098148:0;hugo mod get -u
+: 1624098161:0;hugo server
+: 1624098168:0;npm install postcss-cli
+: 1624098187:0;npm audit fix
+: 1624098196:0;hugo server
+: 1624098286:0;ranger
+: 1624099098:0;cd /etc/default
+: 1624099102:0;ls -la
+: 1624099729:0;ranger
+: 1624100090:0;devon openssh
+: 1624100152:0;sudo systemctl status sshd
+: 1624100173:0;sudo systemctl start sshd
+: 1624100179:0;sudo systemctl status sshd
+: 1624100202:0;ip a
+: 1624100275:0;ssh anurag@192.168.43.139
+: 1624100464:0;sudo vim /etc/sshd_config
+: 1624100718:0;cd /etc/ssh/
+: 1624100720:0;ls -la
+: 1624100731:0;vim ssh_config
+: 1624100777:0;sudo vim ssh_config
+: 1624101192:0;sudo systemctl disable sshd
+: 1624101210:0;sudo systemctl enable sshd
+: 1624101230:0;ip a
+: 1624101333:0;useradd --create-home ut
+: 1624101338:0;sudo useradd --create-home ut
+: 1624101355:0;passwd ut
+: 1624101359:0;sudo passwd ut
+: 1624101387:0;sudo usermod --append --groups wheel ut
+: 1624101405:0;su -ut
+: 1624101421:0;ip a
+: 1624101440:0;su ut
+: 1624101492:0;cd /etc/ssh/
+: 1624101498:0;vim ssh_config
+: 1624101529:0;sudo vim ssh_config
+: 1624101718:0;ps aux | grep sshd
+: 1624101912:0;sudo systemctl status sshd
+: 1624101972:0;ps aux | grep sshd
+: 1624102035:0;ssh garuna@2.tcp.ngrok.io -p 19652
+: 1624102175:0;su ut
+: 1624102298:0;ssh anurag@192.168.43.139
+: 1624102307:0;cd /etc/ssh/
+: 1624102313:0;sudo vim ssh_config
+: 1624102332:0;ssh anurag@192.168.43.139
+: 1624102340:0;su ut
+: 1624103076:0;vim /etc/sudoers
+: 1624103141:0;sudo /etc/sudoers.d
+: 1624103149:0;cd /etc/sudoers.d
+: 1624103152:0;sudo cd /etc/sudoers.d
+: 1624103158:0;sudo vim /etc/sudoers.d
+: 1624103281:0;ping http://203.81.243.110:1313/
+: 1624103397:0;sudo vim /etc/sudoers
+: 1624103482:0;su
+: 1624103506:0;
+: 1624103533:0;vim /etc/sudoers
+: 1624103583:0;vim sudo /etc/sudoers
+: 1624103609:0;sudo /etc/sudoers
+: 1624103618:0;sudo vim /etc/sudoers
+: 1624103658:0;devon neofetch
+: 1624103667:0;sudo vim /etc/sudoers
+: 1624103742:0;devon neofetch
+: 1624104112:0;if\
+exit
+: 1624104113:0;id
+: 1624104132:0;mi
+: 1624104187:0;su ut
+: 1624104844:0;systemctl stop sshd
+: 1624104859:0;systemctl status ssh
+: 1624104862:0;systemctl status sshd
+: 1624105603:0;Utkarsh: tcp://2.tcp.ngrok.io:19652
+: 1624105615:0;tcp://2.tcp.ngrok.io:19652\
+
+: 1624108224:0;hugo server
+: 1624109876:0;ngrok http 1313
+: 1624113864:0;hugo server
+: 1624122569:0;#includ<stdio.>
+: 1624122788:0;ngrok http 1313
+: 1624165427:0;ranger
+: 1624165491:0;vim .config/i3/config
+: 1624165704:0;cd documents/code/portfolio/devon
+: 1624165706:0;code .
+: 1624165716:0;hugo server
+: 1624165830:0;wifi
+: 1624168037:0;ngrok http 1313
+: 1624175070:0;ranger
+: 1624175074:0;lf
+: 1624175081:0;l
+: 1624175084:0;ranger
+: 1624175093:0;su
+: 1624175100:0;
+: 1624175106:0;lf
+: 1624175111:0;exit
+: 1624175113:0;bash
+: 1624191853:0;lf
+: 1624191853:0;exit
+: 1624175127:0;ranger
+: 1624176462:0;ngrok http 1313
+: 1624180490:0;ranger
+: 1624182019:0;ngrok http 1313
+: 1624191853:0;exit
+: 1624191859:0;wifi
+: 1624193255:0;cd documents/code/
+: 1624193260:0;cd sam
+: 1624193265:0;mkdir sam
+: 1624193273:0;git clone https://github.com/samurai-shmuel/cedaarblog.git
+: 1624193532:0;hugo server
+: 1624194542:0;ngrok http 1313
+: 1624195729:0;vim .config/i3/config
+: 1624195741:0;ranger
+: 1624196669:0;vim .config/i3/config
+: 1624209048:0;ngrok http 1313
+: 1624211524:0;git status
+: 1624211528:0;git add .
+: 1624211540:0;git commit -m "lot of fixes"
+: 1624211545:0;git push origin
+: 1624212957:0;hugo
+: 1624213110:0;cd documents/
+: 1624213116:0;git clone https://github.com/anuragdevon/devon.git
+: 1624213139:0;hugo
+: 1624213683:0;hugo mod npm pack
+: 1624213701:0;npm i
+: 1624213714:0;hugo
+: 1624214312:0;hugo server
+: 1624214469:0;hugo
+: 1624214474:0;git add .
+: 1624214488:0;git commit -m "fixed js module"
+: 1624214491:0;git push origin
+: 1624214545:0;ls -la
+: 1624214550:0;rm -r devon
+: 1624214558:0;sudo rm -r devon
+: 1624214561:0;ls -la
+: 1624214585:0;git clone https://github.com/anuragdevon/devon.git\
+
+: 1624214618:0;hugo
+: 1624214640:0;npm i
+: 1624214645:0;hugo
+: 1624214650:0;hugo server
+: 1624214718:0;cd documents/
+: 1624214721:0;ls -la
+: 1624214724:0;sudo rm -r devon
+: 1624215478:0;clear
+: 1624215481:0;hugo
+: 1624215502:0;clear
+: 1624215700:0;tree -2
+: 1624215705:0;tree 4
+: 1624215710:0;tree 
+: 1624215731:0;tree --help
+: 1624215743:0;tree -d
+: 1624215772:0;tree -d -l 4
+: 1624215776:0;tree -d -5 level
+: 1624215782:0;tree -d -l
+: 1624215788:0;tree -d -l 4
+: 1624215792:0;tree -d -l 6
+: 1624215797:0;tree --help
+: 1624215855:0;git diff
+: 1624215862:0;hugo
+: 1624217357:0;hugo --version
+: 1624217381:0;hugo -v
+: 1624217391:0;which hugo
+: 1624217397:0;hugo --version
+: 1624217402:0;where hugo
+: 1624217424:0;hugo version
+: 1624217481:0;hugo -gc
+: 1624217485:0;hugo -gc --minify
+: 1624217806:0;hugo version
+: 1624217846:0;hugo 
+: 1624217944:0;devon netlify-cli
+: 1624217964:0;npm install netlify-cli -g
+: 1624218049:0;git diff
+: 1624218080:0;git add .
+: 1624218102:0;git commit -m "fix deploy"
+: 1624218108:0;git push origin
+: 1624218191:0;hugo
+: 1624218195:0;npm i
+: 1624218200:0;hugo
+: 1624218338:0;hugo server
+: 1624220186:0;git status
+: 1624220209:0;git pull
+: 1624220252:0;git clone https://github.com/anuragdevon/devon.git\
+
+: 1624220270:0;code .
+: 1624220279:0;hugo
+: 1624220286:0;hugo mod npm pack
+: 1624220304:0;git diff
+: 1624220313:0;git status
+: 1624220326:0;npm i
+: 1624220339:0;hugo
+: 1624220343:0;hugo server
+: 1624223121:0;git status
+: 1624223129:0;git add .
+: 1624223145:0;git commit -m "fix deploy log"
+: 1624223153:0;git push origin
+: 1624223161:0;hugo server
+: 1624224187:0;git status
+: 1624224190:0;git add .
+: 1624224201:0;git commit -m "fix cards"
+: 1624224204:0;git push origin
+: 1624224301:0;git add .
+: 1624224304:0;git commit -m "fix cards"
+: 1624224306:0;git push origin
+: 1624225310:0;git add .
+: 1624225321:0;git commit -m "fix color"
+: 1624225325:0;git push origin
+: 1624225581:0;clear
+: 1624225584:0;git add .
+: 1624225589:0;git commit -m "fix color"
+: 1624225594:0;git push origin
+: 1624225603:0;hugo 
+: 1624225614:0;hugo -gc --minify
+: 1624252672:0;ranger
+: 1624252866:0;vim .config/i3/config
+: 1624253719:0;wifi
+: 1624257243:0;vim .config/i3/config
+: 1624257333:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1624257351:0;vim .config/i3/config
+: 1624282511:0;wifi
+: 1624283888:0;git diff
+: 1624283913:0;hugo
+: 1624283921:0;hugo server
+: 1624288636:0;ip a
+: 1624288741:0;ifconfig
+: 1624288744:0;ip
+: 1624288752:0;ip addr
+: 1624291193:0;ranger
+: 1624292921:0;git add .
+: 1624292935:0;git commit -m "fix home animation"
+: 1624292938:0;git push origin
+: 1624298404:0;git add .
+: 1624298429:0;git commit -m "update information"
+: 1624298434:0;git push origin
+: 1624299780:0;django-admin startproject project-handler
+: 1624299894:0;django-admin startproject ProjectHandler
+: 1624299952:0;python3 -m venv django
+: 1624299968:0;source django/bin/activate
+: 1624299983:0;git init
+: 1624299992:0;git branch -m main
+: 1624300002:0;touch .gitignore
+: 1624300016:0;git status
+: 1624300019:0;git add .
+: 1624300027:0;git commit -m "initial commit"
+: 1624300064:0;git remote add origin https://github.com/anuragdevon/ProjectHandler.git
+: 1624300070:0;git push -u origin
+: 1624300096:0;git push -u origin main
+: 1624309220:0;hugo server
+: 1624313097:0;git status
+: 1624313106:0;git add .
+: 1624313129:0;git commit -m "add meta tags"
+: 1624313137:0;git push origin
+: 1624340594:0;hugo server
+: 1624340639:0;wifi
+: 1624341864:0;ngrok http 1313
+: 1624342003:0;hugo server
+: 1624342017:0;ngrok http 1313
+: 1624346018:0;git grep --img
+: 1624354031:0;ranger
+: 1624354037:0;cd documents/code
+: 1624354042:0;git clone https://github.com/DBMS-Web/hostel-management.git
+: 1624360851:0;sensors
+: 1624363174:0;hugo server
+: 1624363334:0;code .
+: 1624363936:0;hugo server
+: 1624366194:0;git grep '<img
+: 1624366196:0;git grep '<img'
+: 1624371304:0;hugo server
+: 1624373381:0;ngrok http 1313
+: 1624376568:0;hugo server
+: 1624377199:0;ngrok http 1313
+: 1624377347:0;hugo build
+: 1624377350:0;hugo 
+: 1624377383:0;hugo runserver
+: 1624377386:0;hugo server
+: 1624377510:0;hugo
+: 1624377513:0;hugo server
+: 1624378855:0;ngrok http 1313
+: 1624380375:0;hugo
+: 1624380379:0;hugo server
+: 1624384961:0;hugo 
+: 1624384965:0;hugo server
+: 1624385305:0;git grep 'z-index'
+: 1624385322:0;git grep 'z-index: '
+: 1624385402:0;ngrok http 1313
+: 1624385605:0;hugo
+: 1624385616:0;npm i
+: 1624385626:0;hugo server
+: 1624386366:0;hugo
+: 1624386374:0;hugo --version
+: 1624386407:0;hugo server --ignoreCache 
+: 1624386959:0;git diff
+: 1624386997:0;git clone https://github.com/anuragdevon/devon.git
+: 1624387013:0;code .
+: 1624387025:0;hugo
+: 1624387027:0;npm i
+: 1624387033:0;hugo server
+: 1624387120:0;hugo server 
+: 1624387282:0;ranger
+: 1624387316:0;vim .config/i3/config
+: 1624387504:0;hugo server 
+: 1624388237:0;git add .
+: 1624388261:0;git commit -m "SEO and code refactor"
+: 1624388263:0;git push origin
+: 1624388588:0;hugo server 
+: 1624388606:0;npm install postcss-cli
+: 1624388612:0;hugo server 
+: 1624388627:0;npm install -g postcss postcss-cli
+: 1624388650:0;hugo server 
+: 1624388699:0;npm install postcss --save-dev
+: 1624388709:0;hugo server 
+: 1624388919:0;git add .
+: 1624388928:0;git commit -m "code refactor"
+: 1624388930:0;git push origin
+: 1624389843:0;hugo server 
+: 1624390011:0;hugo 
+: 1624390016:0;hugo server
+: 1624390324:0;hugo
+: 1624390348:0;hugo server
+: 1624390973:0;hugo
+: 1624390993:0;git status
+: 1624390995:0;git add .
+: 1624391010:0;git commit -m "minor removal"
+: 1624391013:0;git push origin
+: 1624393849:0;hugo
+: 1624393852:0;npm i
+: 1624393875:0;hugo server
+: 1624426711:0;wifi
+: 1624426819:0;hugo server
+: 1624428387:0;hugo server --ignoreCache 
+: 1624433901:0;cd documents/code
+: 1624433907:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1624433929:0;cd mars-website
+: 1624433933:0;code .
+: 1624434161:0;git diff
+: 1624434167:0;git add .
+: 1624434187:0;git commit -m "Fix link issue"
+: 1624434190:0;git push origin
+: 1624435437:0;code .
+: 1624441852:0;hugo build
+: 1624441856:0;hugo 
+: 1624441985:0;hugo
+: 1624442201:0;hugo server
+: 1624442207:0;hugo 
+: 1624442556:0;ranger
+: 1624442597:0;vim .config/i3/config
+: 1624442629:0;hugo
+: 1624445902:0;hugo server
+: 1624446154:0;hugo
+: 1624446170:0;hugo server
+: 1624446608:0;vim .config/i3/config
+: 1624447611:0;git status
+: 1624447620:0;git add .
+: 1624447659:0;git commit -m "SEO"
+: 1624447662:0;git push origin
+: 1624450546:0;hugo server
+: 1624450605:0;git add .
+: 1624450611:0;git commit -m "fix navbar"
+: 1624450614:0;git push origin
+: 1624451153:0;hugo server
+: 1624451263:0;git diff
+: 1624451317:0;git commit -m "fix config"
+: 1624451322:0;git add .
+: 1624451326:0;git commit -m "fix config"
+: 1624451329:0;git push origin
+: 1624459877:0;cd Django-Projects
+: 1624459879:0;ls -la
+: 1624459890:0;django-admin startproject ajaxlearn
+: 1624460183:0;cd /etc/netctl/
+: 1624460185:0;ls -la
+: 1624460204:0;cat wlan0-devonM
+: 1624460209:0;sudo cat wlan0-devonM
+: 1624460822:0;wifi
+: 1624460906:0;python3 youtubeVid.py
+: 1624460920:0;pip3 install pytube
+: 1624460943:0;python3 youtubeVid.py
+: 1624461530:0;wifi
+: 1624462017:0;wifi-menu
+: 1624462021:0;sudo wifi-menu
+: 1624462032:0;sudo ip link set wlan0 down
+: 1624462034:0;sudo wifi-menu
+: 1624462043:0;sudo ip link set wlan0 up
+: 1624462045:0;sudo wifi-menu
+: 1624462553:0;./manage.py startapp post
+: 1624462629:0;./manage.py makemigrations 
+: 1624462650:0;./manage.py migrate
+: 1624463054:0;./manage.py makemigrations 
+: 1624463085:0;./manage.py migrate
+: 1624465642:0;star-wars
+: 1624482221:0;ranger
+: 1624482291:0;ls  -la | grep wc -l
+: 1624482295:0;ls  -la | grep wc
+: 1624482312:0;ls | grep wc
+: 1624482315:0;ls | grep wc -l
+: 1624482330:0;ls -la wc
+: 1624482343:0;ls -la | grep wc 
+: 1624482346:0;ls -la | grep -l
+: 1624482376:0;ls -la | grep wc -l
+: 1624482381:0;ls
+: 1624482416:0;ls -la | wc -l
+: 1624482434:0;ls -la
+: 1624482461:0;ls -la | wc -l
+: 1624483163:0;acpi -b
+: 1624484063:0;./manage.py makemigrations 
+: 1624484102:0;source ../django/bin/activate
+: 1624484108:0;./manage.py makemigrations 
+: 1624484118:0;clear
+: 1624484120:0;./manage.py makemigrations 
+: 1624484185:0;./manage.py migrate
+: 1624484212:0;./manage.py makemigrations 
+: 1624484213:0;./manage.py migrate
+: 1624484220:0;./manage.py runserver 0:8000
+: 1624484393:0;./manage.py runserver 
+: 1624484429:0;./manage.py createsuperuser
+: 1624512138:0;sudo ip link set wlan0 down
+: 1624624737:0;
+: 1624512347:0;wifi
+: 1624513643:0;./manage.py runserver 
+: 1624517420:0;django-admin startproject HMS
+: 1624517444:0;django-admin startproject documents/code/HMS
+: 1624517449:0;cd documents/code
+: 1624517452:0;django-admin startproject HMS
+: 1624517922:0;hugo server
+: 1624530538:0;hugo
+: 1624530541:0;hugo server
+: 1624534878:0;git add .
+: 1624534890:0;git commit -m "SEO"
+: 1624534897:0;git push origin
+: 1624541441:0;wifi
+: 1624541574:0;hugo server
+: 1624546159:0;hugo
+: 1624546164:0;hugo server
+: 1624549998:0;git add .
+: 1624550011:0;git commit -m "optimized icons"
+: 1624550013:0;git push origin
+: 1624557098:0;wifi
+: 1624558847:0;hugo server
+: 1624561497:0;git add .
+: 1624561513:0;git commit -m "minor changes"
+: 1624561515:0;git push origin
+: 1624561583:0;django-admin startproject pgbasic2
+: 1624562343:0;source ../django/bin/activate
+: 1624562345:0;pip freeze
+: 1624562404:0;./manage.py startapp postapp
+: 1624562561:0;sudo pacman -R postgresql
+: 1624562589:0;sudo pacman -R postgresql-libs
+: 1624562615:0;vim .config/i3/config
+: 1624562801:0;postgres
+: 1624562821:0;sudo pacman -Scc
+: 1624562827:0;sudo pacman -Sc
+: 1624562867:0;devon postgresql postgresql-contrib
+: 1624562879:0;devon postgresql 
+: 1624563002:0;sudo systemctl status postgresql.service
+: 1624563025:0;sudo systemctl status postgresql
+: 1624563736:0;sudo -i -u postgres
+: 1624564027:0;./manage.py makemigrations 
+: 1624564126:0;./manage.py migrate
+: 1624564145:0;./manage.py createsuperuser --anurag
+: 1624564154:0;./manage.py createsuperuser -anurag
+: 1624564174:0;./manage.py createsuperuser --username="anurag"
+: 1624564186:0;./manage.py runserver 
+: 1624564780:0;psql -U posgres -W
+: 1624564795:0;psql -U django
+: 1624564811:0;psql -U django -W
+: 1624564819:0;psql -U anurag -W
+: 1624564834:0;psql -U testing
+: 1624564848:0;psql -U django
+: 1624564853:0;psql -U anurag
+: 1624564889:0;sudo psql -U anurag
+: 1624564896:0;sudo psql -U testing
+: 1624564906:0;sudo -i -u postgres
+: 1624568679:0;ranger
+: 1624568837:0;./manage.py runserver 
+: 1624569009:0;./manage.py createsuperuser --username="anurag"
+: 1624597295:0;wifi
+: 1624597550:0;systemctl disable netctl-auto@wlan0.service
+: 1624597993:0;wifi
+: 1624602483:0;ranger
+: 1624602563:0;cd documents/code
+: 1624602564:0;clear
+: 1624603517:0;cd Django-Projects
+: 1624603523:0;source ../django/bin/activate
+: 1624603538:0;python3 -m venv django
+: 1624604677:0;django-admin startproject redirect
+: 1624604852:0;cd ..
+: 1624604863:0;django-admin startproject quickpoll
+: 1624604879:0;ranger
+: 1624605041:0;cd documents/code
+: 1624605043:0;clear 
+: 1624605057:0;django-admin startproject QuickPoll
+: 1624607383:0;source ../django/bin/activate
+: 1624607399:0;./manage.py startapp polling
+: 1624607407:0;pip3 install django
+: 1624607432:0;python3 -m pip install --upgrade pip 
+: 1624607443:0;./manage.py startapp polling
+: 1624607996:0;pip3 install psycopg2
+: 1624609118:0;hugo server
+: 1624609643:0;sudo -i -u postgres
+: 1624609796:0;sudo systemctl initdb postgresql
+: 1624609868:0;mkdir postgres/data
+: 1624609877:0;mkdir data
+: 1624609969:0;sudo chown -c -R postgres:postgres /var/lib/postgres
+: 1624623776:0;source ../django/bin/activate
+: 1624623787:0;sudo chown -c -R postgres:postgres /var/lib/postgres
+: 1624623817:0;sudo -i -u postgres
+: 1624623897:0;sudo ranger
+: 1624623953:0;wifi
+: 1624624177:0;ranger
+: 1624624340:0;sudo chown $(whoami) /usr/local/var/postgres
+: 1624624534:0;$(Whoami)
+: 1624624566:0;sudo chown -c -R postgres:anurag /var/lib/postgres
+: 1624624582:0;sudo -i -u postgres
+: 1624624707:0;pg_ctl -D /var/lib/postgres/data -l logfile start
+: 1624624720:0;sudo -i -u postgres
+: 1624624733:0;sudo -i -u anurag
+: 1624624737:0;exit
+: 1624624750:0;sudo systemctl start postgresql.service\
+
+: 1624624757:0;sudo -i -u postgres
+: 1624624811:0;sudo systemctl disable wifi-menu
+: 1624624820:0;sudo systemctl disable netctl
+: 1624625093:0;psql
+: 1624625103:0;sudo -i -u postgres
+: 1624628213:0;neofetch
+: 1624629782:0;source ../django/bin/activate
+: 1624631073:0;sudo -i -u postgres
+: 1624631129:0;source ../django/bin/activate
+: 1624631382:0;./manage.py makemigrations
+: 1624631401:0;./manage.py migrate
+: 1624632140:0;/usr/bin/python
+: 1624639236:0;source ../django/bin/activate
+: 1624639291:0;./manage.py makemigrations polling
+: 1624639354:0;./manage.py migrate polling
+: 1624639383:0;./manage.py migrate sqlmigrate polling 0001
+: 1624639397:0;./manage.py migrate migrate polling 0001
+: 1624639402:0;./manage.py migrate sqlmigrate polling
+: 1624639431:0;./manage.py sqlmigrate polling
+: 1624639436:0;./manage.py migrate polling
+: 1624639477:0;./manage.py migrate 
+: 1624639517:0;./manage.py manage.py shell
+: 1624639526:0;./manage.py shell
+: 1624643661:0;./manage.py createsuperuser --username="anurag"
+: 1624643677:0;./manage.py runserver 
+: 1624650556:0;cd ..
+: 1624650565:0;mkdir todo-all
+: 1624650570:0;cd todo-all
+: 1624651008:0;cd ..
+: 1624651013:0;rm -r todo-all
+: 1624651019:0;cd Django-Projects
+: 1624651030:0;django-admin startproject Todo
+: 1624651051:0;ranger
+: 1624651614:0;git diff
+: 1624651802:0;hugo server
+: 1624656198:0;git add .
+: 1624656252:0;git commit -m "optimized"
+: 1624656254:0;git push origin
+: 1624683026:0;wifi
+: 1624683243:0;cd documents/code
+: 1624683245:0;ls -la
+: 1624683259:0;cd Django-Projects
+: 1624683261:0;ls -la
+: 1624683358:0;code . QuickPoll
+: 1624683372:0;cd documents/code
+: 1624683381:0;cd Django-Projects
+: 1624683385:0;cd QuickPoll
+: 1624683388:0;code
+: 1624683428:0;cd documents/code/Django-Projects/QuickPoll
+: 1624683431:0;code .
+: 1624683497:0;./manage.py runserver 
+: 1624683511:0;source ../django/bin/activate
+: 1624683522:0;./manage.py runserver 
+: 1624690795:0;cd documents/code/
+: 1624690846:0;cd cooking-blog
+: 1624690854:0;mkdir cooking-blog
+: 1624690892:0;git init
+: 1624690898:0;git branch -m main
+: 1624690990:0;cd ..
+: 1624690999:0;ranger
+: 1624691019:0;cd documents/code/
+: 1624691027:0;hugo newsite cooking-blog
+: 1624691037:0;hugo new site cooking-blog
+: 1624691497:0;./manage.py runserver 
+: 1624715089:0;source ../django/bin/activate
+: 1624715098:0;./manage.py 
+: 1624715118:0;./manage.py runserver 
+: 1624722336:0;vim .config/i3/config
+: 1624722779:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1624730746:0;source ../django/bin/activate
+: 1624730770:0;cd documents/code/
+: 1624730774:0;cd ..
+: 1624730781:0;mkdir todo-django
+: 1624730806:0;rm -r todo-django
+: 1624730818:0;django-admin startproject Todo-django
+: 1624730824:0;django-admin startproject TodoDjango
+: 1624730844:0;git init
+: 1624730849:0;git branch -m main
+: 1624730858:0;touch .gitignore
+: 1624730883:0;python3 -m venv django
+: 1624730898:0;source django/bin/activate
+: 1624730904:0;pip3 install psycopg2
+: 1624730962:0;python3 -m pip install --upgrade pip 
+: 1624730976:0;pip3 install django
+: 1624731010:0;touch requirements.txt
+: 1624731018:0;pip3 freeze
+: 1624731027:0;pip3 freeze > requirements.txt
+: 1624731058:0;clear
+: 1624731067:0;source django/bin/activate
+: 1624731078:0;ranger
+: 1624731125:0;./manage.py startapp todo
+: 1624731315:0;sudo -i -u postgres
+: 1624731501:0;source django/bin/activate
+: 1624731552:0;./manage.py makemigrations 
+: 1624731565:0;ranger
+: 1624731625:0;./manage.py makemigrations 
+: 1624731630:0;./manage.py migrate 
+: 1624731650:0;ranger
+: 1624731731:0;./manage.py runserver 
+: 1624731766:0;ranger
+: 1624734040:0;./manage.py makemigrations 
+: 1624734044:0;./manage.py migrate 
+: 1624734052:0;./manage.py runserver 
+: 1624735315:0;/usr/bin/python
+: 1624735322:0;source django/bin/activate
+: 1624736559:0;ranger
+: 1624736641:0;source django/bin/activate
+: 1624736646:0;./manage.py createsuperuser --username="anurag"
+: 1624736755:0;./manage.py makemigrations 
+: 1624736858:0;./manage.py migrate 
+: 1624736881:0;./manage.py createsuperuser --username="anurag"
+: 1624770782:0;wifi
+: 1624771023:0;source django/bin/activate
+: 1624771033:0;source ..django/bin/activate
+: 1624771038:0;source ../django/bin/activate
+: 1624771050:0;./manage.py runserver 
+: 1624771060:0;source ../django/bin/activate
+: 1624771065:0;sudo -i -u postgres
+: 1624771102:0;source ../django/bin/activate
+: 1624778519:0;vim .config/i3/config
+: 1624787185:0;python3 -m pip install --upgrade pip 
+: 1624787234:0;pip3 install venv --upgrade
+: 1624787270:0;pip3 install virtualenv --upgrade
+: 1624787418:0;python3 -m venv django
+: 1624787441:0;source django/bin/activate
+: 1624787867:0;sudo -i -u postgres
+: 1624792825:0;./manage.py startapp hostel
+: 1624792876:0;pip3 install psycopg2
+: 1624792928:0;pip3 uninstall psycopg2
+: 1624792982:0;source django/bin/activate
+: 1624793071:0;pip3 freeze
+: 1624793084:0;pip3 install psycopg2 django
+: 1624794040:0;./manage.py startapp hostel
+: 1624794080:0;./manage.py makemigrations 
+: 1624794084:0;./manage.py migrate 
+: 1624794094:0;./manage.py runserver 
+: 1624794191:0;source django/bin/activate
+: 1624794200:0;pip3 freeze > requirements.txt
+: 1624794238:0;./manage.py createsuperuser --username="anurag"
+: 1624797160:0;vim .config/i3/config
+: 1624808017:0;wifi
+: 1624808477:0;git clone https://github.com/DBMS-Web/hostel-management.git
+: 1624808521:0;git status
+: 1624808636:0;cd old-archive
+: 1624808638:0;cd ..
+: 1624808643:0;git init
+: 1624808655:0;git branch -m main
+: 1624808664:0;git status
+: 1624808678:0;ranger
+: 1624808724:0;touch .gitignore
+: 1624808751:0;echo "HMS/django/" > .gitignore
+: 1624808758:0;vim .gitignore
+: 1624808777:0;git status
+: 1624808782:0;git add .
+: 1624808811:0;git commit -m "modified"
+: 1624808871:0;git remote add origin https://github.com/DBMS-Web/hostel-management.git
+: 1624808878:0;git push origin --force
+: 1624808893:0;git push -u origin main
+: 1624808907:0;git push -u origin main --forece
+: 1624808911:0;git push -u origin main --force
+: 1624815225:0;ranger
+: 1624816730:0;vim .config/i3/config
+: 1624816876:0;micro .config/polybar/config
+: 1624816887:0;polybar bar
+: 1624817857:0;micro .config/i3status-rust/config.toml
+: 1624822811:0;ls /
+: 1624822821:0;ls /proc
+: 1624822851:0;python3
+: 1624822874:0;pidof python3
+: 1624822890:0;ls /proc | grep python3
+: 1624822897:0;ls /proc | grep 37365
+: 1624822920:0;cd /proc/37365
+: 1624822924:0;ls -la
+: 1624822960:0;cd fd/
+: 1624822964:0;ls -la
+: 1624824407:0;pi addr
+: 1624824410:0;ip addr
+: 1624824431:0;ping 192.168.43.139
+: 1624824959:0;ping 209.85.220.65
+: 1624856873:0;wifi
+: 1624857939:0;clear
+: 1624860198:0;source django/bin/activate
+: 1624860209:0;./manage.py runserver 
+: 1624860218:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624860771:0;pip3 install djangorestframework
+: 1624862468:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1624862570:0;ping 209.85.220.41
+: 1624876563:0;source django/bin/activate
+: 1624883544:0;wifi
+: 1624885309:0;source django/bin/activate
+: 1624885316:0;./manage.py runserver 
+: 1624885351:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624889131:0;django-admin startproject forms
+: 1624890511:0;vim .config/i3/config
+: 1624890563:0;cmatrix
+: 1624890575:0;ls
+: 1624890723:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624890737:0;./manage.py runserver 
+: 1624891293:0;ranger
+: 1624894804:0;uname
+: 1624894810:0;unaem -a
+: 1624894812:0;uname -a
+: 1624896014:0;ip 
+: 1624906485:0;./manage.py runserver 
+: 1624906535:0;ranger
+: 1624906683:0;./manage.py makemigrations 
+: 1624906688:0;./manage.py migrate 
+: 1624906708:0;./manage.py runserver 
+: 1624909326:0;git status
+: 1624910910:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624910918:0;./manage.py runserver
+: 1624913565:0;ranger
+: 1624942893:0;wifi
+: 1624942939:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624943056:0;./manage.py runserver
+: 1624943069:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624943760:0;clear
+: 1624947298:0;ranger
+: 1624949571:0;ping 209.85.220.65
+: 1624949836:0;ping 45.249.86.40
+: 1624956990:0;git status
+: 1624956993:0;git add .
+: 1624957011:0;git commit -m "fix url issues"
+: 1624957017:0;git status
+: 1624957167:0;git clone https://github.com/WebOpsIIITDMK/mars-hugo-theme.git
+: 1624957261:0;git diff
+: 1624957269:0;git add .
+: 1624957284:0;git commit -m "correct link"
+: 1624957293:0;git push origin
+: 1624957321:0;git clone https://github.com/WebOpsIIITDMK/mars-website.git
+: 1624957376:0;hugo mod get -u
+: 1624957429:0;git diff
+: 1624957436:0;git add .
+: 1624957443:0;git commit -m "update theme"
+: 1624957446:0;git push origin
+: 1624957458:0;ranger
+: 1624972562:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624972571:0;./manage.py runserver
+: 1624972618:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624974555:0;./manage.py runserver
+: 1624977383:0;clear
+: 1624977404:0;cmatrix
+: 1624977427:0;vim .config/i3/config
+: 1624979280:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624979296:0;pip3 install django_compressor
+: 1624979338:0;pip3 install django-libsass
+: 1624979401:0;./manage.py runserver
+: 1624979827:0;clear
+: 1624979831:0;./manage.py runserver
+: 1624979885:0;clear
+: 1624979886:0;./manage.py runserver
+: 1624979945:0;clear
+: 1624979947:0;./manage.py runserver
+: 1624981913:0;clear
+: 1624981914:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1624981918:0;./manage.py runserver
+: 1624986452:0;source /home/anurag/documents/code/hms/hostel-management/HMS/django/bin/activate
+: 1624995610:0;./manage.py makemigrations 
+: 1624995627:0;pip3 install psycopg2 django
+: 1624995651:0;./manage.py makemigrations 
+: 1624995760:0;source /home/anurag/documents/code/hms/hostel-management/HMS/django/bin/activate
+: 1624995767:0;sudo -i -u postgres
+: 1624995963:0;./manage.py makemigrations 
+: 1624995990:0;./manage.py migrate
+: 1624996030:0;./manage.py makemigrations 
+: 1624996033:0;./manage.py migrate
+: 1624996090:0;./manage.py createsuperuser --username="anurag"
+: 1624996185:0;./manage.py makemigrations 
+: 1624996189:0;./manage.py migrate
+: 1625035819:0;wifi
+: 1625036227:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1625039704:0;./manage.py runserver
+: 1625135430:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1625145520:0;wifi
+: 1625156376:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1625156387:0;./manage.py makemigrations 
+: 1625156396:0;./manage.py migrate
+: 1625156487:0;./manage.py runserver
+: 1625164575:0;clear
+: 1625170607:0;git status
+: 1625170611:0;git add .
+: 1625170652:0;git status
+: 1625170657:0;git add .

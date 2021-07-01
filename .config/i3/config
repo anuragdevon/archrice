@@ -85,16 +85,20 @@ bindsym $mod+a focus parent
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 
-set $ws1 "1.🚀"
-set $ws2 "2.👨‍💻"
-set $ws3 "3.🗂"
-set $ws4 "4.🎧"
-set $ws5 "5."
-set $ws6 "6."
-set $ws7 "7."
-set $ws8 "8."
-set $ws9 "9."
-set $ws10 "10." 
+#set $ws1 "1.🚀"
+#set $ws2 "2.👨‍💻"
+#set $ws3 "3.🗂"
+#set $ws4 "4.🎧"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "0" 
 
 # !!latest version of i3 supports worspace number whereas older version not
 # switch to workspace
@@ -163,7 +167,7 @@ bindsym $mod+Shift+r restart
 # Shutdown
 #bindsym $mod+shift+p exec --no-startup-id systemctl poweroff -i, mode "default"
 # i3-lock
-bindsym $mod+shift+z exec i3lock -i "/home/anurag/pictures/lock/lock1.png" -t
+bindsym $mod+shift+z exec i3lock -i "/home/anurag/pictures/lock/i3lock.png" -t
 #bindsym $mod+shift+z exec lock
 #  exec --no-startup-id xss-lock -l [path of your script]
 
@@ -214,6 +218,9 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # i3-bar 
 bar {
+   # mode hide
+   # hidden_state hide
+   # modifier Mod1
         #height 25
         #status_command i3status
 	#i3bar_command i3bar --transparency
@@ -241,8 +248,8 @@ bar {
 
 # Windows setup
 for_window [class="^.*"] border pixel 0
-gaps inner 0 # 8
-gaps outer 0 # 25
+gaps inner 4 # 8
+gaps outer 8 # 25
 # gaps horizontal 5
 #smart_borders on
 border_radius 0 #2 
@@ -372,12 +379,11 @@ mode "$mode_gaps_left" {
 
 # Screen Related
 exec_always --no-startup-id picom -f
-exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall11.jpg
+exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall06.jpg
 #exec_always feh --randomize --bg-fill /home/anurag/Pictures/*
 
 # Applications Shorcuts
 bindsym $mod+m exec thunar
-bindsym $mod+shift+f exec firefox
 bindsym $mod+shift+b exec brave
 bindsym $mod+shift+t exec youtube
 bindsym $mod+shift+d exec code .

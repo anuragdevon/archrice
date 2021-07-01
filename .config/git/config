@@ -4,3 +4,5 @@
 	password = bubun@2001
 [credential]
 	helper = store
+[core]
+	editor = vim

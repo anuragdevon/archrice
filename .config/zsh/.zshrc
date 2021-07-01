@@ -26,6 +26,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 POWERLEVEL9K_MODE="nerdfont-complete"
 
+#source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
+
+#source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+#source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
