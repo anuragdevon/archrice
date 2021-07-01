@@ -1200,3 +1200,7 @@ exit
 : 1625170611:0;git add .
 : 1625170652:0;git status
 : 1625170657:0;git add .
+: 1625170672:0;git commit -m "checkpoint"
+: 1625170676:0;git push origin
+: 1625170727:0;git status
+: 1625170734:0;git add .
