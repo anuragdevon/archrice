@@ -1,7 +1,4 @@
 .config/zsh/oh-my-zsh
-.local/share/fonts/FiraCode
-.local/share/fonts/NotoSans-hinted
-.local/share/themes
-.local/bin/__pycache__
+.local/share/
 .local/bin/python/
-.local/share/zsh/
+.local/share/ranger/

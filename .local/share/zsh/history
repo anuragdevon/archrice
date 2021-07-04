@@ -1204,3 +1204,305 @@ exit
 : 1625170676:0;git push origin
 : 1625170727:0;git status
 : 1625170734:0;git add .
+: 1625170737:0;git commit -m "checkpoint"
+: 1625170739:0;git push origin
+: 1625170751:0;git push origin --force
+: 1625233980:0;sudo micro documents/code/.dotfiles/root/etc/xdg/picom.conf
+: 1625234113:0;cat /sys/class/power_supply/BAT1/capacity
+: 1625234170:0;wifi
+: 1625234190:0;ranger
+: 1625234361:0;free -h mega
+: 1625234364:0;free -h 
+: 1625234462:0;sudo vim .config/i3status-rust/config.toml
+: 1625234510:0;backlit
+: 1625234673:0;sudo ip link set wlan0 down
+: 1625234690:0;sudo ip link set wlan0 up
+: 1625234730:0;xprop
+: 1625234903:0;ranger
+: 1625235350:0;ssh anurag@192.168.43.139
+: 1625235366:0;ngrok tcp
+: 1625235379:0;ngrok tcp 22
+: 1625235660:0;sudo pacman -S cmatrix
+: 1625235679:0;devon cmatrix
+: 1625235713:0;cmatrix
+: 1625235888:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1625235904:0;cd old-archive
+: 1625235907:0;ls -la
+: 1625235969:0;python3 -m venv hms
+: 1625235997:0;source hms/bin/activate
+: 1625236009:0;pip3 install requirements.txt
+: 1625236034:0;./manage.py runserver
+: 1625236041:0;pip3 install django
+: 1625236116:0;source hms/bin/activate
+: 1625236128:0;source django/bin/activate
+: 1625236132:0;./manage.py runserver
+: 1625236145:0;source django/bin/activate
+: 1625236148:0;./manage.py runserver
+: 1625236159:0;pip3 install django
+: 1625236190:0;source django/bin/activate
+: 1625236192:0;./manage.py runserver
+: 1625236651:0;polybar bar
+: 1625253132:0;neofetch
+: 1625253156:0;clear
+: 1625253501:0;cd documents/code/
+: 1625253514:0;mkdir bash
+: 1625253517:0;cd bash
+: 1625253529:0;vim newfiles.sh
+: 1625253680:0;>hello.txt
+: 1625253689:0;ls -la
+: 1625253693:0;clear
+: 1625253824:0;vim .config/i3/config
+: 1625254000:0;cd documents/code/
+: 1625254004:0;ls -la
+: 1625254012:0;cd bash
+: 1625254015:0;cleqar
+: 1625254016:0;clear
+: 1625254051:0;chmod +x
+: 1625254064:0;chmod +x newfiles.sh
+: 1625254069:0;ls -la
+: 1625254079:0;./newfiles.sh
+: 1625254081:0;ls -la
+: 1625254083:0;./newfiles.sh
+: 1625254085:0;ls -la
+: 1625254141:0;./newfiles.sh
+: 1625254146:0;ls -la
+: 1625254149:0;clear
+: 1625254164:0;./newfiles.sh
+: 1625254189:0;ls -la
+: 1625254260:0;date +'%m/%d/%Y'
+: 1625254275:0;date +'%m/%d/%Y' + time
+: 1625254278:0;time
+: 1625254283:0;date
+: 1625254307:0;date +'%m/%d/%Y'
+: 1625254342:0;vim .config/i3/config
+: 1625254366:0;date  '%Y-%m-%d-%H-%M-%S\
+
+: 1625254368:0;date  '%Y-%m-%d-%H-%M-%S'\
+
+: 1625254392:0;date  '%Y/%m/%d/%H/%M/%S'\
+
+: 1625254400:0;date  '%H/%M/%S'\
+
+: 1625254405:0;date  '%Y-%m-%d'\
+
+: 1625254480:0;date +"%Y-%m-%d"
+: 1625254554:0;date +"%Y_%m_%d_%I_%M_%p"
+: 1625254628:0;touch "$(date +"%Y_%m_%d_%I_%M_%p").txt
+: 1625254637:0;touch "$(date +"%Y_%m_%d_%I_%M_%p").txt"
+: 1625254639:0;ls -la
+: 1625254648:0;cd documents/code/
+: 1625254652:0;cd bash
+: 1625254654:0;clear
+: 1625254656:0;touch "$(date +"%Y_%m_%d_%I_%M_%p").txt"
+: 1625254658:0;ls -la
+: 1625254668:0;touch "$(date +"%Y_%m_%d_%I_%M_%p").txt"
+: 1625254673:0;ls -la
+: 1625254701:0;touch "$(date +"%Y_%m_%d_%I_%M_%S").txt"
+: 1625254704:0;ls -la
+: 1625254708:0;touch "$(date +"%Y_%m_%d_%I_%M_%S").txt"
+: 1625254711:0;ls -la
+: 1625254746:0;rm 2021_07_03_01_0*
+: 1625254748:0;ls -la
+: 1625254754:0;rm info.txt
+: 1625254769:0;touch "$(date +"%Y_%m_%d_%I_%M_%S").txt"
+: 1625254773:0;ls -la
+: 1625254818:0;./newfiles.sh
+: 1625254822:0;ls -la
+: 1625254830:0;rm 2021_07_03_01_0*
+: 1625254833:0;ls -la
+: 1625254844:0;rm 2021_07_03_01_10_*
+: 1625254846:0;ls -la
+: 1625254852:0;./newfiles.sh
+: 1625254859:0;ls -la
+: 1625254864:0;rm 2021_07_03_01_10_*
+: 1625254868:0;ls -la
+: 1625254873:0;./newfiles.sh
+: 1625254875:0;ls -la
+: 1625254877:0;./newfiles.sh
+: 1625254880:0;ls -la
+: 1625254888:0;clear
+: 1625256436:0;ls -la
+: 1625256442:0;rm 2021_07_03_01_11_*
+: 1625256444:0;ls -la
+: 1625256448:0;./newfiles.sh
+: 1625265376:0;ls -la
+: 1625265437:0;clear
+: 1625265446:0;./newfiles.sh
+: 1625266052:0;clear
+: 1625266054:0;cmatrix
+: 1625266065:0;clear
+: 1625266069:0;git 
+: 1625266074:0;clear
+: 1625266086:0;./newfiles.sh
+: 1625266313:0;clear
+: 1625266315:0;./newfiles.sh
+: 1625266318:0;ls -la
+: 1625266341:0;rm 03-Jul-04_21_55
+: 1625266344:0;ls -la
+: 1625266348:0;./newfiles.sh
+: 1625266350:0;ls -la
+: 1625266356:0;clear
+: 1625266369:0;rm 03-Jul-04_22_*
+: 1625266371:0;ls -la
+: 1625266377:0;clear
+: 1625266451:0;./newfiles.sh
+: 1625266475:0;ls -la
+: 1625266488:0;rm 03-Jul-04_24_11 
+: 1625266495:0;./newfiles.sh
+: 1625266507:0;ls -la
+: 1625266589:0;rm 03-Jul-04_24_5 *
+: 1625266598:0;ls -la
+: 1625266601:0;rm 03-Jul-04_24_5*
+: 1625266608:0;ls -la
+: 1625266855:0;./newfiles.sh
+: 1625266880:0;ls -la
+: 1625266895:0;./newfiles.sh
+: 1625266902:0;ls -la
+: 1625266910:0;rm 03-Jul-04_3*
+: 1625266912:0;ls -la
+: 1625266966:0;./newfiles.sh
+: 1625266973:0;clear
+: 1625266974:0;ls -la
+: 1625266981:0;rm 03-Jul-04_32_46 03-Jul-04_32_48 03-Jul-04_32_50 
+: 1625267320:0;clear
+: 1625267322:0;ls -la
+: 1625267324:0;clear
+: 1625267329:0;./newfiles.sh
+: 1625267335:0;clear
+: 1625267337:0;./newfiles.sh
+: 1625267338:0;clear
+: 1625267344:0;./newfiles.sh
+: 1625267428:0;clear
+: 1625267430:0;./newfiles.sh
+: 1625269720:0;source django/bin/activate
+: 1625269737:0;./manage.py runserver
+: 1625271282:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1625271286:0;git status
+: 1625271302:0;git add .
+: 1625271324:0;git commit -m "modify users"
+: 1625271548:0;./manage.py runserver
+: 1625281194:0;pip3 install python-jose
+: 1625281215:0;pip3 install social-auth-django
+: 1625281230:0;pip3 install social-auth-app-django
+: 1625281248:0;clear
+: 1625281254:0;pip3 freeze
+: 1625281257:0;pip3 freeze > requirements.txt
+: 1625281348:0;./manage.py migrate
+: 1625281354:0;./manage.py makemigrations 
+: 1625281356:0;./manage.py migrate
+: 1625281408:0;python4
+: 1625281410:0;python3
+: 1625306802:0;rm 03-Jul-04_*
+: 1625306804:0;clear
+: 1625306806:0;ls -la
+: 1625306834:0;./newfiles.sh
+: 1625307136:0;wifi
+: 1625308986:0;git
+: 1625308993:0;clear
+: 1625309019:0;cd documents/code/
+: 1625309023:0;cd ..
+: 1625309025:0;ls -la
+: 1625309028:0;cd code
+: 1625309032:0;ls -la
+: 1625309045:0;rm -r anuragdevon
+: 1625309057:0;sudo rm -r anuragdevon
+: 1625309062:0;ls -la
+: 1625309069:0;cd bash
+: 1625309071:0;git init
+: 1625309078:0;git branch -m main
+: 1625309086:0;git add .
+: 1625309094:0;git cd ..
+: 1625309096:0;cd ..
+: 1625309101:0;ls -la
+: 1625309105:0;cd blockchain
+: 1625309110:0;git status
+: 1625309292:0;cd ..
+: 1625309298:0;ls -la
+: 1625309307:0;cd competative-programming
+: 1625309311:0;git status
+: 1625309313:0;cd ..
+: 1625309319:0;ls -la
+: 1625309345:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1625309386:0;./manage.py runserver
+: 1625309998:0;clear
+: 1625310235:0;./newfiles.sh
+: 1625310452:0;clear
+: 1625318093:0;./manage.py runserver
+: 1625318298:0;./manage.py makemigrations 
+: 1625318304:0;./manage.py migrate
+: 1625318313:0;./manage.py runserver
+: 1625326562:0;rm 03-Jul-*
+: 1625326568:0;git add .
+: 1625326570:0;clear
+: 1625326857:0;./newfiles.sh
+: 1625326928:0;ls -dq *date +%d-%b-%Y-%H_%M_%S* | wc -l
+: 1625326941:0;ls -dq *03* | wc -l
+: 1625326957:0;ls -dq *"date +%d-%b-%Y-%H_%M_%S"* | wc -l
+: 1625326975:0;a=date +%d-%b-%Y-%H_%M_%S
+: 1625326987:0;a=$(date +%d-%b-%Y-%H_%M_%S)
+: 1625326994:0;ls -dq *a* | wc -l
+: 1625327000:0;ls -dq *$a* | wc -l
+: 1625327133:0;clear
+: 1625327172:0;./newfiles.sh
+: 1625327229:0;rm 03-Jul-2021-21_1*
+: 1625327234:0;clear
+: 1625327237:0;./newfiles.sh
+: 1625327243:0;rm 03-Jul-2021-21_1*
+: 1625327247:0;clear
+: 1625327250:0;./newfiles.sh
+: 1625327366:0;ls -dq *"date +%d-%b-%Y-%H_%M_%S"* | wc -l
+: 1625327373:0;ls -dq *$a* | wc -l
+: 1625327404:0;touch 03-Jul-2021-21_13_07
+: 1625327405:0;ls -dq *$a* | wc -l
+: 1625327412:0;echo $a
+: 1625327444:0;./newfiles.sh
+: 1625327479:0;ls -dq *a* | wc -l
+: 1625327486:0;ls -dq *$a* | wc -l
+: 1625327556:0;./newfiles.sh
+: 1625328419:0;rm 03-Jul-2021-21_1*
+: 1625328422:0;./newfiles.sh
+: 1625328431:0;rm 03-Jul-2021-21_1*
+: 1625328446:0;rm 03-Jul-2021-21_37_0*
+: 1625328507:0;./newfiles.sh
+: 1625328527:0;date +%d-%b-%Y-%H_%M_%S
+: 1625328562:0;./newfiles.sh
+: 1625328566:0;date +%d-%b-%Y-%H_%M_%S
+: 1625328568:0;./newfiles.sh
+: 1625328582:0;rm 03-Jul-2021-21_3*
+: 1625328617:0;./newfiles.sh
+: 1625328625:0;rm 03-Jul-2021-21_3*
+: 1625328633:0;./newfiles.sh
+: 1625328678:0;rm 03-Jul-2021-21_40_*
+: 1625328752:0;./newfiles.sh
+: 1625328828:0;clear
+: 1625328853:0;./newfiles.sh
+: 1625328878:0;rm 03-Jul-2021-21_4*
+: 1625328915:0;./newfiles.sh
+: 1625328979:0;touch a
+: 1625328987:0;./newfiles.sh
+: 1625328994:0;touch abc
+: 1625328995:0;./newfiles.sh
+: 1625329022:0;rm abc a
+: 1625329031:0;./newfiles.sh
+: 1625329351:0;vim documents/code/bash/newfiles.sh
+: 1625345145:0;./manage.py runserver
+: 1625345177:0;source /home/anurag/documents/code/TodoDjango/django/bin/activate
+: 1625345183:0;./manage.py runserver
+: 1625361081:0;wifi
+: 1625361216:0;./newfiles.sh
+: 1625361227:0;rm 03-Jul-2021-21_47_11*
+: 1625361237:0;rm 03-Jul-2021-21_47_1*
+: 1625361244:0;rm 04-Jul-2021-06_43_36
+: 1625361248:0;./newfiles.sh
+: 1625361270:0;rm 04-Jul-2021-06_44_*
+: 1625361340:0;chmod +x runner.sh
+: 1625361345:0;./runner.sh
+: 1625361389:0;rm 04-Jul-2021-06_46_1*
+: 1625361445:0;./runner.sh
+: 1625362438:0;rm 04-Jul-2021-06_47_2*
+: 1625362442:0;./runner.sh
+: 1625400775:0;vim .config/i3/config
+: 1625401110:0;packages
+: 1625401148:0;pacstore
+: 1625401242:0;git status
+: 1625401245:0;git add .

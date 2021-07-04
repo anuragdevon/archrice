@@ -379,7 +379,7 @@ mode "$mode_gaps_left" {
 
 # Screen Related
 exec_always --no-startup-id picom -f
-exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall06.jpg
+exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall20.jpeg
 #exec_always feh --randomize --bg-fill /home/anurag/Pictures/*
 
 # Applications Shorcuts

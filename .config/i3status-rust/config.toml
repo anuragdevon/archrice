@@ -47,9 +47,9 @@ cycle = ["echo OFF", "echo ON ⌨	" ]
 on_click = 'backlit'
 interval = 1
 #------------------------------------------------
-#[[block]]
-#block = "custom"
-#command = ''' cat /sys/class/thermal/thermal_zone0/temp | awk '{printf("%.1f糖\n",$1/1000)}' '''
+[[block]]
+block = "custom"
+command = ''' cat /sys/class/thermal/thermal_zone0/temp | awk '{printf("%.1f糖\n",$1/1000)}' '''
 #------------------------------------------------
 
 
