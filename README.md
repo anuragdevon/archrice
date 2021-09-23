@@ -1,10 +1,13 @@
 # My Arch linux Setup
-Using:
+## Setup:
     - Distro: Arch
     - Wm: i3wm
     - Addtional Utilities:
-        - i3status-rust
-        - urxvt/powerlevel10k
+        - Status-bar: i3status-rust
+        - Terminal-emulator: urxvt(powerlevel10k addon)
+        - Shell: zsh
+        - Launcher: Rofi/Custom
+        - dotfiles-Mangement: stow
 
 ## ScreenShots:
   - ![demo](./images/devon.png?raw=true "Demo")
