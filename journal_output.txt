@@ -1,0 +1,1045 @@
+-- Journal begins at Sat 2021-07-10 19:00:42 IST. --
+Jul 17 01:37:18 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:37:18 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:37:18 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:37:23 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:37:23 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:37:23 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:37:23 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:37:23 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:37:23 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:37:23 anuragdevon kernel: wlo1: associated
+Jul 17 01:37:24 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:37:24 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:37:25 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:37:27 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:37:32 anuragdevon dhcpcd[4798]: wlo1: leased 192.168.1.5 for 86400 seconds
+Jul 17 01:37:32 anuragdevon dhcpcd[4798]: wlo1: adding route to 192.168.1.0/24
+Jul 17 01:37:32 anuragdevon dhcpcd[4798]: wlo1: adding default route via 192.168.1.1
+Jul 17 01:37:40 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:37:40 anuragdevon dhcpcd[4798]: wlo1: deleting route to 192.168.1.0/24
+Jul 17 01:37:40 anuragdevon dhcpcd[4798]: wlo1: deleting default route via 192.168.1.1
+Jul 17 01:37:40 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:37:44 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:37:45 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:37:45 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:37:45 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:37:45 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:37:45 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:37:45 anuragdevon kernel: wlo1: associated
+Jul 17 01:37:45 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:37:45 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:37:46 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:37:48 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:37:49 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:37:49 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:37:53 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:37:54 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:37:54 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:37:54 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:37:54 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:37:54 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:37:54 anuragdevon kernel: wlo1: associated
+Jul 17 01:37:54 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:37:54 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:37:56 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:37:57 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:37:57 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:38:01 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:38:02 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:02 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:38:02 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:02 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:38:02 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:38:02 anuragdevon kernel: wlo1: associated
+Jul 17 01:38:02 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:38:02 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:38:04 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:38:07 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:38:07 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:38:12 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:38:12 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:12 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:38:12 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:12 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:38:12 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:38:12 anuragdevon kernel: wlo1: associated
+Jul 17 01:38:12 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:38:12 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:38:13 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:38:15 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:38:15 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:38:20 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:38:20 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:20 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:38:20 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:20 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:38:20 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:38:20 anuragdevon kernel: wlo1: associated
+Jul 17 01:38:20 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:38:20 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:38:21 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:38:23 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:38:23 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:38:28 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:38:28 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:28 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:38:28 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:28 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:38:28 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:38:28 anuragdevon kernel: wlo1: associated
+Jul 17 01:38:28 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:38:28 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:38:29 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:38:31 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:38:32 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:38:32 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:38:36 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:38:37 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:37 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:38:37 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:37 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:38:37 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:38:37 anuragdevon kernel: wlo1: associated
+Jul 17 01:38:37 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:38:37 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:38:38 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:38:41 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:38:41 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:38:45 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:38:46 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:46 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:38:46 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:46 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:38:46 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:38:46 anuragdevon kernel: wlo1: associated
+Jul 17 01:38:46 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:38:46 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:38:47 anuragdevon dbus-daemon[428]: [session uid=1000 pid=428] Activating service name='org.freedesktop.secrets' requested by ':1.29' (uid=1000 pid=11379 comm="/opt/visual-studio-code/code . ")
+Jul 17 01:38:47 anuragdevon gnome-keyring-daemon[11644]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Jul 17 01:38:47 anuragdevon gnome-keyring-d[11644]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Jul 17 01:38:47 anuragdevon dbus-daemon[428]: [session uid=1000 pid=428] Successfully activated service 'org.freedesktop.secrets'
+Jul 17 01:38:48 anuragdevon dbus-daemon[428]: [session uid=1000 pid=428] Activating service name='org.gnome.keyring.SystemPrompter' requested by ':1.35' (uid=1000 pid=11644 comm="/usr/bin/gnome-keyring-daemon --start --foreground")
+Jul 17 01:38:48 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: Gcr: bus acquired: org.gnome.keyring.PrivatePrompter
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: Gcr: registering prompter
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: Gcr: bus acquired: org.gnome.keyring.SystemPrompter
+Jul 17 01:38:48 anuragdevon dbus-daemon[428]: [session uid=1000 pid=428] Successfully activated service 'org.gnome.keyring.SystemPrompter'
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: Gcr: acquired name: org.gnome.keyring.PrivatePrompter
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: Gcr: acquired name: org.gnome.keyring.SystemPrompter
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: Gcr: received BeginPrompting call from callback /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: Gcr: preparing a prompt for callback /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: Gcr: creating new GcrPromptDialog prompt
+Jul 17 01:38:48 anuragdevon gcr-prompter[11666]: GLib-GIO: _g_io_module_get_default: Found default implementation gvfs (GDaemonVfs) for ‘gio-vfs’
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: automatically selecting secret exchange protocol
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: generating public key
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: beginning the secret exchange: [sx-aes-1]\npublic=mn2nDl7n+tiIE+JumE08Exg6Rtkv+x6bWTGQaNJfVwKBqpVvIFxtv6ni5Mmo9fLrzNjZ1Ock+cHJ+/N4f41dYLOYW+STvuEnss/RHCvHC6FszTWkjiAFsqDQzX0MT/ftVs/TEP2CDfIkGjNaKvduo7K/OpHP4kc8CnmxUBy63ht4ApiTZYbbQxhIhFWoWEfXMye9QuQgtLac0/keBqUXTqW8HGCXL0/EDOp+JSuPtMmtdTDSP01U9AAiceyurGrM\n
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: calling the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: returned from the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: received PerformPrompt call from callback /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: receiving secret exchange: [sx-aes-1]\npublic=kJpa6MXBm3FNVo2tHD6FoPrlOSEciLHTDGTG/MXltV7UKreT0hNvVfMDP5WUbI+9527hOnJfuLJCFMeje+lIEPeOThEAbLQKGzW79vdBbBat7cLmmnQNDEWO0kLbqxO9hsHi9O0E69tBAT1QEQFDFLE6xQ4HctIo1bZJz5sH6APB4eDfboQJ/muT8Dc1RBZB/8g2b5whDtOowZig4ODCTwQmAStpBJ8X0J7M/9q0Orgu0uqH2wg3iTcDmHgelQCL\n
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: deriving shared transport key
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: deriving transport key
+Jul 17 01:38:49 anuragdevon gcr-prompter[11666]: Gcr: starting password prompt for callback /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:38:49 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:38:49 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:38:54 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:38:54 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:54 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:38:54 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:38:54 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:38:54 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:38:54 anuragdevon kernel: wlo1: associated
+Jul 17 01:38:54 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:38:54 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:38:55 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:38:57 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:38:57 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:39:00 anuragdevon gcr-prompter[11666]: Gcr: completed password prompt for callback :1.35@/org/gnome/keyring/Prompt/p2
+Jul 17 01:39:00 anuragdevon gcr-prompter[11666]: Gcr: encrypting data
+Jul 17 01:39:00 anuragdevon gcr-prompter[11666]: Gcr: sending the secret exchange: [sx-aes-1]\npublic=mn2nDl7n+tiIE+JumE08Exg6Rtkv+x6bWTGQaNJfVwKBqpVvIFxtv6ni5Mmo9fLrzNjZ1Ock+cHJ+/N4f41dYLOYW+STvuEnss/RHCvHC6FszTWkjiAFsqDQzX0MT/ftVs/TEP2CDfIkGjNaKvduo7K/OpHP4kc8CnmxUBy63ht4ApiTZYbbQxhIhFWoWEfXMye9QuQgtLac0/keBqUXTqW8HGCXL0/EDOp+JSuPtMmtdTDSP01U9AAiceyurGrM\nsecret=H7Rjf6CtpVn2CNRx8iAI+g==\niv=916BRApKW+DBBEgNUFvgow==\n
+Jul 17 01:39:00 anuragdevon gcr-prompter[11666]: Gcr: calling the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:00 anuragdevon gcr-prompter[11666]: Gcr: returned from the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:00 anuragdevon gcr-prompter[11666]: Gcr: received PerformPrompt call from callback /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:00 anuragdevon gcr-prompter[11666]: Gcr: receiving secret exchange: [sx-aes-1]\npublic=kJpa6MXBm3FNVo2tHD6FoPrlOSEciLHTDGTG/MXltV7UKreT0hNvVfMDP5WUbI+9527hOnJfuLJCFMeje+lIEPeOThEAbLQKGzW79vdBbBat7cLmmnQNDEWO0kLbqxO9hsHi9O0E69tBAT1QEQFDFLE6xQ4HctIo1bZJz5sH6APB4eDfboQJ/muT8Dc1RBZB/8g2b5whDtOowZig4ODCTwQmAStpBJ8X0J7M/9q0Orgu0uqH2wg3iTcDmHgelQCL\n
+Jul 17 01:39:00 anuragdevon gcr-prompter[11666]: Gcr: starting password prompt for callback /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:02 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:39:02 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:02 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:39:02 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:02 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:39:02 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:39:02 anuragdevon kernel: wlo1: associated
+Jul 17 01:39:02 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:39:02 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:39:03 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: completed password prompt for callback :1.35@/org/gnome/keyring/Prompt/p2
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: encrypting data
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: sending the secret exchange: [sx-aes-1]\npublic=mn2nDl7n+tiIE+JumE08Exg6Rtkv+x6bWTGQaNJfVwKBqpVvIFxtv6ni5Mmo9fLrzNjZ1Ock+cHJ+/N4f41dYLOYW+STvuEnss/RHCvHC6FszTWkjiAFsqDQzX0MT/ftVs/TEP2CDfIkGjNaKvduo7K/OpHP4kc8CnmxUBy63ht4ApiTZYbbQxhIhFWoWEfXMye9QuQgtLac0/keBqUXTqW8HGCXL0/EDOp+JSuPtMmtdTDSP01U9AAiceyurGrM\nsecret=qgfa8ngkEuBKnuyrPwMqJg==\niv=UTU1dsfuTm63nJs/80vKJQ==\n
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: calling the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: returned from the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: received PerformPrompt call from callback /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: closing the prompt
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.35
+Jul 17 01:39:03 anuragdevon gcr-prompter[11666]: Gcr: calling the PromptDone method on /org/gnome/keyring/Prompt/p2@:1.35, and ignoring reply
+Jul 17 01:39:05 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:39:05 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:39:10 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:39:10 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:10 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:39:10 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:10 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:39:10 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:39:10 anuragdevon kernel: wlo1: associated
+Jul 17 01:39:10 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:39:10 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:39:12 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:39:13 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:39:13 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:39:14 anuragdevon gcr-prompter[11666]: Gcr: 10 second inactivity timeout, quitting
+Jul 17 01:39:14 anuragdevon gcr-prompter[11666]: Gcr: unregistering prompter
+Jul 17 01:39:14 anuragdevon gcr-prompter[11666]: Gcr: disposing prompter
+Jul 17 01:39:14 anuragdevon gcr-prompter[11666]: Gcr: finalizing prompter
+Jul 17 01:39:18 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:39:18 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:18 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:39:18 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:18 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:39:18 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:39:18 anuragdevon kernel: wlo1: associated
+Jul 17 01:39:18 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:39:18 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:39:19 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:39:21 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:39:21 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:39:26 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:39:26 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:26 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:39:26 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:26 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:39:26 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:39:26 anuragdevon kernel: wlo1: associated
+Jul 17 01:39:26 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:39:26 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:39:27 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:39:29 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:39:29 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:39:34 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:39:34 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:34 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:39:34 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:34 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:39:34 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:39:34 anuragdevon kernel: wlo1: associated
+Jul 17 01:39:34 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:39:34 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:39:35 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:39:37 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:39:39 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:39:39 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:39:44 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:39:44 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:44 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:39:44 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:44 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:39:44 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:39:44 anuragdevon kernel: wlo1: associated
+Jul 17 01:39:44 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:39:44 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:39:46 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:39:47 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:39:47 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:39:52 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:39:52 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:52 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:39:52 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:39:53 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 2/3)
+Jul 17 01:39:53 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:39:53 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:39:53 anuragdevon kernel: wlo1: associated
+Jul 17 01:39:53 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:39:53 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:39:53 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:39:55 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:39:57 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:39:57 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:40:01 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:40:02 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:02 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:40:02 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:02 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:40:02 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:40:02 anuragdevon kernel: wlo1: associated
+Jul 17 01:40:02 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:40:02 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:40:03 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:40:05 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:40:05 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:40:09 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:40:10 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:10 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:40:10 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:10 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:40:10 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:40:10 anuragdevon kernel: wlo1: associated
+Jul 17 01:40:10 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:40:10 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:40:11 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:40:13 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:40:13 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:40:18 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:40:18 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:18 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:40:18 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:18 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:40:18 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:40:18 anuragdevon kernel: wlo1: associated
+Jul 17 01:40:18 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:40:18 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:40:20 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:40:22 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:40:22 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:40:27 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:40:27 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:28 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 2/3)
+Jul 17 01:40:28 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:40:28 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:28 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:40:28 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:40:28 anuragdevon kernel: wlo1: associated
+Jul 17 01:40:28 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:40:28 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:40:29 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:40:30 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:40:30 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:40:35 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:40:35 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:35 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:40:35 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:36 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 2/3)
+Jul 17 01:40:36 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:40:36 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:40:36 anuragdevon kernel: wlo1: associated
+Jul 17 01:40:36 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:40:36 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:40:36 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:40:39 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:40:44 anuragdevon dhcpcd[4798]: wlo1: leased 192.168.1.5 for 86400 seconds
+Jul 17 01:40:44 anuragdevon dhcpcd[4798]: wlo1: adding route to 192.168.1.0/24
+Jul 17 01:40:44 anuragdevon dhcpcd[4798]: wlo1: adding default route via 192.168.1.1
+Jul 17 01:40:44 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:40:44 anuragdevon dhcpcd[4798]: wlo1: deleting route to 192.168.1.0/24
+Jul 17 01:40:44 anuragdevon dhcpcd[4798]: wlo1: deleting default route via 192.168.1.1
+Jul 17 01:40:44 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:40:48 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:40:49 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:49 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:40:49 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:49 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:40:49 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:40:49 anuragdevon kernel: wlo1: associated
+Jul 17 01:40:49 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:40:49 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:40:49 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:40:51 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:40:52 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:40:52 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:40:57 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:40:57 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:57 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:40:57 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:40:57 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:40:57 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:40:57 anuragdevon kernel: wlo1: associated
+Jul 17 01:40:57 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:40:57 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:40:58 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:41:00 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:41:00 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:41:05 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:41:05 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:05 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:41:05 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:05 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:41:05 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:41:05 anuragdevon kernel: wlo1: associated
+Jul 17 01:41:05 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:41:05 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:41:06 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:41:08 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:41:08 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:41:13 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:41:13 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:13 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:41:13 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:13 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:41:13 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:41:13 anuragdevon kernel: wlo1: associated
+Jul 17 01:41:13 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:41:13 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:41:15 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:41:16 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:41:16 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:41:21 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:41:21 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:21 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:41:21 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:21 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:41:21 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:41:21 anuragdevon kernel: wlo1: associated
+Jul 17 01:41:21 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:41:21 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:41:23 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:41:24 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:41:24 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:41:29 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:41:29 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:29 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:41:29 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:29 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:41:29 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:41:29 anuragdevon kernel: wlo1: associated
+Jul 17 01:41:29 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:41:29 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:41:30 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:41:32 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:41:32 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:41:36 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:41:37 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:37 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:41:37 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:37 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:41:37 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:41:37 anuragdevon kernel: wlo1: associated
+Jul 17 01:41:37 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:41:37 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:41:38 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:41:40 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:41:40 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:41:44 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:41:45 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:45 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:41:45 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:41:45 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:41:45 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:41:45 anuragdevon kernel: wlo1: associated
+Jul 17 01:41:45 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:41:45 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:41:45 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:41:47 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:41:53 anuragdevon dhcpcd[4798]: wlo1: leased 192.168.1.5 for 86400 seconds
+Jul 17 01:41:53 anuragdevon dhcpcd[4798]: wlo1: adding route to 192.168.1.0/24
+Jul 17 01:41:53 anuragdevon dhcpcd[4798]: wlo1: adding default route via 192.168.1.1
+Jul 17 01:42:00 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:42:00 anuragdevon dhcpcd[4798]: wlo1: deleting route to 192.168.1.0/24
+Jul 17 01:42:00 anuragdevon dhcpcd[4798]: wlo1: deleting default route via 192.168.1.1
+Jul 17 01:42:00 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:42:05 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:42:05 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:42:05 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:42:05 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:42:05 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:42:05 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:42:05 anuragdevon kernel: wlo1: associated
+Jul 17 01:42:05 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:42:05 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:42:06 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:42:08 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:42:08 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:42:13 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:42:13 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:42:13 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:42:13 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:42:13 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:42:13 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:42:13 anuragdevon kernel: wlo1: associated
+Jul 17 01:42:13 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:42:13 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:42:14 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:42:17 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:42:22 anuragdevon dhcpcd[4798]: wlo1: leased 192.168.1.5 for 86400 seconds
+Jul 17 01:42:22 anuragdevon dhcpcd[4798]: wlo1: adding route to 192.168.1.0/24
+Jul 17 01:42:22 anuragdevon dhcpcd[4798]: wlo1: adding default route via 192.168.1.1
+Jul 17 01:42:37 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:42:37 anuragdevon dhcpcd[4798]: wlo1: deleting route to 192.168.1.0/24
+Jul 17 01:42:37 anuragdevon dhcpcd[4798]: wlo1: deleting default route via 192.168.1.1
+Jul 17 01:42:37 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:42:41 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:42:42 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:42:42 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:42:42 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:42:42 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:42:42 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:42:42 anuragdevon kernel: wlo1: associated
+Jul 17 01:42:42 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:42:42 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:42:43 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:42:45 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:42:47 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:42:47 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:42:52 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:42:52 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:42:52 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:42:52 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:42:52 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:42:52 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:42:52 anuragdevon kernel: wlo1: associated
+Jul 17 01:42:53 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:42:53 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:42:53 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:42:55 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:42:58 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:42:58 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:43:03 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:43:03 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:03 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:43:03 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:03 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:43:03 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:43:03 anuragdevon kernel: wlo1: associated
+Jul 17 01:43:03 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:43:03 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:43:04 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:43:06 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:43:06 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:43:10 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:43:11 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:11 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:43:11 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:11 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:43:11 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:43:11 anuragdevon kernel: wlo1: associated
+Jul 17 01:43:11 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:43:11 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:43:13 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:43:14 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:43:14 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:43:19 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:43:19 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:19 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:43:19 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:19 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:43:19 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:43:19 anuragdevon kernel: wlo1: associated
+Jul 17 01:43:19 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:43:19 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:43:20 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:43:23 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:43:28 anuragdevon dhcpcd[4798]: wlo1: leased 192.168.1.5 for 86400 seconds
+Jul 17 01:43:28 anuragdevon dhcpcd[4798]: wlo1: adding route to 192.168.1.0/24
+Jul 17 01:43:28 anuragdevon dhcpcd[4798]: wlo1: adding default route via 192.168.1.1
+Jul 17 01:43:36 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:43:36 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:43:36 anuragdevon dhcpcd[4798]: wlo1: deleting route to 192.168.1.0/24
+Jul 17 01:43:36 anuragdevon dhcpcd[4798]: wlo1: deleting default route via 192.168.1.1
+Jul 17 01:43:40 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:43:41 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:41 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:43:41 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:41 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:43:41 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:43:41 anuragdevon kernel: wlo1: associated
+Jul 17 01:43:41 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:43:41 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:43:41 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:43:44 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:43:44 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:43:49 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:43:49 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:49 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:43:49 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:49 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:43:49 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:43:49 anuragdevon kernel: wlo1: associated
+Jul 17 01:43:49 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:43:49 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:43:50 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:43:52 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:43:52 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:43:57 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:43:57 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:57 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:43:57 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:43:57 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:43:57 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:43:57 anuragdevon kernel: wlo1: associated
+Jul 17 01:43:57 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:43:57 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:43:58 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:44:01 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:44:05 anuragdevon dhcpcd[4798]: wlo1: leased 192.168.1.5 for 86400 seconds
+Jul 17 01:44:05 anuragdevon dhcpcd[4798]: wlo1: adding route to 192.168.1.0/24
+Jul 17 01:44:05 anuragdevon dhcpcd[4798]: wlo1: adding default route via 192.168.1.1
+Jul 17 01:44:16 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:44:16 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:44:16 anuragdevon dhcpcd[4798]: wlo1: deleting route to 192.168.1.0/24
+Jul 17 01:44:16 anuragdevon dhcpcd[4798]: wlo1: deleting default route via 192.168.1.1
+Jul 17 01:44:21 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:44:21 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:44:21 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:44:21 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:44:21 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:44:21 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:44:21 anuragdevon kernel: wlo1: associated
+Jul 17 01:44:21 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:44:21 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:44:22 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:44:25 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:44:25 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:44:30 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:44:30 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:44:30 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:44:30 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:44:30 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:44:30 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:44:30 anuragdevon kernel: wlo1: associated
+Jul 17 01:44:30 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:44:30 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:44:31 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:44:33 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:44:37 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:44:37 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:44:42 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:44:42 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:44:42 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:44:42 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:44:42 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:44:42 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:44:42 anuragdevon kernel: wlo1: associated
+Jul 17 01:44:42 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:44:42 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:44:43 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:44:45 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:44:49 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:44:49 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:44:54 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:44:54 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:44:54 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:44:54 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:44:54 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:44:54 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:44:54 anuragdevon kernel: wlo1: associated
+Jul 17 01:44:54 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:44:54 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:44:56 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:44:57 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:44:57 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:45:02 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:45:02 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:02 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:45:02 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:02 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:45:02 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:45:02 anuragdevon kernel: wlo1: associated
+Jul 17 01:45:02 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:45:02 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:45:03 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:45:05 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:45:10 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:45:10 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:45:15 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:45:15 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:15 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:45:15 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:15 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:45:15 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:45:15 anuragdevon kernel: wlo1: associated
+Jul 17 01:45:15 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:45:15 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:45:16 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:45:18 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:45:18 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:45:23 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:45:23 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:23 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:45:23 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:23 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:45:23 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:45:23 anuragdevon kernel: wlo1: associated
+Jul 17 01:45:23 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:45:23 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:45:23 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:45:26 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:45:26 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:45:30 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:45:31 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:31 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:45:31 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:31 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:45:31 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:45:31 anuragdevon kernel: wlo1: associated
+Jul 17 01:45:31 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:45:31 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:45:32 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:45:34 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:45:34 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:45:39 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:45:39 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:39 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:45:39 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:39 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:45:39 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:45:39 anuragdevon kernel: wlo1: associated
+Jul 17 01:45:39 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:45:39 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:45:41 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:45:42 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:45:42 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:45:47 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:45:47 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:47 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:45:47 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:47 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:45:47 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:45:47 anuragdevon kernel: wlo1: associated
+Jul 17 01:45:47 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:45:47 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:45:48 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:45:50 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:45:50 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:45:55 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:45:55 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:55 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:45:55 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:45:55 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:45:55 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:45:55 anuragdevon kernel: wlo1: associated
+Jul 17 01:45:55 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:45:55 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:45:57 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:45:58 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:45:58 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:46:03 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:46:03 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:46:03 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:46:03 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:46:03 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:46:03 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:46:03 anuragdevon kernel: wlo1: associated
+Jul 17 01:46:03 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:46:03 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:46:05 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:46:06 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:46:06 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:46:11 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:46:11 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:46:11 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:46:11 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:46:11 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:46:11 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:46:11 anuragdevon kernel: wlo1: associated
+Jul 17 01:46:11 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:46:11 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:46:13 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:46:14 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:46:14 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:46:19 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:46:19 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:46:19 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:46:19 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:46:19 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:46:19 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:46:19 anuragdevon kernel: wlo1: associated
+Jul 17 01:46:19 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:46:19 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:46:20 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:46:23 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:46:25 anuragdevon dhcpcd[4798]: wlo1: carrier lost
+Jul 17 01:46:25 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:46:29 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:46:30 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:46:30 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:46:30 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:46:30 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:46:30 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:46:30 anuragdevon kernel: wlo1: associated
+Jul 17 01:46:30 anuragdevon dhcpcd[4798]: wlo1: carrier acquired
+Jul 17 01:46:30 anuragdevon dhcpcd[4798]: wlo1: IAID b3:66:af:a7
+Jul 17 01:46:31 anuragdevon audit[15106]: USER_AUTH pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:31 anuragdevon kernel: audit: type=1100 audit(1626466591.302:106): pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:31 anuragdevon dbus-daemon[335]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.32' (uid=0 pid=15106 comm="sudo wifi-menu ")
+Jul 17 01:46:31 anuragdevon dbus-daemon[335]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:46:31 anuragdevon sudo[15106]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:46:31 anuragdevon kernel: audit: type=1101 audit(1626466591.306:107): pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:31 anuragdevon kernel: audit: type=1110 audit(1626466591.306:108): pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:31 anuragdevon kernel: audit: type=1105 audit(1626466591.309:109): pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:31 anuragdevon audit[15106]: USER_ACCT pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:31 anuragdevon audit[15106]: CRED_REFR pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:31 anuragdevon audit[15106]: USER_START pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:31 anuragdevon sudo[15106]:   anurag : TTY=pts/0 ; PWD=/home/anurag ; USER=root ; COMMAND=/usr/bin/wifi-menu
+Jul 17 01:46:31 anuragdevon sudo[15106]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 17 01:46:31 anuragdevon dhcpcd[4798]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:46:35 anuragdevon dhcpcd[4798]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:46:37 anuragdevon systemd[1]: Stopping Networking for netctl profile wlo1-mimi...
+Jul 17 01:46:37 anuragdevon network[15208]: Stopping network profile 'wlo1-mimi'...
+Jul 17 01:46:37 anuragdevon dhcpcd[15213]: sending signal TERM to pid 4797
+Jul 17 01:46:37 anuragdevon dhcpcd[15213]: waiting for pid 4797 to exit
+Jul 17 01:46:37 anuragdevon dhcpcd[4798]: received SIGTERM, stopping
+Jul 17 01:46:37 anuragdevon dhcpcd[4798]: wlo1: removing interface
+Jul 17 01:46:37 anuragdevon kernel: wlo1: deauthenticating from f0:b4:d2:78:e2:05 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 17 01:46:37 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:46:37 anuragdevon kernel: rtw_8821ce 0000:02:00.0: stop vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:46:37 anuragdevon network[15208]: Stopped network profile 'wlo1-mimi'
+Jul 17 01:46:37 anuragdevon systemd[1]: netctl@wlo1\x2dmimi.service: Deactivated successfully.
+Jul 17 01:46:37 anuragdevon systemd[1]: Stopped Networking for netctl profile wlo1-mimi.
+Jul 17 01:46:37 anuragdevon audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2dmimi comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:46:37 anuragdevon systemd[1]: netctl@wlo1\x2dmimi.service: Consumed 12.402s CPU time.
+Jul 17 01:46:37 anuragdevon kernel: audit: type=1131 audit(1626466597.847:110): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2dmimi comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:46:37 anuragdevon systemd[1]: Starting Networking for netctl profile wlo1-devonM...
+Jul 17 01:46:37 anuragdevon network[15233]: Starting network profile 'wlo1-devonM'...
+Jul 17 01:46:38 anuragdevon kernel: rtw_8821ce 0000:02:00.0: start vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:46:42 anuragdevon kernel: wlo1: authenticate with fe:ee:e1:d1:ab:e4
+Jul 17 01:46:43 anuragdevon kernel: wlo1: send auth to fe:ee:e1:d1:ab:e4 (try 1/3)
+Jul 17 01:46:43 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:46:43 anuragdevon kernel: wlo1: associate with fe:ee:e1:d1:ab:e4 (try 1/3)
+Jul 17 01:46:43 anuragdevon kernel: wlo1: RX AssocResp from fe:ee:e1:d1:ab:e4 (capab=0x411 status=0 aid=1)
+Jul 17 01:46:43 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta fe:ee:e1:d1:ab:e4 joined with macid 0
+Jul 17 01:46:43 anuragdevon kernel: wlo1: associated
+Jul 17 01:46:43 anuragdevon kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+Jul 17 01:46:43 anuragdevon systemd[1]: Started Networking for netctl profile wlo1-devonM.
+Jul 17 01:46:43 anuragdevon audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2ddevonM comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:46:43 anuragdevon kernel: audit: type=1130 audit(1626466603.704:111): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2ddevonM comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:46:43 anuragdevon sudo[15106]: pam_unix(sudo:session): session closed for user root
+Jul 17 01:46:43 anuragdevon audit[15106]: USER_END pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:43 anuragdevon audit[15106]: CRED_DISP pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:43 anuragdevon dhcpcd[15402]: dhcpcd-9.4.0 starting
+Jul 17 01:46:43 anuragdevon kernel: audit: type=1106 audit(1626466603.707:112): pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:43 anuragdevon kernel: audit: type=1104 audit(1626466603.707:113): pid=15106 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:46:43 anuragdevon dhcpcd[15406]: DUID 00:04:3e:e2:79:08:4c:ca:eb:11:81:0a:50:81:40:30:34:72
+Jul 17 01:46:43 anuragdevon dhcpcd[15406]: wlo1: connected to Access Point: devonM
+Jul 17 01:46:43 anuragdevon dhcpcd[15406]: wlo1: IAID b3:66:af:a7
+Jul 17 01:46:43 anuragdevon dhcpcd[15406]: wlo1: soliciting a DHCP lease
+Jul 17 01:46:44 anuragdevon dhcpcd[15406]: wlo1: offered 192.168.43.245 from 192.168.43.1
+Jul 17 01:46:44 anuragdevon dhcpcd[15406]: wlo1: probing address 192.168.43.245/24
+Jul 17 01:46:49 anuragdevon dhcpcd[15406]: wlo1: leased 192.168.43.245 for 3599 seconds
+Jul 17 01:46:49 anuragdevon dhcpcd[15406]: wlo1: adding route to 192.168.43.0/24
+Jul 17 01:46:49 anuragdevon dhcpcd[15406]: wlo1: adding default route via 192.168.43.1
+Jul 17 01:46:49 anuragdevon network[15233]: Started network profile 'wlo1-devonM'
+Jul 17 01:49:52 anuragdevon audit[16324]: USER_AUTH pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:49:52 anuragdevon kernel: audit: type=1100 audit(1626466792.664:114): pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:49:52 anuragdevon kernel: audit: type=1101 audit(1626466792.667:115): pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:49:52 anuragdevon kernel: audit: type=1110 audit(1626466792.667:116): pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:49:52 anuragdevon kernel: audit: type=1105 audit(1626466792.671:117): pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:49:52 anuragdevon audit[16324]: USER_ACCT pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:49:52 anuragdevon audit[16324]: CRED_REFR pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:49:52 anuragdevon audit[16324]: USER_START pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:49:52 anuragdevon dbus-daemon[335]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.33' (uid=0 pid=16324 comm="sudo wifi-menu ")
+Jul 17 01:49:52 anuragdevon dbus-daemon[335]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:49:52 anuragdevon sudo[16324]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:49:52 anuragdevon sudo[16324]:   anurag : TTY=pts/0 ; PWD=/home/anurag ; USER=root ; COMMAND=/usr/bin/wifi-menu
+Jul 17 01:49:52 anuragdevon sudo[16324]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 17 01:49:58 anuragdevon systemd[1]: Stopping Networking for netctl profile wlo1-devonM...
+Jul 17 01:49:58 anuragdevon network[16407]: Stopping network profile 'wlo1-devonM'...
+Jul 17 01:49:58 anuragdevon dhcpcd[16412]: sending signal TERM to pid 15405
+Jul 17 01:49:58 anuragdevon dhcpcd[16412]: waiting for pid 15405 to exit
+Jul 17 01:49:58 anuragdevon dhcpcd[15406]: received SIGTERM, stopping
+Jul 17 01:49:58 anuragdevon dhcpcd[15406]: wlo1: removing interface
+Jul 17 01:49:58 anuragdevon kernel: wlo1: deauthenticating from fe:ee:e1:d1:ab:e4 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 17 01:49:58 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta fe:ee:e1:d1:ab:e4 with macid 0 left
+Jul 17 01:49:58 anuragdevon kernel: rtw_8821ce 0000:02:00.0: stop vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:49:58 anuragdevon network[16407]: Stopped network profile 'wlo1-devonM'
+Jul 17 01:49:59 anuragdevon systemd[1]: netctl@wlo1\x2ddevonM.service: Deactivated successfully.
+Jul 17 01:49:59 anuragdevon systemd[1]: Stopped Networking for netctl profile wlo1-devonM.
+Jul 17 01:49:58 anuragdevon audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2ddevonM comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:49:59 anuragdevon kernel: audit: type=1131 audit(1626466798.998:118): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2ddevonM comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:49:59 anuragdevon systemd[1]: Starting Networking for netctl profile wlo1-devonM...
+Jul 17 01:49:59 anuragdevon network[16437]: Starting network profile 'wlo1-devonM'...
+Jul 17 01:49:59 anuragdevon kernel: rtw_8821ce 0000:02:00.0: start vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:50:04 anuragdevon kernel: wlo1: authenticate with fe:ee:e1:d1:ab:e4
+Jul 17 01:50:04 anuragdevon kernel: wlo1: send auth to fe:ee:e1:d1:ab:e4 (try 1/3)
+Jul 17 01:50:04 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:50:04 anuragdevon kernel: wlo1: associate with fe:ee:e1:d1:ab:e4 (try 1/3)
+Jul 17 01:50:05 anuragdevon kernel: wlo1: associate with fe:ee:e1:d1:ab:e4 (try 2/3)
+Jul 17 01:50:06 anuragdevon kernel: wlo1: associate with fe:ee:e1:d1:ab:e4 (try 3/3)
+Jul 17 01:50:07 anuragdevon kernel: wlo1: association with fe:ee:e1:d1:ab:e4 timed out
+Jul 17 01:50:11 anuragdevon kernel: wlo1: authenticate with fe:ee:e1:d1:ab:e4
+Jul 17 01:50:12 anuragdevon kernel: wlo1: send auth to fe:ee:e1:d1:ab:e4 (try 1/3)
+Jul 17 01:50:12 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:50:12 anuragdevon kernel: wlo1: associate with fe:ee:e1:d1:ab:e4 (try 1/3)
+Jul 17 01:50:12 anuragdevon kernel: wlo1: RX AssocResp from fe:ee:e1:d1:ab:e4 (capab=0x411 status=0 aid=1)
+Jul 17 01:50:12 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta fe:ee:e1:d1:ab:e4 joined with macid 0
+Jul 17 01:50:12 anuragdevon kernel: wlo1: associated
+Jul 17 01:50:12 anuragdevon kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+Jul 17 01:50:12 anuragdevon systemd[1]: Started Networking for netctl profile wlo1-devonM.
+Jul 17 01:50:12 anuragdevon audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2ddevonM comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:50:12 anuragdevon kernel: audit: type=1130 audit(1626466812.684:119): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2ddevonM comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:50:12 anuragdevon sudo[16324]: pam_unix(sudo:session): session closed for user root
+Jul 17 01:50:12 anuragdevon audit[16324]: USER_END pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:12 anuragdevon audit[16324]: CRED_DISP pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:12 anuragdevon dhcpcd[16860]: dhcpcd-9.4.0 starting
+Jul 17 01:50:12 anuragdevon dhcpcd[16864]: DUID 00:04:3e:e2:79:08:4c:ca:eb:11:81:0a:50:81:40:30:34:72
+Jul 17 01:50:12 anuragdevon kernel: audit: type=1106 audit(1626466812.690:120): pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:12 anuragdevon kernel: audit: type=1104 audit(1626466812.690:121): pid=16324 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:12 anuragdevon dhcpcd[16864]: wlo1: connected to Access Point: devonM
+Jul 17 01:50:12 anuragdevon dhcpcd[16864]: wlo1: IAID b3:66:af:a7
+Jul 17 01:50:14 anuragdevon dhcpcd[16864]: wlo1: rebinding lease of 192.168.43.245
+Jul 17 01:50:14 anuragdevon dhcpcd[16864]: wlo1: probing address 192.168.43.245/24
+Jul 17 01:50:17 anuragdevon dbus-daemon[335]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.34' (uid=0 pid=16900 comm="sudo wifi-menu ")
+Jul 17 01:50:17 anuragdevon dbus-daemon[335]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:50:17 anuragdevon sudo[16900]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:50:17 anuragdevon audit[16900]: USER_ACCT pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:17 anuragdevon sudo[16900]:   anurag : TTY=pts/0 ; PWD=/home/anurag ; USER=root ; COMMAND=/usr/bin/wifi-menu
+Jul 17 01:50:17 anuragdevon kernel: audit: type=1101 audit(1626466817.258:122): pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:17 anuragdevon kernel: audit: type=1110 audit(1626466817.258:123): pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:17 anuragdevon kernel: audit: type=1105 audit(1626466817.261:124): pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:17 anuragdevon audit[16900]: CRED_REFR pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:17 anuragdevon audit[16900]: USER_START pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:17 anuragdevon sudo[16900]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 17 01:50:19 anuragdevon dhcpcd[16864]: wlo1: leased 192.168.43.245 for 3599 seconds
+Jul 17 01:50:19 anuragdevon dhcpcd[16864]: wlo1: adding route to 192.168.43.0/24
+Jul 17 01:50:19 anuragdevon dhcpcd[16864]: wlo1: adding default route via 192.168.43.1
+Jul 17 01:50:19 anuragdevon network[16437]: Started network profile 'wlo1-devonM'
+Jul 17 01:50:22 anuragdevon systemd[1]: Stopping Networking for netctl profile wlo1-devonM...
+Jul 17 01:50:22 anuragdevon network[16993]: Stopping network profile 'wlo1-devonM'...
+Jul 17 01:50:22 anuragdevon dhcpcd[16998]: sending signal TERM to pid 16863
+Jul 17 01:50:22 anuragdevon dhcpcd[16998]: waiting for pid 16863 to exit
+Jul 17 01:50:22 anuragdevon dhcpcd[16864]: received SIGTERM, stopping
+Jul 17 01:50:22 anuragdevon dhcpcd[16864]: wlo1: removing interface
+Jul 17 01:50:22 anuragdevon kernel: wlo1: deauthenticating from fe:ee:e1:d1:ab:e4 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 17 01:50:22 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta fe:ee:e1:d1:ab:e4 with macid 0 left
+Jul 17 01:50:22 anuragdevon kernel: rtw_8821ce 0000:02:00.0: stop vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:50:22 anuragdevon network[16993]: Stopped network profile 'wlo1-devonM'
+Jul 17 01:50:22 anuragdevon systemd[1]: netctl@wlo1\x2ddevonM.service: Deactivated successfully.
+Jul 17 01:50:22 anuragdevon systemd[1]: Stopped Networking for netctl profile wlo1-devonM.
+Jul 17 01:50:22 anuragdevon audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2ddevonM comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:50:22 anuragdevon kernel: audit: type=1131 audit(1626466822.798:125): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2ddevonM comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:50:22 anuragdevon systemd[1]: Starting Networking for netctl profile wlo1-mimi...
+Jul 17 01:50:22 anuragdevon network[17019]: Starting network profile 'wlo1-mimi'...
+Jul 17 01:50:23 anuragdevon kernel: rtw_8821ce 0000:02:00.0: start vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:50:27 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:50:27 anuragdevon audit[17161]: USER_AUTH pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:27 anuragdevon dbus-daemon[335]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.35' (uid=0 pid=17161 comm="sudo wifi-menu ")
+Jul 17 01:50:27 anuragdevon audit[17161]: USER_ACCT pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:27 anuragdevon dbus-daemon[335]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:50:27 anuragdevon sudo[17161]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:50:27 anuragdevon audit[17161]: CRED_REFR pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:27 anuragdevon sudo[17161]:   anurag : TTY=pts/1 ; PWD=/home/anurag ; USER=root ; COMMAND=/usr/bin/wifi-menu
+Jul 17 01:50:27 anuragdevon kernel: audit: type=1100 audit(1626466827.859:126): pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:27 anuragdevon kernel: audit: type=1101 audit(1626466827.859:127): pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:27 anuragdevon kernel: audit: type=1110 audit(1626466827.859:128): pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:27 anuragdevon sudo[17161]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 17 01:50:27 anuragdevon audit[17161]: USER_START pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:27 anuragdevon kernel: audit: type=1105 audit(1626466827.866:129): pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:28 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:50:28 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:50:28 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:50:28 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:50:28 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:50:28 anuragdevon kernel: wlo1: associated
+Jul 17 01:50:28 anuragdevon kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+Jul 17 01:50:28 anuragdevon systemd[1]: Started Networking for netctl profile wlo1-mimi.
+Jul 17 01:50:28 anuragdevon audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2dmimi comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:50:28 anuragdevon kernel: audit: type=1130 audit(1626466828.652:130): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2dmimi comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:50:28 anuragdevon sudo[16900]: pam_unix(sudo:session): session closed for user root
+Jul 17 01:50:28 anuragdevon kernel: audit: type=1106 audit(1626466828.656:131): pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:28 anuragdevon kernel: audit: type=1104 audit(1626466828.659:132): pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:28 anuragdevon audit[16900]: USER_END pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:28 anuragdevon audit[16900]: CRED_DISP pid=16900 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Jul 17 01:50:28 anuragdevon dhcpcd[17231]: dhcpcd-9.4.0 starting
+Jul 17 01:50:28 anuragdevon dhcpcd[17236]: DUID 00:04:3e:e2:79:08:4c:ca:eb:11:81:0a:50:81:40:30:34:72
+Jul 17 01:50:28 anuragdevon dhcpcd[17236]: wlo1: connected to Access Point: mimi
+Jul 17 01:50:28 anuragdevon dhcpcd[17236]: wlo1: IAID b3:66:af:a7
+Jul 17 01:50:28 anuragdevon dhcpcd[17236]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:50:31 anuragdevon dhcpcd[17236]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:50:31 anuragdevon dhcpcd[17236]: wlo1: carrier lost
+Jul 17 01:50:31 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:50:35 anuragdevon sudo[17161]: pam_unix(sudo:session): session closed for user root
+Jul 17 01:50:35 anuragdevon audit[17161]: USER_END pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:35 anuragdevon audit[17161]: CRED_DISP pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:35 anuragdevon kernel: audit: type=1106 audit(1626466835.227:133): pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:35 anuragdevon kernel: audit: type=1104 audit(1626466835.227:134): pid=17161 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:50:35 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:50:36 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:50:36 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:50:36 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:50:36 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:50:36 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:50:36 anuragdevon kernel: wlo1: associated
+Jul 17 01:50:36 anuragdevon dhcpcd[17236]: wlo1: carrier acquired
+Jul 17 01:50:36 anuragdevon dhcpcd[17236]: wlo1: IAID b3:66:af:a7
+Jul 17 01:50:38 anuragdevon dhcpcd[17236]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:50:39 anuragdevon dhcpcd[17236]: wlo1: carrier lost
+Jul 17 01:50:39 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:50:44 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:50:44 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:50:44 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:50:44 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:50:44 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:50:44 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:50:44 anuragdevon kernel: wlo1: associated
+Jul 17 01:50:44 anuragdevon dhcpcd[17236]: wlo1: carrier acquired
+Jul 17 01:50:44 anuragdevon dhcpcd[17236]: wlo1: IAID b3:66:af:a7
+Jul 17 01:50:46 anuragdevon dhcpcd[17236]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:50:47 anuragdevon dhcpcd[17236]: wlo1: carrier lost
+Jul 17 01:50:47 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:50:52 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:50:52 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:50:52 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:50:52 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:50:52 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:50:52 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:50:52 anuragdevon kernel: wlo1: associated
+Jul 17 01:50:52 anuragdevon dhcpcd[17236]: wlo1: carrier acquired
+Jul 17 01:50:52 anuragdevon dhcpcd[17236]: wlo1: IAID b3:66:af:a7
+Jul 17 01:50:53 anuragdevon dhcpcd[17236]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:50:55 anuragdevon dhcpcd[17236]: wlo1: carrier lost
+Jul 17 01:50:55 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 with macid 0 left
+Jul 17 01:50:58 anuragdevon dhcpcd[17236]: timed out
+Jul 17 01:50:58 anuragdevon network[17231]: timed out
+Jul 17 01:50:58 anuragdevon network[17019]: DHCP IPv4 lease attempt failed on interface 'wlo1'
+Jul 17 01:50:58 anuragdevon kernel: rtw_8821ce 0000:02:00.0: stop vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:50:58 anuragdevon network[17019]: Failed to bring the network up for profile 'wlo1-mimi'
+Jul 17 01:50:58 anuragdevon systemd[1]: netctl@wlo1\x2dmimi.service: Main process exited, code=exited, status=1/FAILURE
+Jul 17 01:50:58 anuragdevon systemd[1]: netctl@wlo1\x2dmimi.service: Failed with result 'exit-code'.
+Jul 17 01:50:58 anuragdevon audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2dmimi comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Jul 17 01:50:58 anuragdevon kernel: audit: type=1131 audit(1626466858.910:135): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2dmimi comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Jul 17 01:51:34 anuragdevon audit[17955]: USER_AUTH pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:34 anuragdevon dbus-daemon[335]: [system] Activating via systemd: service name='org.freedesktop.home1' unit='dbus-org.freedesktop.home1.service' requested by ':1.36' (uid=0 pid=17955 comm="sudo wifi-menu ")
+Jul 17 01:51:34 anuragdevon kernel: audit: type=1100 audit(1626466894.925:136): pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:34 anuragdevon kernel: audit: type=1101 audit(1626466894.928:137): pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:34 anuragdevon audit[17955]: USER_ACCT pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="anurag" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:34 anuragdevon dbus-daemon[335]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.home1.service': Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:51:34 anuragdevon sudo[17955]: pam_systemd_home(sudo:account): systemd-homed is not available: Unit dbus-org.freedesktop.home1.service not found.
+Jul 17 01:51:34 anuragdevon sudo[17955]:   anurag : TTY=pts/1 ; PWD=/home/anurag ; USER=root ; COMMAND=/usr/bin/wifi-menu
+Jul 17 01:51:34 anuragdevon audit[17955]: CRED_REFR pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:34 anuragdevon kernel: audit: type=1110 audit(1626466894.928:138): pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:34 anuragdevon sudo[17955]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jul 17 01:51:34 anuragdevon audit[17955]: USER_START pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:34 anuragdevon kernel: audit: type=1105 audit(1626466894.935:139): pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:35 anuragdevon kernel: rtw_8821ce 0000:02:00.0: start vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:51:40 anuragdevon kernel: rtw_8821ce 0000:02:00.0: stop vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:51:42 anuragdevon systemd[1]: Starting Networking for netctl profile wlo1-mimi...
+Jul 17 01:51:42 anuragdevon network[18099]: Starting network profile 'wlo1-mimi'...
+Jul 17 01:51:42 anuragdevon kernel: rtw_8821ce 0000:02:00.0: start vif 74:12:b3:66:af:a7 on port 0
+Jul 17 01:51:47 anuragdevon kernel: wlo1: authenticate with f0:b4:d2:78:e2:05
+Jul 17 01:51:47 anuragdevon kernel: wlo1: send auth to f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:51:47 anuragdevon kernel: wlo1: authenticated
+Jul 17 01:51:47 anuragdevon kernel: wlo1: associate with f0:b4:d2:78:e2:05 (try 1/3)
+Jul 17 01:51:47 anuragdevon kernel: wlo1: RX AssocResp from f0:b4:d2:78:e2:05 (capab=0x411 status=0 aid=1)
+Jul 17 01:51:47 anuragdevon kernel: rtw_8821ce 0000:02:00.0: sta f0:b4:d2:78:e2:05 joined with macid 0
+Jul 17 01:51:47 anuragdevon kernel: wlo1: associated
+Jul 17 01:51:48 anuragdevon kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+Jul 17 01:51:48 anuragdevon systemd[1]: Started Networking for netctl profile wlo1-mimi.
+Jul 17 01:51:48 anuragdevon audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2dmimi comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:51:48 anuragdevon kernel: audit: type=1130 audit(1626466908.087:140): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=netctl@wlo1\x2dmimi comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Jul 17 01:51:48 anuragdevon sudo[17955]: pam_unix(sudo:session): session closed for user root
+Jul 17 01:51:48 anuragdevon audit[17955]: USER_END pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:48 anuragdevon audit[17955]: CRED_DISP pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:48 anuragdevon dhcpcd[18268]: dhcpcd-9.4.0 starting
+Jul 17 01:51:48 anuragdevon dhcpcd[18272]: DUID 00:04:3e:e2:79:08:4c:ca:eb:11:81:0a:50:81:40:30:34:72
+Jul 17 01:51:48 anuragdevon kernel: audit: type=1106 audit(1626466908.094:141): pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:48 anuragdevon kernel: audit: type=1104 audit(1626466908.094:142): pid=17955 uid=1000 auid=1000 ses=1 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Jul 17 01:51:48 anuragdevon dhcpcd[18272]: wlo1: connected to Access Point: mimi
+Jul 17 01:51:48 anuragdevon dhcpcd[18272]: wlo1: IAID b3:66:af:a7
+Jul 17 01:51:48 anuragdevon dhcpcd[18272]: wlo1: rebinding lease of 192.168.1.5
+Jul 17 01:51:50 anuragdevon dhcpcd[18272]: wlo1: probing address 192.168.1.5/24
+Jul 17 01:51:56 anuragdevon dhcpcd[18272]: wlo1: leased 192.168.1.5 for 86400 seconds
+Jul 17 01:51:56 anuragdevon dhcpcd[18272]: wlo1: adding route to 192.168.1.0/24
+Jul 17 01:51:56 anuragdevon dhcpcd[18272]: wlo1: adding default route via 192.168.1.1
+Jul 17 01:51:56 anuragdevon network[18099]: Started network profile 'wlo1-mimi'

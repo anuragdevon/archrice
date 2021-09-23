@@ -1,14 +1,14 @@
 ------------------------------------------------
 Task for system to be completed:
 
-1. Rectify the nerd fonts issue in status bar
-2. Resize the saving/downlaoding floating menu  
-3. Setup the Gnome/Keyring for vscode authentication
-4. Rectify the vscode consuming all Ram in infinte loop(memory leak...)
+1. Rectify the nerd fonts issue in status bar---------------------done
+2. Resize the saving/downlaoding floating menu---------------done  
+3. Setup the Gnome/Keyring for vscode authentication--------------done
+4. Rectify the vscode consuming all Ram in infinte loop(memory leak...)---------------done
 5. Setup the base directory prpoperly for xininit to start automatically-------------------done
 6. Make the font config file(in case of font awesome)
 7. Setup pendrive reading system -------------------------done
-8. Setup Vim --------------partially done
+8. Setup Vim --------------done
 9. Add path to required files left------------------done
 10. Differentiate .Xresources for urxvt and rofi-----------------done
 11. Setup xclip for all purpose-------------------done
@@ -24,7 +24,7 @@ Task for system to be completed:
 21. Rectify dbus and daemon not staring
 22. Error showing in staring of os(before login)-------------done(check for better solution in dhcpcd client service)
 23. Error after closing of i3--------------partially done
-24. Kernel panic error solve it now
+24. Kernel panic error solve it now---------------------done
 25. Make trash Management System----------------------------done
 26. Fix the youtube app class selection--------------discard
 27. Rectify alsamixer not working-------------done
@@ -35,7 +35,7 @@ Task for system to be completed:
 32. Backup VCS-------------------???
 33. Error at termial emulator inside directories(SS, XFCE)------------------done(partially)????
 34. CLean up and organize the work related to flutter in all directories
-35. Clean up extra loaded grub
+35. Clean up extra loaded grub--------------------done
 36. Delelte uneccessary stuffs cloging the system------------done
 37. Rectify the "%" appear issue in multiple terminals or ./a.out execution
 38. See the workspace opening at 1. instead of 1.rocket in boot--------------done

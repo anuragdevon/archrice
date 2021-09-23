@@ -6,31 +6,36 @@ set $mod Mod4
 
 #Sounds systems
 #exec scripts/./sound.sh
-set $refresh_i3status killall -SIGUSR1 i3status
+#set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# Screen Brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id dimness
+bindsym XF86MonBrightnessUp exec --no-startup-id brightness
+
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+#bindsym XF86AudioPlay exec playerctl play
+#bindsym XF86AudioPause exec playerctl pause
+#bindsym XF86AudioNext exec playerctl next
+#bindsym XF86AudioPrev exec playerctl previous
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec urxvt
-
+#bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run -nb '#000000' -sb '#2f343f' -sf '#ffffff'
-#bindsym $mod+d exec dmenu_run -b
-bindsym $mod+d exec rofi -show run
+#bindsym $mod+d exec rofi -show run
+
+bindsym $mod+d exec rofi -theme slate -font "Noto Sans 10" -show run -icon-theme "Papirus" -show-icons
 
 # change focus
 bindsym $mod+j focus left
@@ -129,19 +134,22 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 # bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # workspaces binding
-assign [class="discord"] $ws5
-assign [class="crx_agimnkijcaahngcdmfeangaknmldooml"] $ws4
-assign [class="Thunar"] $ws3
-assign [class="Code"] $ws2
+#assign [class="discord"] $ws5
+#assign [class="crx_agimnkijcaahngcdmfeangaknmldooml"] $ws4
+#assign [class="Org.gnome.Nautilus"] $ws3
+#assign [class="Code"] $ws2
+#assign [class="lite"] $ws2
 #assign [class="firefox"] $ws1
-assign [class="Brave-browser"] $ws1
+#assign [class="Brave-browser"] $ws1
 
 # floating setup
 #for_window [class="code"] floating enable
 
 #for_window [class="code"] [floating] resize set 200 200
 
-mode ": , ﰇ, " {
+mode "devon: 0)suspend, 1)exit-i3, 2)reboot, 3)poweroff" {
+
+  bindsym 0 exec exec --no-startup-id systemctl suspend
 
   bindsym 1 exec i3-msg exit
 
@@ -154,7 +162,7 @@ mode ": , ﰇ, " {
   bindsym Return mode "default"
 
 }
-bindsym $mod+shift+p mode ": , ﰇ, "
+bindsym $mod+shift+p mode "devon: 0)suspend, 1)exit-i3, 2)reboot, 3)poweroff"
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -200,13 +208,19 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # i3 color-Sceheme
+#set $bg-color 	         	#000000
+#set $inactive-bg-color   	#1d2930
+#set $text-color          	#F5F5F5
+#set $urgent-bg-color     	#1793d1
+#set $preview-color       	#000000
+#set $inactive-text-color        #F5F5F5
+
 set $bg-color 	         	#000000
 set $inactive-bg-color   	#1d2930
 set $text-color          	#F5F5F5
 set $urgent-bg-color     	#1793d1
 set $preview-color       	#000000
 set $inactive-text-color        #F5F5F5
-
 
 
 # window colors
@@ -218,13 +232,13 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # i3-bar 
 bar {
-   # mode hide
-   # hidden_state hide
-   # modifier Mod1
-        #height 25
-        #status_command i3status
+    #mode hide
+    #hidden_state hide
+    #modifier Mod1
+        height 38
+    #status_command i3status
 	#i3bar_command i3bar --transparency
-	font pango:Noto Sans Bold 9
+	font pango:Noto Sans Bold 12
 	#font pango: FontAwesome 5 Free Bold 8
 	#font pango: FiraCode Nerd Font Mono Bold 8
 	status_command i3status-rs /home/anurag/.config/i3status-rust/config.toml
@@ -248,12 +262,12 @@ bar {
 
 # Windows setup
 for_window [class="^.*"] border pixel 0
-gaps inner 4 # 8
+gaps inner 8 # 8
 gaps outer 8 # 25
 # gaps horizontal 5
-#smart_borders on
-border_radius 0 #2 
-#smart_gaps on
+# smart_borders on
+# border_radius 0 #2 
+# smart_gaps on
 
 
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
@@ -379,19 +393,15 @@ mode "$mode_gaps_left" {
 
 # Screen Related
 exec_always --no-startup-id picom -f
-exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/wall20.jpeg
-#exec_always feh --randomize --bg-fill /home/anurag/Pictures/*
+exec_always --no-startup-id feh --no-fehbg --bg-fill /home/anurag/pictures/sky.jpg
+#exec_always feh --randomize --bg-fill /home/anurag/pictures/set1/*
 
 # Applications Shorcuts
-bindsym $mod+m exec thunar
+bindsym $mod+m exec nautilus
 bindsym $mod+shift+b exec brave
 bindsym $mod+shift+t exec youtube
 bindsym $mod+shift+d exec code .
 bindsym $mod+shift+s exec discord
-
-# Screen Brightness
-bindsym $mod+shift+y exec brightness
-bindsym $mod+shift+u exec dimness
 
 # keyboard backlight
 bindsym Scroll_Lock exec backlit
@@ -401,3 +411,8 @@ bindsym Print exec "scrot /home/anurag/pictures/ss/%Y-%m-%d-%H-%M-%S.png"
 bindsym shift+Print exec sshot
 # Wifi-connections
 bindsym $mod+c exec ./wifi.sh
+#battery daemon
+#exec_always --no-startup-id batstatus
+
+# red light
+#exec_always --no-startup-id blugon -S 5500

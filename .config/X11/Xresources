@@ -9,7 +9,7 @@
 !*.background: [30]#141c21
 urxvt*depth: 32
 urxvt*background: rgba:0020/0028/0033/c800
-!! urxvt*background: rgb:0020/0028/0033
+!!urxvt*background: rgb:0020/0028/0033
 *.cursorColor: #afbfbf
 
 ! black
@@ -73,7 +73,7 @@ rofi.font: Noto sans 11
 
 !rofi.modi:                           ssh,window,drun,run
 !rofi.sidebar-mode:                   true
-!rofi.terminal:                       termite
+!rofi.terminal:                       urxvt
 !rofi.ssh-client:                     ssh
 !rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
 !rofi.opacity:                        50

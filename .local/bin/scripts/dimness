@@ -1,3 +1,7 @@
 #!/bin/bash
+
 brightnessctl s 10%-
+
+#CurrentVAL=$(brightnessctl | grep Current | awk '{print $4}')
+#notify-send "Brightness Level: ${CurrentVAL}"
 

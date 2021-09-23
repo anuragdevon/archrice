@@ -1,0 +1,12 @@
+#!/bin/bash
+for i in {0..50}
+do
+name=$(date +%d-%b-%Y-%H_%M_%S)    
+if [ -f "$name" ]; then
+    count=$(ls -dq *$name* | wc -l)
+    name=$(date +%d-%b-%Y-%H_%M_%S)_${count}
+    touch "$name"
+else 
+    touch "$name"
+fi
+done

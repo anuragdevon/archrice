@@ -1,0 +1,150 @@
+07/12/2021 06:00:20 AM - ERROR: You did not specify required configuration option "font"
+[539:539:0712/060038.672633:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[474:474:0712/060040.938654:ERROR:brave_referrals_service.cc(273)] Failed to fetch headers from referral server, error: -106, response code: -1, payload: , url: https://laptop-updates.brave.com/promo/custom-headers
+[474:474:0712/060040.978090:ERROR:sharing_service.cc(218)] Device registration failed with fatal error
+i3status: no process found
+[474:497:0712/060041.913636:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+i3status: no process found
+[474:474:0712/060047.001130:ERROR:CONSOLE(0)] "Unrecognized Content-Security-Policy directive 'defaultframe-ancestors'.", source: chrome://newtab/ (0)
+Failed to parse JSON adblock resources: EOF while parsing a value at line 1 column 0
+[474:497:0712/060126.916602:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+
+** (org.gnome.Nautilus:1228): WARNING **: 06:01:43.333: Unable to get contents of the bookmarks file: Error opening file /home/anurag/.gtk-bookmarks: No such file or directory
+[474:1180:0712/060234.422213:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+[474:1180:0712/060415.704393:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+[libi3] ../i3-4.19.1/libi3/font.c Using Pango font Noto Sans, size 10
+[ 07/12/2021 06:04:44.917 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+07/12/2021 06:04:44 AM - ERROR: You did not specify required configuration option "font"
+[ 07/12/2021 06:04:45.019 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.025 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.026 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.028 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.028 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.029 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.029 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.029 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.029 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.030 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.030 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.030 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.030 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.031 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.031 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.031 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.031 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.032 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.032 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.032 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.032 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.036 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.036 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.038 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.038 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.143 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600000
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600000
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600000
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600003
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600003
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600003
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600006
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600006
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600006
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600009
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600009
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x00600009
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x0060000c
+07/12/2021 06:04:45 AM - ERROR: Received ExposeEvent for unknown window 0x0060000c
+07/12/2021 06:04:45 AM - ERROR: Received ConfigureNotify for unknown window 0x0060000c
+[ 07/12/2021 06:04:45.198 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000d2 (urxvt)
+[ 07/12/2021 06:04:45.218 session_init FATAL ERROR ] Another composite manager is already running
+xterm: unable to open font "", trying "fixed"....
+[474:1180:0712/060647.585103:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+[libi3] ../i3-4.19.1/libi3/font.c Using Pango font Noto Sans, size 10
+[ 07/12/2021 06:07:28.462 win_mark_client ERROR ] Failed to get client window attributes (X error 3 WINDOW request 3 minor 0 serial 39124)
+07/12/2021 06:07:28 AM - ERROR: You did not specify required configuration option "font"
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600000
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600000
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600000
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600003
+07/12/2021 06:07:28 AM - ERROR: Received ExposeEvent for unknown window 0x00600003
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600003
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600006
+07/12/2021 06:07:28 AM - ERROR: Received ExposeEvent for unknown window 0x00600006
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600006
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600009
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600009
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x00600009
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x0060000c
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x0060000c
+07/12/2021 06:07:28 AM - ERROR: Received ConfigureNotify for unknown window 0x0060000c
+[ 07/12/2021 06:07:28.636 session_init FATAL ERROR ] Another composite manager is already running
+[libi3] ../i3-4.19.1/libi3/font.c Using Pango font Noto Sans, size 10
+[ 07/12/2021 06:08:27.410 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+07/12/2021 06:08:27 AM - ERROR: You did not specify required configuration option "font"
+[ 07/12/2021 06:08:27.466 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.471 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.474 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.474 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.474 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.475 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.475 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.475 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.475 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.476 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.476 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.476 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.476 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.477 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.477 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.477 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.477 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.478 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.478 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.478 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.478 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.482 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.483 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.483 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.483 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.484 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.486 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600000
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600003
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600003
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600003
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600006
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600006
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600006
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600009
+07/12/2021 06:08:27 AM - ERROR: Received ExposeEvent for unknown window 0x00600009
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x00600009
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x0060000c
+07/12/2021 06:08:27 AM - ERROR: Received ExposeEvent for unknown window 0x0060000c
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x0060000c
+07/12/2021 06:08:27 AM - ERROR: Received ConfigureNotify for unknown window 0x0060000f
+[ 07/12/2021 06:08:27.526 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.549 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.549 session_init FATAL ERROR ] Another composite manager is already running
+[ 07/12/2021 06:08:27.570 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.571 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.574 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.586 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[ 07/12/2021 06:08:27.612 win_clear_flags WARN ] Flags cleared on a destroyed window 0x004000cf (vim)
+[474:1180:0712/061035.415186:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+No protocol specified
+xterm: Xt error: Can't open display: :0
+No protocol specified
+xterm: Xt error: Can't open display: :0
+No protocol specified
+xterm: Xt error: Can't open display: :0
+No protocol specified
+xterm: Xt error: Can't open display: :0
+[libi3] ../i3-4.19.1/libi3/font.c Using Pango font Noto Sans, size 10
+No protocol specified
+i3: Cannot open display
+[ 07/12/2021 06:12:32.518 x_new_id FATAL ERROR ] We seems to have run of XIDs. This is either a bug in the X server, or a resource leakage in the compositor. Please open an issue about this problem. The compositor will die.
+urxvt: X connection to ':0' broken, unable to recover, exiting.
+X connection to :0 broken (explicit kill or server shutdown).
+urxvt: X connection to ':0' broken, unable to recover, exiting.
+[539:583:0712/061232.530608:ERROR:connection.cc(66)] X connection error received.

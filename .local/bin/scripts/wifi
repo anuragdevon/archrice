@@ -1,7 +1,0 @@
-#!/bin/bash
-sudo ip link set wlan0 up
-sudo ip link set wlan0 down
-#sudo wifi-menu
-sudo netctl start wlan0-devonM
-iw dev wlan0 link
-

@@ -9,6 +9,9 @@ export PATH="$PATH:$HOME/.local/bin:$HOME/.local/bin/scripts"
 export PATH="$PATH:$HOME/.local/bin/python"
 export XCURSOR_PATH=${XCURSOR_PATH}:~/.local/share/icons
 export PATH="$PATH:$HOME/.local/share/flutter/bin"
+export PATH="$PATH:$HOME/.local/share/lite"
+export PATH="$PATH:$HOME/.local/bin/kubectl"
+
 # default programs
 export TERMINAL="urxvt"
 export BROWSER="brave"
@@ -36,13 +39,18 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npmrc"
 export NPM_CONFIG_PREFIX="$XDG_DATA_HOME/npm"
 export NPM_CONFIG_CACHE="$NPM_CONFIG_PREFIX"
 
+# PGDATA PATH
+export PGDATA="$HOME/postgres/var"
+export PGPORT="5432"
+
 # Alias
 alias devon="sudo pacman -S"
 
 #export VIMINIT='source "$XDG_CONFIG_HOME"/vim/vimrc'
 export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
+export PATH=$PATH:$XDG_CONFIG_HOME/nvim/init.vim
 
 # Start XINITRC after login
-[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC"
+[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC" > /dev/null 2>&1
 #	echo "Devon's Windows manager not found, check for sourcing errors in X config files"
 #
