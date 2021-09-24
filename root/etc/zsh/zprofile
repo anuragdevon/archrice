@@ -43,6 +43,9 @@ export NPM_CONFIG_CACHE="$NPM_CONFIG_PREFIX"
 export PGDATA="$HOME/postgres/var"
 export PGPORT="5432"
 
+# XMPP Database Setup
+export PATH="$PATH:$HOME/.local/share/openfire/bin"
+
 # Alias
 alias devon="sudo pacman -S"
 
