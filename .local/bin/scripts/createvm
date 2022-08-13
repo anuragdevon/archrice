@@ -1,0 +1,8 @@
+#!/bin/bash
+virt-install --name=linuxconfig-vm \
+--vcpus=1 \
+--memory=1024 \
+--cdrom=/tmp/debian-9.0.0-amd64-netinst.iso \
+--disk size=5 \
+--os-variant=debian8
+

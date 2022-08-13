@@ -8,7 +8,9 @@ do
     #   notify-send "Battery is:  ${battery_level}%"
     #   FLAG=1
     if [ $battery_level -le 25 ]; then
-       notify-send "Battery is lower 25%!" "Charging: ${battery_level}%"    
+       notify-send "Battery is lower 25%!" "Charging: ${battery_level}%"
+    elif [ $battery_level -le 10 ]; then
+        i3lock -i "/home/anurag/pictures/wallpaper/mikasa.png" -t
     fi
 
     sleep 6000

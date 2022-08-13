@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+while :
+do
+    SND=$(pamixer --get-volume)
+    if [[ $SND  -gt  180 ]]; then
+        pamixer -d 20  
+    fi
+done
+

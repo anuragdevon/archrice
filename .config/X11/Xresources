@@ -1,6 +1,8 @@
 !    *----------------------------*
 !    | 	   Devon Xresources 	  |
 !    *----------------------------*
+!*.font: xft:FiraCode Nerd Font Mono:size=12
+!URxvt.font: xft:FiraCode\ Nerd\ Font Mono:size=12
 
 !! Colorscheme
 
@@ -44,7 +46,7 @@ urxvt*background: rgba:0020/0028/0033/c800
 *.color7: #bfbaac
 *.color15: #fdf6e3
 
-*.font: xft:FiraCode Nerd Font Mono:style=Regular:size=10
+URxvt.font:  xft:FiraCode Nerd Font:size=13
 
 !! URxvt Appearance
 
@@ -53,13 +55,14 @@ URxvt.lineSpace: 0
 URxvt.geometry: 92x24
 URxvt.internalBorder: 24
 URxvt.cursorBlink: true
-URxvt.cursorUnderline: false
+URxvt.cursorUnderline: true
 URxvt.saveline: 2048
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 ! URxvt.depth: 24
 URxvt.iso14755: false
+URxvt.iso14755_52: false
 
 ! Restore Ctrl+Shift+(c|v)
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
@@ -68,62 +71,78 @@ URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 Xcursor.theme: LyraP-cursors
 
 
-! Rofi Stuffs
-rofi.font: Noto sans 11
+URxvt.keysym.M-Up:      \033[1;3A
+URxvt.keysym.M-Down:    \033[1;3B
+URxvt.keysym.M-Right:   \033[1;3C
+URxvt.keysym.M-Left:    \033[1;3D
+URxvt.keysym.M-Prior:   \033[5;3~
+URxvt.keysym.M-Next:    \033[6;3~
+URxvt.keysym.M-End:     \033[1;3F
+URxvt.keysym.M-Home:    \033[1;3H
 
-!rofi.modi:                           ssh,window,drun,run
-!rofi.sidebar-mode:                   true
-!rofi.terminal:                       urxvt
-!rofi.ssh-client:                     ssh
-!rofi.ssh-command:                    {terminal} -e "{ssh-client} {host}"
-!rofi.opacity:                        50
-!rofi.width:                          50
-!rofi.lines:                          8
-!rofi.columns:                        1
-!rofi.fg:                             #5294E2
-!rofi.bg:                             #5d729f
-!rofi.fg-active:                      #34405a
-!rofi.fg-urgent:                      #34405a
-!rofi.hlfg-active:                    #5e73a0
-!rofi.hlfg-urgent:                    #5e73a0
-!rofi.bg-active:                      #34405a
-!rofi.bg-urgent:                      #34405a
-!rofi.hlbg-active:                    #5d729f
-!rofi.hlbg-urgent:                    #5d729f
-!rofi.bgalt:                          #5671a0
-!rofi.hlfg:                           #34405a
-!rofi.hlbg:                           #34405a
-!rofi.bc:                             #789ee1
-! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
-!rofi.color-normal: #353944,  #FFFFFF,  #353944,  #5294E2,  #FFFFFF
-!rofi.color-normal: #353944,  #FFFFFF,  #353944,  #5294E2,  #FFFFFF
-!rofi.color-normal: #353944,  #FFFFFF,  #353944,  #5294E2,  #FFFFFF
+URxvt.keysym.C-Up:      \033[1;5A
+URxvt.keysym.C-Down:    \033[1;5B
+URxvt.keysym.C-Right:   \033[1;5C
+URxvt.keysym.C-Left:    \033[1;5D
+URxvt.keysym.C-Prior:   \033[5;5~
+URxvt.keysym.C-Next:    \033[6;5~
+URxvt.keysym.C-End:     \033[1;5F
+URxvt.keysym.C-Home:    \033[1;5H
 
-!                  'background', 'border'
-!rofi.color-window: #353944,      #404552
-!rofi.bw:                             10
-!rofi.location:                       0
-!rofi.padding:                        20
-!rofi.levenshtein-sort:               true
-!rofi.case-sensitive:                 false
-!rofi.fuzzy:                          false
-!rofi.line-margin:                    2
-!rofi.separator-style:                solid
-!rofi.hide-scrollbar:                 true
-!rofi.markup-rows:                    false
-!rofi.scrollbar-width:                8
 
-rofi.lines: 5
-rofi.eh: 2
-rofi.padding: 100
-!rofi.fullscreen: true
-rofi.bw: 0
-rofi.width: 50
-rofi.height:20
-rofi.separator-style: none
-rofi.hide-scrollbar: true
 
-!                  'background', 'border', 'separator'
-rofi.color-window: argb:c82d303b, #7c8389, #1d1f21
-! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
-rofi.color-normal: argb:031d1f21, #f3f4f5, argb:031d1f21, argb:031d1f21, #9575cd 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

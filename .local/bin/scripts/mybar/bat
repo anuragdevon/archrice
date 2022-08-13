@@ -1,0 +1,83 @@
+#!/bin/bash
+
+separator_front() {
+    echo -n "{
+        \"full_text\":\"\",
+        \"separator\":false,
+        \"separator_block_width\":0,
+        \"border\":\"#000000\",
+        \"border_left\":0,
+        \"border_right\":0,
+        \"border_top\":2,
+        \"border_bottom\":2,
+        \"color\":\"$1\",        
+        \"background\":\"#000000\"
+    },"
+}
+
+common() {
+  echo -n "\"border\": \"$1\","
+  echo -n "\"separator\":false,"
+  echo -n "\"separator_block_width\":0,"
+  echo -n "\"border_top\":0,"
+  echo -n "\"border_bottom\":2,"
+  echo -n "\"border_left\":0,"
+  echo -n "\"border_right\":0"
+}
+
+battery() {
+    BAT=$(acpi | awk '{ print $4 }' | cut -c 1-3)
+
+    if [ $BAT == 100 ]; then
+        true
+    else
+        BAT=$(acpi | awk '{ print $4 }' | cut -c 1-2)
+    fi
+
+    STATUS=$(acpi | awk '{ print $3 }' | cut -c 1)
+    if [ $STATUS == "C" ]; then
+        STATUS="ﮣ "
+    else
+        STATUS=""
+    fi
+    # separator_front "#303030"
+    if [[ $BAT  == 100 ]]; then
+        # separator_front "#00ff1a"
+        echo -n "{"
+        echo -n "\"name\":\"bat_100\","
+        echo -n "\"full_text\":\"   ${BAT}% ﮤ \","
+        echo -n "\"color\":\"#ffffff\","
+        echo -n "\"background\":\"#000000\","
+        common "#5e5e5e"
+        echo -n "},"
+    elif [[ $BAT -gt 60 ]]&& [[ $BAT -lt 99 ]] || [[ $BAT -eq 99 ]]; then
+        # separator_front "#ff001e"
+        echo -n "{"
+        echo -n "\"name\":\"bat60\","
+        echo -n "\"full_text\":\"   ${BAT}% ${STATUS}\","
+        echo -n "\"color\":\"#00FF00\","
+        echo -n "\"background\":\"#000000\","
+        common "#00FF00"
+        echo -n "},"
+
+    elif [[ $BAT -lt 60 ]] && [[ $BAT -gt 25 ]] || [[ $BAT -eq 60 ]]; then
+        # separator_front "#ff001e"
+        echo -n "{"
+        echo -n "\"name\":\"bat60\","
+        echo -n "\"full_text\":\"   ${BAT}% ${STATUS}\","
+        echo -n "\"color\":\"#f7ce00\","
+        echo -n "\"background\":\"#000000\","
+        common "#f7ce00"
+        echo -n "},"
+    elif [[ $BAT -lt 25 ]] || [[ $BAT -eq 25 ]]; then
+        # separator_front "#ff001e"
+        echo -n "{"
+        echo -n "\"name\":\"bat60\","
+        echo -n "\"full_text\":\"   ${BAT}% ${STATUS}\","
+        echo -n "\"color\":\"#f70000\","
+        echo -n "\"background\":\"#000000\","
+        common "#f70000"
+        echo -n "},"
+    fi
+}
+battery

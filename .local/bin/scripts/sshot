@@ -1,14 +1,14 @@
 #!/bin/sh
 
-# This is bound to Shift+PrintScreen by default, requires maim. It lets you
-# choose the kind of screenshot to take, including copying the image or even
-# highlighting an area to copy. scrotcucks on suicidewatch right now.
+# Generate Name 
+NAME=$(date '+%y%m%d_%H%M%S')
 
-case "$(printf "a selected area\\ncurrent window\\nfull screen\\na selected area (copy)\\ncurrent window (copy)\\nfull screen (copy)" | rofi -dmenu -l 6 -i -p "Screenshot which area?")" in
-	"a selected area") maim -s pic-selected-"$(date '+%y%m%d-%H%M-%S').png" ;;
-	"current window") maim -i "$(xdotool getactivewindow)" pic-window-"$(date '+%y%m%d-%H%M-%S').png" ;;
-	"full screen") maim pic-full-"$(date '+%y%m%d-%H%M-%S').png" ;;
-	"a selected area (copy)") maim -s | xclip -selection clipboard -t image/png ;;
-	"current window (copy)") maim -i "$(xdotool getactivewindow)" | xclip -selection clipboard -t image/png ;;
-	"full screen (copy)") maim | xclip -selection clipboard -t image/png ;;
+case "$(printf "缾 selected area\\n类 current window\\n full screen\\n缾 selected area \\n类 current window \\n full screen " | rofi -dmenu -l 6 -i -p "Screenshot which area?")" in
+	"缾 selected area") maim -s partial_"$NAME.png"; mv $HOME/partial_"$NAME.png" $HOME/pictures/partial/; notify-send "Screenshot Saved!" "$HOME/pictures/partial/";;
+	"类 current window") maim -i "$(xdotool getactivewindow)" window_"$NAME.png" ; mv $HOME/window_"$NAME.png" $HOME/pictures/window/; notify-send "Screenshot Saved!" "$HOME/pictures/window/" ;;
+    " full screen") maim full_"$NAME.png" ; mv $HOME/full_"$NAME.png" $HOME/pictures/full/; notify-send "Screenshot Saved!" "$HOME/pictures/full/";;
+	"缾 selected area ") maim -s | xclip -selection clipboard -t image/png ;;
+	"类 current window ") maim -i "$(xdotool getactivewindow)" | xclip -selection clipboard -t image/png ;;
+	" full screen ") maim | xclip -selection clipboard -t image/png ;;
 esac
+

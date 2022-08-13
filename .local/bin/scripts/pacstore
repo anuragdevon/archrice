@@ -1,3 +1,3 @@
 #!/bin/bash
-OUTPUT=~/documents/code/.dotfiles/Package.txt
+OUTPUT=~/docs/archrice/Package.txt
 pacman -Qe >> $OUTPUT

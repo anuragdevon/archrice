@@ -58,6 +58,11 @@ fi
 xrdb -load ~/.config/X11/Xresources
 exec i3
 
+# UNLOCK GNOME-KEYRING
+eval $(gnome-keyring-daemon --start)
+export SSH_AUTH_SOCK
+
+
 #if [ -z "$DBUS_SESSION_BUS_ADDRESS" ]; then
 #	eval $(dbus-launch --sh-syntax --exit-with-session)
 #	rm -r ~/.dbus

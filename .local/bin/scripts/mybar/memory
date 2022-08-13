@@ -1,0 +1,39 @@
+#!/bin/bash
+# echo $(echo 🌀 & free -h | grep Mem | awk '{ print $3 }')
+
+separator_front() {
+    echo -n "{
+        \"full_text\":\"\",
+        \"separator\":false,
+        \"separator_block_width\":0,
+        \"border\":\"#000000\",
+        \"border_left\":0,
+        \"border_right\":0,
+        \"border_top\":2,
+        \"border_bottom\":2,
+        \"color\":\"$1\",        
+        \"background\":\"#000000\"
+    },"
+}
+common() {
+  echo -n "\"border\": \"#5e5e5e\","
+  echo -n "\"separator\":false,"
+  echo -n "\"separator_block_width\":0,"
+  echo -n "\"border_top\":0,"
+  echo -n "\"border_bottom\":2,"
+  echo -n "\"border_left\":0,"
+  echo -n "\"border_right\":0"
+}
+
+memory () {
+    
+    MEM=$(free -h | grep Mem | awk '{ print $3 }')
+        echo -n "{"
+        echo -n "\"name\":\"mem\","
+        echo -n "\"full_text\":\"  ${MEM} \","
+        echo -n "\"color\":\"#ffffff\","
+        echo -n "\"background\":\"#000000\","
+        common
+        echo -n "},"
+}
+memory

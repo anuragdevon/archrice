@@ -1,7 +1,9 @@
 [Added Associations]
-application/xml=visual-studio-code.desktop;
-text/plain=org.gnome.gedit.desktop;vim.desktop;
-application/x-shellscript=org.gnome.gedit.desktop;
-application/pkix-cert=org.gnome.gedit.desktop;
-image/png=feh.desktop;nitrogen.desktop;
-application/pdf=brave-browser.desktop;
+text/plain=visual-studio-code.desktop;nvim.desktop;
+image/png=feh.desktop;
+application/vnd.rar=org.gnome.Nautilus.desktop;
+
+[Default Applications]
+x-scheme-handler/postman=Postman.desktop
+x-scheme-handler/mailto=brave-browser.desktop
+x-scheme-handler/msteams=teams.desktop

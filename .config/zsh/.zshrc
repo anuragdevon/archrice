@@ -13,6 +13,9 @@ HISTSIZE=10000
 SAVEHIST=1000
 setopt appendhistory
 
+# Urxvt Resize Fix
+#for (( i=1; i<=$LINES; i++ )); do echo; done; clear
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -22,21 +25,29 @@ setopt appendhistory
 # Alias
 alias accio="sudo pacman -Sy" 
 alias upgrade="sudo pacman -Syuu"
-alias install="yay -S"
+alias repo="yay -S"
 alias s="sudo systemctl suspend"
 alias w="sudo wifi-menu"
-alias r="ranger"
+alias l="lfrun"
 alias confringo="sudo pacman -R"
+alias k="kubectl"
+alias m="minikube"
+alias d="docker"
+alias die="sudo kill -9"
+alias r="ranger"
+alias n="nnn"
 
-source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
+#source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source ~/.config/zsh/apollo-zsh-theme/apollo-zsh-theme.zsh
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_MODE="nerdfont-complete"
+#ZSH_THEME="powerlevel10k/powerlevel10k"
+#POWERLEVEL9K_MODE="nerdfont-complete"
+eval "$(starship init zsh)"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -98,7 +109,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-#plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+#plugins=(git zsh-autosuggestions zsh-syntax-highlighting battery)
 #source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -128,7 +139,7 @@ ENABLE_CORRECTION="true"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+#[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 #compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION
 
@@ -149,3 +160,44 @@ if [ -f '/home/anurag/Downloads/google-cloud-sdk-354.0.0-linux-x86_64/google-clo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/anurag/Downloads/google-cloud-sdk-354.0.0-linux-x86_64/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/anurag/Downloads/google-cloud-sdk-354.0.0-linux-x86_64/google-cloud-sdk/completion.zsh.inc'; fi
+
+
+# Setup LF_ICONS
+LF_ICONS=$(sed ~/.config/diricons \
+            -e '/^[ \t]*#/d'       \
+            -e '/^[ \t]*$/d'       \
+            -e 's/[ \t]\+/=/g'     \
+            -e 's/$/ /')
+LF_ICONS=${LF_ICONS//$'\n'/:}
+export LF_ICONS
+
+# cd on lf exit
+lf () {
+    tmp="$(mktemp)"
+    /usr/bin/lf --last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp"
+        if [ -d "$dir" ]; then
+            if [ "$dir" != "$(pwd)" ]; then
+                cd "$dir"
+            fi
+        fi
+    fi
+}
+
+# cd on exit for lfrun
+lfrun () {
+    tmp="$(mktemp)"
+    /usr/bin/lf --last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+        rm -f "$tmp"
+        if [ -d "$dir" ]; then
+            if [ "$dir" != "$(pwd)" ]; then
+                cd "$dir"
+            fi
+        fi
+    fi
+}
+

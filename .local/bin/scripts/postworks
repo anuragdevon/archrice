@@ -1,0 +1,2 @@
+#!/bin/bash
+echo ~/.config/X11/Xresources | entr xrdb ~/.config/X11/Xresources 

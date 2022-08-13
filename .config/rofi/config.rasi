@@ -1,0 +1,66 @@
+/** Devon configuration **/
+configuration {
+    show-icons:         true;
+    icon-theme:         "Papirus";
+  /**  modi: "combi,windowcd,run";**/
+    modi: "run";
+    lines: 1;
+    font: "sans 13";
+    //sidebar-mode: true;
+    //combi-modi: "window,run";
+    separator-style: "none";
+    click-to-exit: true;
+    show-match: false;
+}
+window {
+    background-color: rgba ( 0, 0, 0, 75 % );
+    text-color: rgba( 255, 255, 255, 100 % );
+    border: 0;
+    border-radius: 10px;
+    padding: 40;
+    width: 25%;
+    height: 30%;
+}
+element {
+    border: 0;
+    padding: 1px;
+}
+element normal.normal {
+    background-color: rgba ( 0, 0, 0, 0 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+}
+element normal.urgent {
+    background-color: rgba ( 0, 0, 0, 0 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+}
+element normal.active {
+    background-color: rgba ( 0, 0, 0, 0 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+}
+
+element selected.normal {
+    background-color: rgba ( 255, 255, 255, 10 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+}
+element selected.urgent {
+    background-color: rgba ( 0, 0, 0, 0 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+}
+element selected.active {
+    background-color: rgba ( 0, 0, 0, 0 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+
+}
+
+element alternate.normal {
+    background-color: rgba ( 0, 0, 0, 0 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+}
+element alternate.urgent {
+    background-color: rgba ( 0, 0, 0, 0 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+}
+element alternate.active {
+    background-color: rgba ( 0, 0, 0, 0 % ); 
+    text-color:       rgba ( 255, 255, 255, 100 % );
+}

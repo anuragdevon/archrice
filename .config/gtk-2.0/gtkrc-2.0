@@ -2,9 +2,9 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/anurag/.gtkrc-2.0.mine"
-gtk-theme-name="Orchis-dark"
+gtk-theme-name="Material-Black-Blueberry-4.0"
 gtk-icon-theme-name="Papirus"
-gtk-font-name="Sans 10"
+gtk-font-name="FiraCode Nerd Font weight=450 11"
 gtk-cursor-theme-name="LyraB-cursors"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH

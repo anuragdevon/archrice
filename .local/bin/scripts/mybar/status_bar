@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Basic i3 status specified layout
+echo '{ "version": 1}'
+echo '['
+echo '[]'
+
+# Launch Background Subprocess
+while :;
+do
+    echo -n ",["
+
+        # SECTIONS BEGIN--------------------------------------------
+
+        # wifi
+        ~/.local/bin/scripts/mybar/wifi
+
+        # # CPU Load
+        ~/.local/bin/scripts/mybar/cpu_load
+ 
+        # # Memory
+        ~/.local/bin/scripts/mybar/memory
+
+        # # Disk Uage
+        ~/.local/bin/scripts/mybar/disk
+
+        # Battery
+        ~/.local/bin/scripts/mybar/bat
+        
+        # Date_Time
+        ~/.local/bin/scripts/mybar/date_time
+
+        # Sound
+        ~/.local/bin/scripts/mybar/sound
+
+        # SECTIONS END--------------------------------------------
+
+    echo -n "]"
+sleep 1
+done
+
+

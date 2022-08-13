@@ -1,0 +1,53 @@
+#!/bin/bash
+
+separator_front() {
+    echo -n "{
+        \"full_text\":\"\",
+        \"separator\":false,
+        \"separator_block_width\":0,
+        \"border\":\"#000000\",
+        \"border_left\":0,
+        \"border_right\":0,
+        \"border_top\":2,
+        \"border_bottom\":2,
+        \"color\":\"$1\",        
+        \"background\":\"#000000\"
+    },"
+}
+
+common() {
+  echo -n "\"border\": \"$1\","
+  echo -n "\"separator\":false,"
+  echo -n "\"separator_block_width\":0,"
+  echo -n "\"border_top\":0,"
+  echo -n "\"border_bottom\":2,"
+  echo -n "\"border_left\":0,"
+  echo -n "\"border_right\":0"
+}
+
+wifi() {
+    
+    SSID=$(iw dev | grep ssid | awk '{ print $2 }')
+    if [ $SSID ]; then
+        # valid connection
+        separator_front "#000000"
+        echo -n "{"
+        echo -n "\"name\":\"wifi_conn\","
+        echo -n "\"full_text\":\"   ${SSID} \","
+        echo -n "\"color\":\"#008cf7\","
+        echo -n "\"background\":\"#000000\","
+        common "#008cf7"
+        echo -n "},"
+    else
+        # no connection
+        separator_front "#000000"
+        echo -n "{"
+        echo -n "\"name\":\"wifi_no_conn\","
+        echo -n "\"full_text\":\" 睊 \","
+        echo -n "\"color\":\"#f70000\","
+        echo -n "\"background\":\"#000000\","
+        common "#f70000"
+        echo -n "},"
+    fi
+}
+wifi

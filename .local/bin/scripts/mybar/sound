@@ -1,0 +1,68 @@
+#!/bin/bash
+
+separator_front() {
+    echo -n "{
+        \"full_text\":\"\",
+        \"separator\":false,
+        \"separator_block_width\":0,
+        \"border\":\"#000000\",
+        \"border_left\":0,
+        \"border_right\":0,
+        \"border_top\":2,
+        \"border_bottom\":2,
+        \"color\":\"$1\",        
+        \"background\":\"#000000\"
+    },"
+}
+
+common() {
+  echo -n "\"border\": \"$1\","
+  echo -n "\"separator\":false,"
+  echo -n "\"separator_block_width\":0,"
+  echo -n "\"border_top\":0,"
+  echo -n "\"border_bottom\":2,"
+  echo -n "\"border_left\":0,"
+  echo -n "\"border_right\":0"
+}
+
+sound() {
+    
+    SND=$(pamixer --get-volume)
+    
+    if [[ $SND  -gt  66 ]]; then
+        echo -n "{"
+        echo -n "\"name\":\"SND_100\","
+        echo -n "\"full_text\":\"   ${SND} \","
+        echo -n "\"color\":\"#ff006f\","
+        echo -n "\"background\":\"#000000\","
+        common "#ff006f"
+        echo -n "}"
+
+    elif [[ $SND -lt 66 ]] && [[ $SND -gt 33 ]] || [[ $SND -eq 66 ]]; then
+        echo -n "{"
+        echo -n "\"name\":\"SND66\","
+        echo -n "\"full_text\":\" 墳  ${SND} \","
+        echo -n "\"color\":\"#84ff00\","
+        echo -n "\"background\":\"#000000\","
+        common "#84ff00"
+        echo -n "}"
+
+    elif [[ $SND -lt 33 ]] && [[ $SND -gt 0 ]] || [[ $SND -eq 33 ]]; then
+        echo -n "{"
+        echo -n "\"name\":\"SND33\","
+        echo -n "\"full_text\":\"   ${SND} \","
+        echo -n "\"color\":\"#00d0ff\","
+        echo -n "\"background\":\"#000000\","
+        common "#00d0ff"
+        echo -n "}"
+    elif [[ $SND == 0 ]]; then
+        echo -n "{"
+        echo -n "\"name\":\"SND0\","
+        echo -n "\"full_text\":\"   ${SND} \","
+        echo -n "\"color\":\"#ffffff\","
+        echo -n "\"background\":\"#000000\","
+        common "#5e5e5e"
+        echo -n "}"
+    fi
+}
+sound
